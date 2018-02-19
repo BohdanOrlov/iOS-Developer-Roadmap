@@ -20,7 +20,7 @@ See this article (COMING SOON) explainig selection of topics.
 4. (Optional) tick the checkbox next to the topic. [How to tick a checkbox](Resources/HOWTOCHECKBOX.md).
 4. Go to step 1.
 
-`Essential topics` are topics which significantly contributes to understanding of iOS development. Consequently, it is a good idea to study them first as they are often encountered on interviews.
+`Essential topics` are topics which significantly contribute to understanding of iOS development. Consequently, it is a good idea to study them first as they are often encountered on interviews.
 
 Start from `Getting started` section if you haven't done any iOS development yet.
 
