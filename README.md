@@ -167,34 +167,34 @@ implementation
 			- [ ] Keychain
 		- [ ] tvOS
 		- [ ] WatchKit
-	- [ ] Computer Science knowledge
-		- [ ] `Algorithms`
-			- [ ] `Sorting`
-			- [ ] `Graph Theory`
-				- [ ] ` Trees`
-			- [ ] `Strings`
-			- [ ] Greedy
-			- [ ] Dynamic Programming
-			- [ ] Bit Manipulation
-			- [ ] `Recursion`
-			- [ ] Game Theory
-			- [ ] NP Complete
-			- [ ] `Big-O notation`
-		- [ ] `Abstract Data Types`
-			- [ ] `Stack`
-			- [ ] `Array`
-			- [ ] `List`
-			- [ ] `Map`
-			- [ ] Multimap
-			- [ ] `Set`
-			- [ ] Multiset (Bag)
-			- [ ] `Graph`
-			- [ ] `Queue`
-			- [ ] Priority Queue
-			- [ ] Double-ended priority queue
-			- [ ] Double-ended queue
-		- [ ] `System design`
-			- [ ] Problems
+- [ ] Computer Science knowledge
+	- [ ] `Algorithms`
+		- [ ] `Sorting`
+		- [ ] `Graph Theory`
+			- [ ] ` Trees`
+		- [ ] `Strings`
+		- [ ] Greedy
+		- [ ] Dynamic Programming
+		- [ ] Bit Manipulation
+		- [ ] `Recursion`
+		- [ ] Game Theory
+		- [ ] NP Complete
+		- [ ] `Big-O notation`
+	- [ ] `Abstract Data Types`
+		- [ ] `Stack`
+		- [ ] `Array`
+		- [ ] `List`
+		- [ ] `Map`
+		- [ ] Multimap
+		- [ ] `Set`
+		- [ ] Multiset (Bag)
+		- [ ] `Graph`
+		- [ ] `Queue`
+		- [ ] Priority Queue
+		- [ ] Double-ended priority queue
+		- [ ] Double-ended queue
+	- [ ] `System design`
+		- [ ] Problems
 
 ## How to contribute
 Submit a pull request with additional topics and/or study matterials or throw ideas at me on Twitter [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/kamranahmedse.svg?style=social&label=@bohdan_orlov)](https://twitter.com/bohdan_orlov)
