@@ -1,5 +1,5 @@
 ![Header image](headerImage.png)
-# iOS Developer-Roadmap
+# iOS Developer Roadmap
 Roadmap to becoming an iOS developer in 2018
 ## Is it for you?
 The roadmap will be helpul for:
