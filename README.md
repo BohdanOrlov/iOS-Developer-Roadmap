@@ -1,17 +1,21 @@
 ![Header image](headerImage.png)
 # iOS Developer Roadmap
 Roadmap to becoming an iOS developer in 2018
-## Is it for you?
+
+## What is it?
+This is a tree-like compilation of topics highly relevant to iOS development.
+
+## Who is it for?
 The roadmap will be helpul for:
 
 - anyone who wants to become an iOS developer
-- iOS developers who want to become experts
+- iOS developers who desire to become experts
 - iOS developers who are preparing for interviews and need to brush up knowledge
-- iOS developers who want to compile own set of interview questions
+- iOS developers who need to compile own set of interview questions
 
 
-## Why this topics?
-See this article (COMING SOON) explainig selection of topics.
+## Why these topics?
+See [this article](https://medium.com/@borlov/c9a24f413457) explainig selection of topics.
 
 ## How to use this roadmap
 1. Find a topic you want to study.
@@ -199,6 +203,10 @@ implementation
 ## How to contribute
 Submit a pull request with additional topics and/or study matterials or throw ideas at me on Twitter [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/kamranahmedse.svg?style=social&label=@bohdan_orlov)](https://twitter.com/bohdan_orlov)
 
+## TODO
+- [ ] content file with topics and materials
+- [ ] ability to generate README.md from the content file
+- [ ] ability to generate Roadmap tree image from the content file
 
 ## License
 
