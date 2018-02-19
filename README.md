@@ -20,7 +20,7 @@ See this article (COMING SOON) explainig selection of topics.
 4. (Optional) tick the checkbox next to the topic. [How to tick a checkbox](Resources/HOWTOCHECKBOX.md).
 4. Go to step 1.
 
-<mark>Essential topics</mark> are topics which significantly contributes to understanding of iOS development. Consequently, it is a good idea to study them first as they are often encountered on interviews.
+`Essential topics` are topics which significantly contributes to understanding of iOS development. Consequently, it is a good idea to study them first as they are often encountered on interviews.
 
 Start from `Getting started` section if you haven't done any iOS development yet.
 
@@ -33,123 +33,123 @@ Use materials from [Resources](Resources/RESOURCES.md) section to master topics 
 	- [ ] Getting started
 		- [ ] First pet project ideas
 	- [ ] Languages
-		- [ ] <mark>Objective-C
-			- [ ] <mark>Blocks
-				- [ ] <mark>Memory Management
-			- [ ] <mark>KVC
-			- [ ] <mark>KVO
+		- [ ] `Objective-C`
+			- [ ] `Blocks`
+				- [ ] `Memory Management`
+			- [ ] `KVC`
+			- [ ] `KVO`
 			- [ ] Toll-free bridging
-			- [ ] <mark>Runtime
-				- [ ] <mark>Method messaging
+			- [ ] `Runtime`
+				- [ ] `Method messaging`
 				- [ ] Swizling
 				- [ ] NSZombies and KVO
 implementation
-		- [ ] <mark>Swift
-			- [ ] <mark>Closures
-			- [ ] <mark>Initializers
-			- [ ] <mark>Generics
-			- [ ] <mark>Protocols
-			- [ ] <mark>Structs
-			- [ ] <mark>Enums
-			- [ ] <mark>Runtime
-				- [ ] <mark>Method dispatch
-		- [ ] <mark>Memory management
-			- [ ] <mark>Stack and Heap
-			- [ ] <mark>Value vs Reference type
-			- [ ] <mark>MRC
-			- [ ] <mark>ARC
-				- [ ] <mark>weak references
-			- [ ] <mark>Retain cycles
+		- [ ] `Swift`
+			- [ ] `Closures`
+			- [ ] `Initializers`
+			- [ ] `Generics`
+			- [ ] `Protocols`
+			- [ ] `Structs`
+			- [ ] `Enums`
+			- [ ] `Runtime`
+				- [ ] `Method dispatch`
+		- [ ] `Memory management`
+			- [ ] `Stack and Heap`
+			- [ ] `Value vs Reference type`
+			- [ ] `MRC`
+			- [ ] `ARC`
+				- [ ] `weak references`
+			- [ ] `Retain cycles`
 			- [ ] Garbage collector
-			- [ ] <mark>Memory leaks
+			- [ ] `Memory leaks`
 			- [ ] Shallow and deep copying
-			- [ ] <mark>Autorelease pool
-		- [ ] <mark>Multithreading and concurency
+			- [ ] `Autorelease pool`
+		- [ ] `Multithreading and concurency`
 			- [ ] POSIX threads
 			- [ ] NSThreads
 			- [ ] Perform selector family
-			- [ ] <mark>GCD
-			- [ ] <mark>NSOperation(Queue)
-			- [ ] <mark>Runloop
-			- [ ] <mark>Methods of thread synchronisation
+			- [ ] `GCD`
+			- [ ] `NSOperation(Queue)`
+			- [ ] `Runloop`
+			- [ ] `Methods of thread synchronisation`
 			- [ ] Problems
 				- [ ] Race condition
 				- [ ] Deadlock
 				- [ ] Reader-writer problems
-		- [ ] <mark>Cocoa Touch (iOSKit)
-			- [ ] <mark>UIKit
-				- [ ] <mark>UIApplication
-					- [ ] <mark>States
-					- [ ] <mark>UIApplicationDelegate
-				- [ ] <mark>UIViews
-					- [ ] <mark>UITableViews
-					- [ ] <mark>UICollectionViews
+		- [ ] `Cocoa Touch (iOSKit)`
+			- [ ] `UIKit`
+				- [ ] `UIApplication`
+					- [ ] `States`
+					- [ ] `UIApplicationDelegate`
+				- [ ] `UIViews`
+					- [ ] `UITableViews`
+					- [ ] `UICollectionViews`
 				- [ ] Layers
-				- [ ] <mark>Layout
-					- [ ] <mark>Frame-based (manual)
-					- [ ] <mark>Constraint-based (autolayout)
+				- [ ] `Layout`
+					- [ ] `Frame-based (manual)`
+					- [ ] `Constraint-based (autolayout)`
 						- [ ] UIStackView
-				- [ ] <mark>Animations
-				- [ ] <mark>Transform
-				- [ ] <mark>Screen transitions (Navigation)
-				- [ ] <mark>ViewController
-					- [ ] <mark>Lifecycle
+				- [ ] `Animations`
+				- [ ] `Transform`
+				- [ ] `Screen transitions (Navigation)`
+				- [ ] `ViewController`
+					- [ ] `Lifecycle`
 				- [ ] UserNotifications
-			- [ ] <mark>Foundation
-				- [ ] <mark>Notifications, Delegation and observing
+			- [ ] `Foundation`
+				- [ ] `Notifications, Delegation and observing`
 				- [ ] Collections
-				- [ ] <mark>Networking
-				- [ ] <mark>Serialization
+				- [ ] `Networking`
+				- [ ] `Serialization`
 					- [ ] NSCoding
-					- [ ] <mark>Codable
-					- [ ] <mark>JSON
+					- [ ] `Codable`
+					- [ ] `JSON`
 					- [ ] XML
 					- [ ] Protobuf
 			- [ ] Core Location
-			- [ ] <mark>Work in background mode
-		- [ ] <mark>Software Architecture
-			- [ ] <mark>Design Patterns
-				- [ ] <mark>Architectural
-					- [ ] <mark>MVC
-					- [ ] <mark>MVVM
-					- [ ] <mark>MVP
-					- [ ] <mark>Clean architecture
-						- [ ] <mark>VIPER
+			- [ ] `Work in background mode`
+		- [ ] `Software Architecture`
+			- [ ] `Design Patterns`
+				- [ ] `Architectural`
+					- [ ] `MVC`
+					- [ ] `MVVM`
+					- [ ] `MVP`
+					- [ ] `Clean architecture`
+						- [ ] `VIPER`
 						- [ ] RIBs
-				- [ ] <mark>Creational
-					- [ ] <mark>Singleton
-					- [ ] <mark>Factory
-					- [ ] <mark>Abstract Factory
+				- [ ] `Creational`
+					- [ ] `Singleton`
+					- [ ] `Factory`
+					- [ ] `Abstract Factory`
 				- [ ] Structural
-				- [ ] <mark>Behavioural
-					- [ ] <mark>Observer
+				- [ ] `Behavioural`
+					- [ ] `Observer`
 				- [ ] Concurrency
-			- [ ] <mark>Design Principles
-				- [ ] <mark>SOLID
-				- [ ] <mark>Inversion of Control
-					- [ ] <mark>Dependency Injection
+			- [ ] `Design Principles`
+				- [ ] `SOLID`
+				- [ ] `Inversion of Control`
+					- [ ] `Dependency Injection`
 					- [ ] Service Locator
 			- [ ] Object-Oriented Programming
-			- [ ] <mark>Third-party dependencies management
-				- [ ] <mark>Cocoapods
-				- [ ] <mark>Carthage
+			- [ ] `Third-party dependencies management`
+				- [ ] `Cocoapods`
+				- [ ] `Carthage`
 				- [ ] Swift Package Manager
 			- [ ] Functional programming
 				- [ ] Functional Reactive Programming Frameworks
 		- [ ] Project structure and File/Group organisation
-		- [ ] <mark>Version Control Systems
-			- [ ] <mark>Git
+		- [ ] `Version Control Systems`
+			- [ ] `Git`
 		- [ ] Debugging
 			- [ ] Instruments
 			- [ ] Best practices
 				- [ ] Checklists
 		- [ ] UX
-		- [ ] <mark>Caching and Persistency
-			- [ ] <mark>Core Data
+		- [ ] `Caching and Persistency`
+			- [ ] `Core Data`
 			- [ ] Realm
 			- [ ] YAPDatabase
-		- [ ] <mark>Testing
-			- [ ] <mark>Unit Tests
+		- [ ] `Testing`
+			- [ ] `Unit Tests`
 			- [ ] Snapshot Tests
 			- [ ] Functional test
 			- [ ] TDD
@@ -159,7 +159,7 @@ implementation
 			- [ ] Decrease memory footprint
 		- [ ] Code signing
 		- [ ] Tools
-			- [ ] <mark>Swiftlint
+			- [ ] `Swiftlint`
 			- [ ] Sourcery
 			- [ ] Fastlane
 		- [ ] Continuous Integration
@@ -168,32 +168,32 @@ implementation
 		- [ ] tvOS
 		- [ ] WatchKit
 	- [ ] Computer Science knowledge
-		- [ ] <mark>Algorithms
-			- [ ] <mark>Sorting
-			- [ ] <mark>Graph Theory
-				- [ ] <mark> Trees
-			- [ ] <mark>Strings
+		- [ ] `Algorithms`
+			- [ ] `Sorting`
+			- [ ] `Graph Theory`
+				- [ ] ` Trees`
+			- [ ] `Strings`
 			- [ ] Greedy
 			- [ ] Dynamic Programming
 			- [ ] Bit Manipulation
-			- [ ] <mark>Recursion
+			- [ ] `Recursion`
 			- [ ] Game Theory
 			- [ ] NP Complete
-			- [ ] <mark>Big-O notation
-		- [ ] <mark>Abstract Data Types
-			- [ ] <mark>Stack
-			- [ ] <mark>Array
-			- [ ] <mark>List
-			- [ ] <mark>Map
+			- [ ] `Big-O notation`
+		- [ ] `Abstract Data Types`
+			- [ ] `Stack`
+			- [ ] `Array`
+			- [ ] `List`
+			- [ ] `Map`
 			- [ ] Multimap
-			- [ ] <mark>Set
+			- [ ] `Set`
 			- [ ] Multiset (Bag)
-			- [ ] <mark>Graph
-			- [ ] <mark>Queue
+			- [ ] `Graph`
+			- [ ] `Queue`
 			- [ ] Priority Queue
 			- [ ] Double-ended priority queue
 			- [ ] Double-ended queue
-		- [ ] <mark>System design
+		- [ ] `System design`
 			- [ ] Problems
 
 ## How to contribute
