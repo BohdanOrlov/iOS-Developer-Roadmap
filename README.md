@@ -140,6 +140,9 @@ implementation
 				- [ ] Swift Package Manager
 			- [ ] Functional programming
 				- [ ] Functional Reactive Programming Frameworks
+					- [ ] React Native (understanding concepts)
+					- [ ] RxSwift
+					- [ ] RxRealm, RxDataSources
 		- [ ] Project structure and File/Group organisation
 		- [ ] `Version Control Systems`
 			- [ ] `Git`
@@ -167,8 +170,11 @@ implementation
 			- [ ] Sourcery
 			- [ ] Fastlane
 		- [ ] Continuous Integration
+			- [ ] Jenkins
+			- [ ] Xcode server
 		- [ ] Security
 			- [ ] Keychain
+			- [ ] Security Transforms API
 		- [ ] tvOS
 		- [ ] WatchKit
 - [ ] Computer Science knowledge
