@@ -103,7 +103,7 @@ extension Topic {
     
     var resourcesDirPath: String {
         let resourcesDir = "Resources"
-        let path = resourcesDir + "/" + self.topicsPathComponents.joined(separator: "/")
+        let path = resourcesDir + "/" + self.topicsPathComponents.joined(separator: "/").replacingOccurrences(of: " ", with: "_")
         return path
     }
     
