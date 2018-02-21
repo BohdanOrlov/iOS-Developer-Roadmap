@@ -31,5 +31,7 @@ Note. I've used Sublime text for editing YAML.
 
 #### How to debug script
 Use `Roadmap Project/Roadmap.xcodeproj` to run and debug script.
+
 xCode runs and debugs an executable binary, thus generated output will be put next to the binary.
+
 Always run script via terminal before submitting a PR.
