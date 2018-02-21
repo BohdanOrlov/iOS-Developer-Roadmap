@@ -1,4 +1,4 @@
-## iOS Developer > Practical knowledge > Cocoa Touch (iOSKit) > UIKit > Screen transitions (Navigation)
+## iOS Developer > Practical knowledge > Cocoa Touch > UIKit > Navigation
 
 ### Articles
 - [ ] [Improve your iOS Architecture with FlowControllers](http://merowing.info/2016/01/improve-your-ios-architecture-with-flowcontrollers/)

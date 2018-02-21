@@ -202,7 +202,7 @@ func generateImage(from topics: [Topic], essentialOnly: Bool) {
     var arrowsByParrent = [Topic: String]()
     var aliasesByTopics = [Topic: String]()
     var topicAliases = ""
-    var topicRelationships = ""
+    var topicRelationships = "You -|> (\(topics.first!.plantUMLAlias))\n"
     for topic in topics {
         if essentialOnly && !topic.isEssential {
             continue
@@ -225,6 +225,7 @@ func generateImage(from topics: [Topic], essentialOnly: Bool) {
         arrowsByParrent[topic] = arrow
         topicRelationships.append("(\(aliasesByTopics[parrent]!)) \(arrow) (\(alias))\n")
     }
+    let pallete = ["White", "#F5F0F2", "#17468A", "#E12D53", "#17468A"]
     let legend = essentialOnly ? "" : """
     legend right
     <<^>> - for essential topics
@@ -237,11 +238,29 @@ func generateImage(from topics: [Topic], essentialOnly: Bool) {
     \(content)
     
     \(legend)
-    
-    skinparam monochrome true
+    skinparam Shadowing false
+    skinparam Padding 0
+    skinparam BackgroundColor \(pallete[0])
+    skinparam Actor {
+        BackgroundColor \(pallete[1])
+        BorderColor \(pallete[2])
+        FontColor \(pallete[3])
+        FontName Helvetica
+        FontSize 30
+        FontStyle Bold
+    }
+    skinparam Arrow {
+        Thickness 3
+        Color \(pallete[4])
+    }
     skinparam usecase {
+        BorderThickness 3
+        BackgroundColor \(pallete[1])
+        BorderColor \(pallete[2])
+        FontColor \(pallete[3])
         FontName Helvetica
         FontStyle Bold
+        FontSize 20
     }
     @enduml
     """

@@ -19,14 +19,14 @@
                       - "NSBlog": "https://www.mikeash.com/pyblog/"
                       - "objc.io": "https://www.objc.io/"
                 - Blocks^:
-                    - Memory Management^:
-            - KVC^:
-            - KVO^:
-            - Toll-free bridging:
-            - Runtime^:
-                - Method messaging^:
-                - Swizling:
-                - NSZombies and KVO implementation:
+                    - Memory Management:
+                - KVC:
+                - KVO:
+                - Toll-free bridging:
+                - Runtime^:
+                    - Method messaging:
+                    - Swizling:
+                    - NSZombies and KVO implementation:
         - Swift^:
             - RESOURCES:
                 - Books:
@@ -34,9 +34,9 @@
                     - "Advanced Swift": "https://www.objc.io/books/advanced-swift/"
                 - Blogs:
                     - "SWIFT BY SUNDELL": "https://www.swiftbysundell.com/"
-            - Closures^:
+            - Closures:
             - Initializers^:
-            - Generics^:
+            - Generics:
             - Protocols^:
             - Structs^:
             - Enums^:
@@ -51,7 +51,7 @@
                     - Articles:
                         - "Stack and Heap Objects in Objective-C": "https://www.mikeash.com/pyblog/friday-qa-2010-01-15-stack-and-heap-objects-in-objective-c.html"
             - Value vs Reference type^:
-            - MRC^:
+            - MRC:
                 - RESOURCES:
                     - Articles:
                         - "Memory Management Tutorial for iOS": "https://www.raywenderlich.com/2657/memory-management-tutorial-for-ios"
@@ -59,12 +59,12 @@
                 - RESOURCES:
                     - Articles:
                         - "Beginning ARC in iOS 5 Tutorial Part 1": "https://www.raywenderlich.com/5677/beginning-arc-in-ios-5-part-1"
-                - weak references^:
+                - weak references:
             - Retain cycles^:
             - Garbage collector:
             - Memory leaks^:
             - Shallow and deep copying:
-            - Autorelease pool^:
+            - Autorelease pool:
                 - RESOURCES:
                     - Articles:
                         - "@AUTORELEASEPOOL": "http://en.swifter.tips/autoreleasepool/"
@@ -84,7 +84,7 @@
                 - RESOURCES:
                     - Articles:
                         - "Run Loops": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html"
-            - Methods of thread synchronisation^:
+            - Synchronisation^:
                 - RESOURCES:
                     - Articles:
                         - "Synchronization": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Multithreading/ThreadSafety/ThreadSafety.html"
@@ -92,7 +92,7 @@
                 - Race condition:
                 - Deadlock:
                 - Reader-writer problems:
-        - Cocoa Touch (iOSKit)^:
+        - Cocoa Touch^:
             - UIKit^:
                 - RESOURCES:
                     - Articles:
@@ -102,7 +102,7 @@
                         - RESOURCES:
                             - Articles:
                                 - "The App Life Cycle": "https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/TheAppLifeCycle/TheAppLifeCycle.html"
-                    - UIApplicationDelegate^:
+                    - UIApplicationDelegate:
                 - UIViews^:
                     - UITableViews^:
                         - RESOURCES:
@@ -114,30 +114,30 @@
                                 - "Custom Collection View Layouts": "https://www.objc.io/issues/3-views/collection-view-layouts/"
                 - Layers:
                 - Layout^:
-                    - Frame-based (manual)^:
+                    - Frame-based^:
                         - RESOURCES:
                             - Articles:
                                 - "CGGeometry": "http://nshipster.com/cggeometry/"
-                    - Constraint-based (autolayout)^:
+                    - Autolayout^:
                         - RESOURCES:
                             - Articles:
                                 - "The Ultimate Guide To IOS AutoLayout": "https://digitalleaves.com/ultimate-guide-autolayout/"
                         - UIStackView:
-                - Animations^:
+                - Animations:
                     - RESOURCES:
                         - Articles:
                             - "objc.io Animations": "https://www.objc.io/issues/12-animations/"
-                - Transform^:
-                - Screen transitions (Navigation)^:
+                - Transform:
+                - Navigation^:
                     - RESOURCES:
                         - Articles:
                             - "Improve your iOS Architecture with FlowControllers": "http://merowing.info/2016/01/improve-your-ios-architecture-with-flowcontrollers/"
                             - "Screen navigation in iOS": "https://badootech.badoo.com/screen-navigation-in-ios-dd99b09228b2"
-                - ViewController^:
+                - UIViewController^:
                     - Lifecycle^:
                 - UserNotifications:
             - Foundation^:
-                - Notifications, Delegation and observing^:
+                - Notifications vs Delegation vs observing^:
                     - RESOURCES:
                         - Articles:
                             - "WHEN TO USE DELEGATION, NOTIFICATION, OR OBSERVATION IN IOS": "https://shinesolutions.com/2011/06/14/delegation-notification-and-observation/"
@@ -178,7 +178,7 @@
                                 - "Introduction to MVVM": "https://www.objc.io/issues/13-architecture/mvvm/"
                     - MVP^:
                     - Clean architecture^:
-                        - VIPER^:
+                        - VIPER:
                             - RESOURCES:
                                 - Articles:
                                     - "Architecting iOS Apps with VIPER": "https://www.objc.io/issues/13-architecture/viper/"
@@ -193,11 +193,11 @@
                         - RESOURCES:
                             - Articles:
                                 - "Singletons": "https://thatthinginswift.com/singletons/"
-                    - Factory^:
-                    - Abstract Factory^:
+                    - Factory:
+                    - Abstract Factory:
                 - Structural:
-                - Behavioural^:
-                    - Observer^:
+                - Behavioural:
+                    - Observer:
                 - Concurrency:
             - Design Principles^:
                 - SOLID^:
@@ -213,8 +213,8 @@
                   - React Native:
                   - RxSwift:
                   - RxRealm, RxDataSources:
-        - Third-party dependencies management^:
-            - Cocoapods^:
+        - Dependencies management^:
+            - Cocoapods:
             - Carthage:
             - Swift Package Manager:
         - Project structure and File/Group organisation:
@@ -229,7 +229,7 @@
                 - Checklists:
         - UX:
         - Caching and Persistency^:
-            - Core Data^:
+            - Core Data:
                 - RESOURCES:
                     - Articles:
                         - "Core Data Programming Guide": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreData/index.html#//apple_ref/doc/uid/TP40001075-CH2-SW1"
@@ -275,7 +275,7 @@
                     - "topcoder": "https://www.topcoder.com/member-onboarding/learning-practicing-skills/"
             - Sorting^:
             - Graph Theory^:
-                - Trees^:
+                - Trees:
             - Strings^:
             - Greedy:
             - Dynamic Programming:

@@ -9,18 +9,18 @@ Tapping on a link will take you to relevant materials.
         - [ ] `Languages`
             - [ ] [`Objective-C`](Resources/iOS_Developer/Practical_knowledge/Languages/Objective-C/RESOURCES.md)
                 - [ ] `Blocks`
-                    - [ ] `Memory Management`
-            - [ ] `KVC`
-            - [ ] `KVO`
-            - [ ] Toll-free bridging
-            - [ ] `Runtime`
-                - [ ] `Method messaging`
-                - [ ] Swizling
-                - [ ] NSZombies and KVO implementation
+                    - [ ] Memory Management
+                - [ ] KVC
+                - [ ] KVO
+                - [ ] Toll-free bridging
+                - [ ] `Runtime`
+                    - [ ] Method messaging
+                    - [ ] Swizling
+                    - [ ] NSZombies and KVO implementation
         - [ ] [`Swift`](Resources/iOS_Developer/Practical_knowledge/Swift/RESOURCES.md)
-            - [ ] `Closures`
+            - [ ] Closures
             - [ ] `Initializers`
-            - [ ] `Generics`
+            - [ ] Generics
             - [ ] `Protocols`
             - [ ] `Structs`
             - [ ] `Enums`
@@ -29,14 +29,14 @@ Tapping on a link will take you to relevant materials.
         - [ ] `Memory management`
             - [ ] [`Stack and Heap`](Resources/iOS_Developer/Practical_knowledge/Memory_management/Stack_and_Heap/RESOURCES.md)
             - [ ] `Value vs Reference type`
-            - [ ] [`MRC`](Resources/iOS_Developer/Practical_knowledge/Memory_management/MRC/RESOURCES.md)
+            - [ ] [MRC](Resources/iOS_Developer/Practical_knowledge/Memory_management/MRC/RESOURCES.md)
             - [ ] [`ARC`](Resources/iOS_Developer/Practical_knowledge/Memory_management/ARC/RESOURCES.md)
-                - [ ] `weak references`
+                - [ ] weak references
             - [ ] `Retain cycles`
             - [ ] Garbage collector
             - [ ] `Memory leaks`
             - [ ] Shallow and deep copying
-            - [ ] [`Autorelease pool`](Resources/iOS_Developer/Practical_knowledge/Memory_management/Autorelease_pool/RESOURCES.md)
+            - [ ] [Autorelease pool](Resources/iOS_Developer/Practical_knowledge/Memory_management/Autorelease_pool/RESOURCES.md)
         - [ ] `Multithreading and concurency`
             - [ ] POSIX threads
             - [ ] NSThreads
@@ -44,42 +44,42 @@ Tapping on a link will take you to relevant materials.
             - [ ] [`GCD`](Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurency/GCD/RESOURCES.md)
             - [ ] [`NSOperation(Queue)`](Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurency/NSOperation(Queue)/RESOURCES.md)
             - [ ] [`Runloop`](Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurency/Runloop/RESOURCES.md)
-            - [ ] [`Methods of thread synchronisation`](Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurency/Methods_of_thread_synchronisation/RESOURCES.md)
+            - [ ] [`Synchronisation`](Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurency/Synchronisation/RESOURCES.md)
             - [ ] Problems
                 - [ ] Race condition
                 - [ ] Deadlock
                 - [ ] Reader-writer problems
-        - [ ] `Cocoa Touch (iOSKit)`
-            - [ ] [`UIKit`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch_(iOSKit)/UIKit/RESOURCES.md)
+        - [ ] `Cocoa Touch`
+            - [ ] [`UIKit`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/RESOURCES.md)
                 - [ ] `UIApplication`
-                    - [ ] [`States`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch_(iOSKit)/UIKit/UIApplication/States/RESOURCES.md)
-                    - [ ] `UIApplicationDelegate`
+                    - [ ] [`States`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/UIApplication/States/RESOURCES.md)
+                    - [ ] UIApplicationDelegate
                 - [ ] `UIViews`
-                    - [ ] [`UITableViews`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch_(iOSKit)/UIKit/UIViews/UITableViews/RESOURCES.md)
-                    - [ ] [`UICollectionViews`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch_(iOSKit)/UIKit/UIViews/UICollectionViews/RESOURCES.md)
+                    - [ ] [`UITableViews`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/UIViews/UITableViews/RESOURCES.md)
+                    - [ ] [`UICollectionViews`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/UIViews/UICollectionViews/RESOURCES.md)
                 - [ ] Layers
                 - [ ] `Layout`
-                    - [ ] [`Frame-based (manual)`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch_(iOSKit)/UIKit/Layout/Frame-based_(manual)/RESOURCES.md)
-                    - [ ] [`Constraint-based (autolayout)`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch_(iOSKit)/UIKit/Layout/Constraint-based_(autolayout)/RESOURCES.md)
+                    - [ ] [`Frame-based`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Layout/Frame-based/RESOURCES.md)
+                    - [ ] [`Autolayout`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Layout/Autolayout/RESOURCES.md)
                         - [ ] UIStackView
-                - [ ] [`Animations`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch_(iOSKit)/UIKit/Animations/RESOURCES.md)
-                - [ ] `Transform`
-                - [ ] [`Screen transitions (Navigation)`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch_(iOSKit)/UIKit/Screen_transitions_(Navigation)/RESOURCES.md)
-                - [ ] `ViewController`
+                - [ ] [Animations](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Animations/RESOURCES.md)
+                - [ ] Transform
+                - [ ] [`Navigation`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Navigation/RESOURCES.md)
+                - [ ] `UIViewController`
                     - [ ] `Lifecycle`
                 - [ ] UserNotifications
             - [ ] `Foundation`
-                - [ ] [`Notifications, Delegation and observing`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch_(iOSKit)/Foundation/Notifications,_Delegation_and_observing/RESOURCES.md)
+                - [ ] [`Notifications vs Delegation vs observing`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Foundation/Notifications_vs_Delegation_vs_observing/RESOURCES.md)
                 - [ ] Collections
-                - [ ] [`Networking`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch_(iOSKit)/Foundation/Networking/RESOURCES.md)
+                - [ ] [`Networking`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Foundation/Networking/RESOURCES.md)
                 - [ ] `Serialization`
                     - [ ] NSCoding
                     - [ ] `Codable`
                     - [ ] `JSON`
                     - [ ] XML
                     - [ ] Protobuf
-            - [ ] [Core Location](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch_(iOSKit)/Core_Location/RESOURCES.md)
-            - [ ] [`Work in background mode`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch_(iOSKit)/Work_in_background_mode/RESOURCES.md)
+            - [ ] [Core Location](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Core_Location/RESOURCES.md)
+            - [ ] [`Work in background mode`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Work_in_background_mode/RESOURCES.md)
         - [ ] `Software Architecture`
             - [ ] `Design Patterns`
                 - [ ] [`Architectural`](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/RESOURCES.md)
@@ -87,15 +87,15 @@ Tapping on a link will take you to relevant materials.
                     - [ ] [`MVVM`](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/MVVM/RESOURCES.md)
                     - [ ] `MVP`
                     - [ ] `Clean architecture`
-                        - [ ] [`VIPER`](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/Clean_architecture/VIPER/RESOURCES.md)
+                        - [ ] [VIPER](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/Clean_architecture/VIPER/RESOURCES.md)
                         - [ ] [RIBs](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/Clean_architecture/RIBs/RESOURCES.md)
                 - [ ] `Creational`
                     - [ ] [`Singleton`](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Creational/Singleton/RESOURCES.md)
-                    - [ ] `Factory`
-                    - [ ] `Abstract Factory`
+                    - [ ] Factory
+                    - [ ] Abstract Factory
                 - [ ] Structural
-                - [ ] `Behavioural`
-                    - [ ] `Observer`
+                - [ ] Behavioural
+                    - [ ] Observer
                 - [ ] Concurrency
             - [ ] `Design Principles`
                 - [ ] `SOLID`
@@ -108,8 +108,8 @@ Tapping on a link will take you to relevant materials.
                     - [ ] React Native
                     - [ ] RxSwift
                     - [ ] RxRealm, RxDataSources
-        - [ ] `Third-party dependencies management`
-            - [ ] `Cocoapods`
+        - [ ] `Dependencies management`
+            - [ ] Cocoapods
             - [ ] Carthage
             - [ ] Swift Package Manager
         - [ ] Project structure and File/Group organisation
@@ -121,7 +121,7 @@ Tapping on a link will take you to relevant materials.
                 - [ ] Checklists
         - [ ] UX
         - [ ] `Caching and Persistency`
-            - [ ] [`Core Data`](Resources/iOS_Developer/Practical_knowledge/Caching_and_Persistency/Core_Data/RESOURCES.md)
+            - [ ] [Core Data](Resources/iOS_Developer/Practical_knowledge/Caching_and_Persistency/Core_Data/RESOURCES.md)
             - [ ] Realm
             - [ ] YAPDatabase
         - [ ] `Testing`
@@ -150,7 +150,7 @@ Tapping on a link will take you to relevant materials.
         - [ ] [`Algorithms`](Resources/iOS_Developer/Computer_Science_knowledge/Algorithms/RESOURCES.md)
             - [ ] `Sorting`
             - [ ] `Graph Theory`
-                - [ ] `Trees`
+                - [ ] Trees
             - [ ] `Strings`
             - [ ] Greedy
             - [ ] Dynamic Programming
