@@ -29,10 +29,10 @@ See [this article](https://medium.com/@borlov/c9a24f413457) explainig selection 
 Start from `Getting started` section if you haven't done any iOS development yet.
 
 ## Image version
-![Header image](Roadmap\%20Project/Script/Generated/ROADMAP.png)
+![Header image](RoadmapProject/Script/Generated/ROADMAP.png)
 
 ## Text version
-[Text version with materials to study.](Roadmap\%20Project/Script/Generated/ROADMAP.md)
+[Text version with materials to study.](RoadmapProject/Script/Generated/ROADMAP.md)
 
 ## How to contribute
 
