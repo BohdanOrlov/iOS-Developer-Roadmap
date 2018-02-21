@@ -32,7 +32,7 @@ Start from `Getting started` section if you haven't done any iOS development yet
 Coming soon.
 
 ## Text version
-[Text version with materials to study.](Roadmap\ Project/Script/Generated/ROADMAP.md)
+[Text version with materials to study.](Roadmap\%20Project/Script/Generated/ROADMAP.md)
 
 ## How to contribute
 
