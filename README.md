@@ -29,7 +29,8 @@ See [this article](https://medium.com/@borlov/c9a24f413457) explainig selection 
 Start from `Getting started` section if you haven't done any iOS development yet.
 
 ## 🗺 Image version
-![Header image](RoadmapProject/Script/Generated/ROADMAP.png)
+Roadmap of essential topics. Roadmap for all topics is [here.](RoadmapProject/Script/Generated/ROADMAP.png)
+![Header image](RoadmapProject/Script/Generated/ESSENTIALROADMAP.png)
 
 ## 📝 Text version
 [Text version with materials to study.](RoadmapProject/Script/Generated/ROADMAP.md)

@@ -1,7 +1,7 @@
 @startuml
 left to right direction
-(iOS Developer) as (iOS Developer)
-(Practical knowledge) as (iOS Developer->Practical knowledge)
+(iOS Developer) as (iOS Developer) <<^>> 
+(Practical knowledge) as (iOS Developer->Practical knowledge) <<^>> 
 (Getting started) as (iOS Developer->Practical knowledge->Getting started)
 (First pet project ideas) as (iOS Developer->Practical knowledge->Getting started->First pet project ideas)
 (Languages) as (iOS Developer->Practical knowledge->Languages) <<^>> 
@@ -23,7 +23,7 @@ left to right direction
 (Structs) as (iOS Developer->Practical knowledge->Swift->Structs) <<^>> 
 (Enums) as (iOS Developer->Practical knowledge->Swift->Enums) <<^>> 
 (Runtime) as (iOS Developer->Practical knowledge->Swift->Runtime)
-(Method dispatch) as (iOS Developer->Practical knowledge->Swift->Runtime->Method dispatch) <<^>> 
+(Method dispatch) as (iOS Developer->Practical knowledge->Swift->Runtime->Method dispatch)
 (Memory management) as (iOS Developer->Practical knowledge->Memory management) <<^>> 
 (Stack and Heap) as (iOS Developer->Practical knowledge->Memory management->Stack and Heap) <<^>> 
 (Value vs Reference type) as (iOS Developer->Practical knowledge->Memory management->Value vs Reference type) <<^>> 
@@ -133,7 +133,7 @@ left to right direction
 (Decrease memory footprint) as (iOS Developer->Practical knowledge->Performance optimization->Decrease memory footprint)
 (Code signing) as (iOS Developer->Practical knowledge->Code signing)
 (Tools) as (iOS Developer->Practical knowledge->Tools)
-(Swiftlint) as (iOS Developer->Practical knowledge->Tools->Swiftlint) <<^>> 
+(Swiftlint) as (iOS Developer->Practical knowledge->Tools->Swiftlint)
 (Sourcery) as (iOS Developer->Practical knowledge->Tools->Sourcery)
 (Fastlane) as (iOS Developer->Practical knowledge->Tools->Fastlane)
 (Continuous Integration) as (iOS Developer->Practical knowledge->Continuous Integration)
@@ -144,7 +144,7 @@ left to right direction
 (Security Transforms API) as (iOS Developer->Practical knowledge->Security->Security Transforms API)
 (tvOS) as (iOS Developer->Practical knowledge->tvOS)
 (WatchKit) as (iOS Developer->Practical knowledge->WatchKit)
-(Computer Science knowledge) as (iOS Developer->Computer Science knowledge)
+(Computer Science knowledge) as (iOS Developer->Computer Science knowledge) <<^>> 
 (Algorithms) as (iOS Developer->Computer Science knowledge->Algorithms) <<^>> 
 (Sorting) as (iOS Developer->Computer Science knowledge->Algorithms->Sorting) <<^>> 
 (Graph Theory) as (iOS Developer->Computer Science knowledge->Algorithms->Graph Theory) <<^>> 

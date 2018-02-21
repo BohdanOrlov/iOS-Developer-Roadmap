@@ -2,8 +2,8 @@
 ## Text version
 Tapping on a link will take you to relevant materials.
 
-- [ ] iOS Developer
-    - [ ] Practical knowledge
+- [ ] `iOS Developer`
+    - [ ] `Practical knowledge`
         - [ ] [Getting started](Resources/iOS_Developer/Practical_knowledge/Getting_started/RESOURCES.md)
             - [ ] First pet project ideas
         - [ ] `Languages`
@@ -25,7 +25,7 @@ Tapping on a link will take you to relevant materials.
             - [ ] `Structs`
             - [ ] `Enums`
             - [ ] Runtime
-                - [ ] [`Method dispatch`](Resources/iOS_Developer/Practical_knowledge/Swift/Runtime/Method_dispatch/RESOURCES.md)
+                - [ ] [Method dispatch](Resources/iOS_Developer/Practical_knowledge/Swift/Runtime/Method_dispatch/RESOURCES.md)
         - [ ] `Memory management`
             - [ ] [`Stack and Heap`](Resources/iOS_Developer/Practical_knowledge/Memory_management/Stack_and_Heap/RESOURCES.md)
             - [ ] `Value vs Reference type`
@@ -135,7 +135,7 @@ Tapping on a link will take you to relevant materials.
             - [ ] Decrease memory footprint
         - [ ] Code signing
         - [ ] Tools
-            - [ ] `Swiftlint`
+            - [ ] Swiftlint
             - [ ] Sourcery
             - [ ] Fastlane
         - [ ] Continuous Integration
@@ -146,7 +146,7 @@ Tapping on a link will take you to relevant materials.
             - [ ] Security Transforms API
         - [ ] tvOS
         - [ ] WatchKit
-    - [ ] Computer Science knowledge
+    - [ ] `Computer Science knowledge`
         - [ ] [`Algorithms`](Resources/iOS_Developer/Computer_Science_knowledge/Algorithms/RESOURCES.md)
             - [ ] `Sorting`
             - [ ] `Graph Theory`

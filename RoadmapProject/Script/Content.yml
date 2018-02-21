@@ -2,8 +2,8 @@
 # ^ - at the end means "essential topic"
 # RESOURCES - keyword for marking resources section, nested subcategories are not supported, e.g. DON'T write "- Books: \n    - 2014:"
 
-- iOS Developer:
-    - Practical knowledge:
+- iOS Developer^:
+    - Practical knowledge^:
         - Getting started:
             - RESOURCES:
                 - Tutorials:
@@ -41,7 +41,7 @@
             - Structs^:
             - Enums^:
             - Runtime:
-                - Method dispatch^:
+                - Method dispatch:
                     - RESOURCES:
                         - Articles:
                             - "Method Dispatch in Swift": "https://www.raizlabs.com/dev/2016/12/swift-method-dispatch/"
@@ -251,7 +251,7 @@
             - Decrease memory footprint:
         - Code signing:
         - Tools:
-            - Swiftlint^:
+            - Swiftlint:
             - Sourcery:
             - Fastlane:
         - Continuous Integration:
@@ -262,7 +262,7 @@
             - Security Transforms API:
         - tvOS:
         - WatchKit:
-    - Computer Science knowledge:
+    - Computer Science knowledge^:
         - Algorithms^:
             - RESOURCES:
                 - Websites:

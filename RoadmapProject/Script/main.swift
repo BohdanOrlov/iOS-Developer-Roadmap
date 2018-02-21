@@ -191,16 +191,25 @@ func shell(_ args: String...) -> Int32 {
     return task.terminationStatus
 }
 
-func generateImage(from topics: [Topic]) {
+func generateImages(from topics: [Topic]) {
+    generateImage(from: topics, essentialOnly: true)
+    generateImage(from: topics, essentialOnly: false)
+}
+
+func generateImage(from topics: [Topic], essentialOnly: Bool) {
+    let imageName = essentialOnly ? "ESSENTIALROADMAP" : "ROADMAP"
     var availableArrows = ["-down->", "-up->", "-left->", "-right->", "-down->", "-up->"]
     var arrowsByParrent = [Topic: String]()
     var aliasesByTopics = [Topic: String]()
     var topicAliases = ""
     var topicRelationships = ""
     for topic in topics {
+        if essentialOnly && !topic.isEssential {
+            continue
+        }
         let alias = topic.plantUMLAlias
         var essential = ""
-        if topic.isEssential {
+        if !essentialOnly && topic.isEssential {
             essential = " <<^>> "
         }
         topicAliases.append("(\(topic.plantUMLName)) as (\(alias))\(essential)\n")
@@ -208,6 +217,7 @@ func generateImage(from topics: [Topic]) {
         guard let parrent = topic.parrent else {
             continue
         }
+        
 //        let arrow = topic.isHorizontal ? "->" : "-->"
 
         let arrow = arrowsByParrent[parrent] ?? availableArrows.removeFirst()
@@ -215,15 +225,18 @@ func generateImage(from topics: [Topic]) {
         arrowsByParrent[topic] = arrow
         topicRelationships.append("(\(aliasesByTopics[parrent]!)) \(arrow) (\(alias))\n")
     }
+    let legend = essentialOnly ? "" : """
+    legend right
+    <<^>> - for essential topics
+    endlegend
+    """
     let content = topicAliases + "\n" + topicRelationships
     let plantUMLText = """
     @startuml
     left to right direction
     \(content)
     
-    legend right
-    <<^>> - for essential topics
-    endlegend
+    \(legend)
     
     skinparam monochrome true
     skinparam usecase {
@@ -232,7 +245,7 @@ func generateImage(from topics: [Topic]) {
     }
     @enduml
     """
-    let path = "Generated" + "/" + "ROADMAP.txt"
+    let path = "Generated" + "/" + imageName + ".txt"
     let excistingRoadmapText = try? String(contentsOfFile: path)
     guard plantUMLText != excistingRoadmapText else {
         return
@@ -249,5 +262,5 @@ let topics = parceTopics(from: parsedContent)
 try? FileManager.default.removeItem(atPath: generatedDir + "/" + resourcesDir)
 generateRoadmapMarkdown(from: topics)
 generateResourcesMarkdown(from: topics)
-generateImage(from: topics)
+generateImages(from: topics)
 print("Done. Check 'Generated' folder for output. Don't forget to check the diff before submitting a PR.")
