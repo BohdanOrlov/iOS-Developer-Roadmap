@@ -3,7 +3,7 @@
 Roadmap to becoming an iOS developer in 2018
 
 ## What is it?
-This is a tree-like compilation of topics highly relevant to iOS development.
+This is a tree-like compilation of topics highly relevant to iOS development. Both image and text version are generated from human readable content file.
 
 ## Who is it for?
 The roadmap will be helpul for:
