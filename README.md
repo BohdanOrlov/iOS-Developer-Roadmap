@@ -29,7 +29,7 @@ See [this article](https://medium.com/@borlov/c9a24f413457) explainig selection 
 Start from `Getting started` section if you haven't done any iOS development yet.
 
 ## Image version
-Coming soon.
+![Header image](Roadmap\%20Project/Script/Generated/ROADMAP.png)
 
 ## Text version
 [Text version with materials to study.](Roadmap\%20Project/Script/Generated/ROADMAP.md)
@@ -45,11 +45,13 @@ Coming soon.
 ## TODO
 - [x] content file with topics and materials
 - [x] ability to generate README.md from the content file
-- [ ] ability to generate Roadmap tree image from the content file
+- [x] ability to generate Roadmap tree image from the content file
 - [ ] make generation scipt less miserable:
+	- [ ] make it readable 🤦
 	- [ ] output Yaml format violation errors
 	- [ ] handle errors of parsing Yaml into Topics and Resources
 	- [ ] handle file read/write errors
+	- [ ] handle image generation errors
 
 ## License
 

@@ -148,6 +148,82 @@ func generateResourcesMarkdown(from topics: [Topic]) {
     }
 }
 
+// Image generation (PlantUML)
+
+extension Topic: Hashable {
+    var hashValue: Int {
+        return self.name.hashValue
+    }
+    
+    static func ==(lhs: Topic, rhs: Topic) -> Bool {
+        return lhs === rhs
+    }
+}
+
+extension Topic {
+    var plantUMLName: String {
+        var name = self.name.replacingOccurrences(of: "(", with: "[")
+        name = name.replacingOccurrences(of: ")", with: "]")
+        return name
+    }
+}
+
+@discardableResult
+func shell(_ args: String...) -> Int32 {
+    let task = Process()
+    task.launchPath = "/usr/bin/env"
+    task.arguments = args
+    task.launch()
+    task.waitUntilExit()
+    return task.terminationStatus
+}
+
+func generateImage(from topics: [Topic]) {
+    var availableArrows = ["-down->", "-up->", "-left->", "-right->", "-down->", "-up->"]
+    var arrowsByParrent = [Topic: String]()
+    var aliasesByTopics = [Topic: String]()
+    var topicAliases = ""
+    var topicRelationships = ""
+    for topic in topics {
+        let alias = UUID().uuidString
+        var essential = ""
+        if topic.isEssential {
+            essential = " <<^>> "
+        }
+        topicAliases.append("(\(topic.plantUMLName)) as (\(alias))\(essential)\n")
+        aliasesByTopics[topic] = alias
+        guard let parrent = topic.parrent else {
+            continue
+        }
+//        let arrow = topic.isHorizontal ? "->" : "-->"
+
+        let arrow = arrowsByParrent[parrent] ?? availableArrows.removeFirst()
+        
+        arrowsByParrent[topic] = arrow
+        topicRelationships.append("(\(aliasesByTopics[parrent]!)) \(arrow) (\(alias))\n")
+    }
+    let content = topicAliases + "\n" + topicRelationships
+    let plantUMLText = """
+    @startuml
+    left to right direction
+    \(content)
+    
+    legend right
+    <<^>> - for essential topics
+    endlegend
+    
+    skinparam monochrome true
+    skinparam usecase {
+        FontName Helvetica
+        FontStyle Bold
+    }
+    @enduml
+    """
+    let path = "Generated" + "/" + "ROADMAP.txt"
+    try! plantUMLText.write(toFile: path, atomically: false, encoding: .utf8)
+    shell("java", "-DPLANTUML_LIMIT_SIZE=8192", "-jar", "plantuml.jar", path)
+}
+
 // Main
 
 let content = try! String(contentsOfFile: "Content.yml")
@@ -156,4 +232,5 @@ let topics = parceTopics(from: parsedContent)
 try? FileManager.default.removeItem(atPath: "Generated")
 generateRoadmapMarkdown(from: topics)
 generateResourcesMarkdown(from: topics)
+generateImage(from: topics)
 print("Done. Check 'Generated' folder for output. Don't forget to check the diff before submitting a PR.")

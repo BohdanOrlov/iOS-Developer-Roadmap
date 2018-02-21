@@ -11,6 +11,7 @@
 		CB4D0625203C638500520BD2 /* Yaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4D0624203C638500520BD2 /* Yaml.framework */; };
 		CB4D0626203C645300520BD2 /* Yaml.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = CB4D0624203C638500520BD2 /* Yaml.framework */; };
 		CB4D0630203C6A6000520BD2 /* Content.yml in Copy Files */ = {isa = PBXBuildFile; fileRef = CB4D062F203C6A4B00520BD2 /* Content.yml */; };
+		CB4D0632203DBC9900520BD2 /* plantuml.jar in Copy Files */ = {isa = PBXBuildFile; fileRef = CB4D0631203DBC9900520BD2 /* plantuml.jar */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,6 +21,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				CB4D0632203DBC9900520BD2 /* plantuml.jar in Copy Files */,
 				CB4D0630203C6A6000520BD2 /* Content.yml in Copy Files */,
 				CB4D0626203C645300520BD2 /* Yaml.framework in Copy Files */,
 			);
@@ -34,6 +36,7 @@
 		CB4D0624203C638500520BD2 /* Yaml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Yaml.framework; path = "cocoapods-rome/Rome/Yaml.framework"; sourceTree = "<group>"; };
 		CB4D062D203C694500520BD2 /* cocoapods-rome */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "cocoapods-rome"; sourceTree = "<group>"; };
 		CB4D062F203C6A4B00520BD2 /* Content.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = Content.yml; sourceTree = "<group>"; };
+		CB4D0631203DBC9900520BD2 /* plantuml.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = plantuml.jar; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,7 @@
 		CB4D061B203C5CC400520BD2 /* Script */ = {
 			isa = PBXGroup;
 			children = (
+				CB4D0631203DBC9900520BD2 /* plantuml.jar */,
 				CB4D061C203C5CC400520BD2 /* main.swift */,
 				CB4D062F203C6A4B00520BD2 /* Content.yml */,
 			);
