@@ -80,6 +80,11 @@ func parceTopics(from content: Yaml) -> [Topic] {
 
 // Markdown Rendering
 
+let generatedDir = "Generated"
+let resourcesDir = "Resources"
+let roadmapMD = "ROADMAP.md"
+let roadmapMDPath = generatedDir + "/" + roadmapMD
+
 extension Topic {
     var parrents: [Topic] {
         var parrents = [Topic]()
@@ -102,7 +107,6 @@ extension Topic {
     }
     
     var resourcesDirPath: String {
-        let resourcesDir = "Resources"
         let path = resourcesDir + "/" + self.topicsPathComponents.joined(separator: "/").replacingOccurrences(of: " ", with: "_")
         return path
     }
@@ -125,8 +129,8 @@ func generateRoadmapMarkdown(from topics: [Topic]) {
         let identation = String(repeating: "    ", count: topic.parrentsCount)
         roadmapMarkdown.append(identation + "- [ ] " + topicName + "\n")
     }
-    try! FileManager.default.createDirectory(atPath: "Generated", withIntermediateDirectories: true, attributes: [:])
-    try! roadmapMarkdown.write(toFile: "Generated/ROADMAP.md", atomically: false, encoding: .utf8)
+    try! FileManager.default.createDirectory(atPath: generatedDir, withIntermediateDirectories: true, attributes: [:])
+    try! roadmapMarkdown.write(toFile: roadmapMDPath, atomically: false, encoding: .utf8)
 }
 
 func generateResourcesMarkdown(from topics: [Topic]) {
@@ -162,9 +166,18 @@ extension Topic: Hashable {
 
 extension Topic {
     var plantUMLName: String {
-        var name = self.name.replacingOccurrences(of: "(", with: "[")
-        name = name.replacingOccurrences(of: ")", with: "]")
-        return name
+        return name.sanitizedForPlantUML
+    }
+    var plantUMLAlias: String {
+        return self.topicsPathComponents.joined(separator: "->").sanitizedForPlantUML
+    }
+}
+
+extension String {
+    var sanitizedForPlantUML: String {
+        var result = self.replacingOccurrences(of: "(", with: "[")
+        result = result.replacingOccurrences(of: ")", with: "]")
+        return result
     }
 }
 
@@ -185,7 +198,7 @@ func generateImage(from topics: [Topic]) {
     var topicAliases = ""
     var topicRelationships = ""
     for topic in topics {
-        let alias = UUID().uuidString
+        let alias = topic.plantUMLAlias
         var essential = ""
         if topic.isEssential {
             essential = " <<^>> "
@@ -220,6 +233,10 @@ func generateImage(from topics: [Topic]) {
     @enduml
     """
     let path = "Generated" + "/" + "ROADMAP.txt"
+    let excistingRoadmapText = try? String(contentsOfFile: path)
+    guard plantUMLText != excistingRoadmapText else {
+        return
+    }
     try! plantUMLText.write(toFile: path, atomically: false, encoding: .utf8)
     shell("java", "-DPLANTUML_LIMIT_SIZE=8192", "-jar", "plantuml.jar", path)
 }
@@ -229,7 +246,7 @@ func generateImage(from topics: [Topic]) {
 let content = try! String(contentsOfFile: "Content.yml")
 let parsedContent = try! Yaml.load(content)
 let topics = parceTopics(from: parsedContent)
-try? FileManager.default.removeItem(atPath: "Generated")
+try? FileManager.default.removeItem(atPath: generatedDir + "/" + resourcesDir)
 generateRoadmapMarkdown(from: topics)
 generateResourcesMarkdown(from: topics)
 generateImage(from: topics)
