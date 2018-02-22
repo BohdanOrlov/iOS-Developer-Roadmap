@@ -65,7 +65,6 @@ left to right direction
 (Navigation) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Navigation) <<^>> 
 (UIViewController) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->UIViewController) <<^>> 
 (Lifecycle) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->UIViewController->Lifecycle) <<^>> 
-(UserNotifications) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->UserNotifications)
 (Foundation) as (iOS Developer->Practical knowledge->Cocoa Touch->Foundation) <<^>> 
 (Notifications vs Delegation vs observing) as (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Notifications vs Delegation vs observing) <<^>> 
 (Collections) as (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Collections)
@@ -76,7 +75,9 @@ left to right direction
 (JSON) as (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Serialization->JSON) <<^>> 
 (XML) as (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Serialization->XML)
 (Protobuf) as (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Serialization->Protobuf)
+(UserNotifications) as (iOS Developer->Practical knowledge->Cocoa Touch->UserNotifications)
 (Core Location) as (iOS Developer->Practical knowledge->Cocoa Touch->Core Location)
+(Core Motion) as (iOS Developer->Practical knowledge->Cocoa Touch->Core Motion)
 (Work in background mode) as (iOS Developer->Practical knowledge->Cocoa Touch->Work in background mode) <<^>> 
 (Software Architecture) as (iOS Developer->Practical knowledge->Software Architecture) <<^>> 
 (Design Patterns) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns) <<^>> 
@@ -87,6 +88,7 @@ left to right direction
 (Clean architecture) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Architectural->Clean architecture) <<^>> 
 (VIPER) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Architectural->Clean architecture->VIPER)
 (RIBs) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Architectural->Clean architecture->RIBs)
+(Coordinators) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Architectural->Coordinators)
 (Creational) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Creational) <<^>> 
 (Singleton) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Creational->Singleton) <<^>> 
 (Factory) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Creational->Factory)
@@ -100,6 +102,7 @@ left to right direction
 (Inversion of Control) as (iOS Developer->Practical knowledge->Software Architecture->Design Principles->Inversion of Control) <<^>> 
 (Dependency Injection) as (iOS Developer->Practical knowledge->Software Architecture->Design Principles->Inversion of Control->Dependency Injection) <<^>> 
 (Service Locator) as (iOS Developer->Practical knowledge->Software Architecture->Design Principles->Inversion of Control->Service Locator)
+(Protocol-Oriented Programming) as (iOS Developer->Practical knowledge->Software Architecture->Design Principles->Protocol-Oriented Programming)
 (Object-Oriented Programming) as (iOS Developer->Practical knowledge->Software Architecture->Object-Oriented Programming)
 (Functional programming) as (iOS Developer->Practical knowledge->Software Architecture->Functional programming)
 (Functional Reactive Programming Frameworks) as (iOS Developer->Practical knowledge->Software Architecture->Functional programming->Functional Reactive Programming Frameworks)
@@ -238,7 +241,6 @@ You -|> (iOS Developer)
 (iOS Developer->Practical knowledge->Cocoa Touch->UIKit) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Navigation)
 (iOS Developer->Practical knowledge->Cocoa Touch->UIKit) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->UIViewController)
 (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->UIViewController) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->UIViewController->Lifecycle)
-(iOS Developer->Practical knowledge->Cocoa Touch->UIKit) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->UserNotifications)
 (iOS Developer->Practical knowledge->Cocoa Touch) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->Foundation)
 (iOS Developer->Practical knowledge->Cocoa Touch->Foundation) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Notifications vs Delegation vs observing)
 (iOS Developer->Practical knowledge->Cocoa Touch->Foundation) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Collections)
@@ -249,7 +251,9 @@ You -|> (iOS Developer)
 (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Serialization) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Serialization->JSON)
 (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Serialization) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Serialization->XML)
 (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Serialization) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Serialization->Protobuf)
+(iOS Developer->Practical knowledge->Cocoa Touch) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UserNotifications)
 (iOS Developer->Practical knowledge->Cocoa Touch) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->Core Location)
+(iOS Developer->Practical knowledge->Cocoa Touch) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->Core Motion)
 (iOS Developer->Practical knowledge->Cocoa Touch) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->Work in background mode)
 (iOS Developer->Practical knowledge) -down-> (iOS Developer->Practical knowledge->Software Architecture)
 (iOS Developer->Practical knowledge->Software Architecture) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns)
@@ -260,6 +264,7 @@ You -|> (iOS Developer)
 (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Architectural) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Architectural->Clean architecture)
 (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Architectural->Clean architecture) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Architectural->Clean architecture->VIPER)
 (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Architectural->Clean architecture) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Architectural->Clean architecture->RIBs)
+(iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Architectural) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Architectural->Coordinators)
 (iOS Developer->Practical knowledge->Software Architecture->Design Patterns) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Creational)
 (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Creational) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Creational->Singleton)
 (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Creational) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Creational->Factory)
@@ -273,6 +278,7 @@ You -|> (iOS Developer)
 (iOS Developer->Practical knowledge->Software Architecture->Design Principles) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Principles->Inversion of Control)
 (iOS Developer->Practical knowledge->Software Architecture->Design Principles->Inversion of Control) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Principles->Inversion of Control->Dependency Injection)
 (iOS Developer->Practical knowledge->Software Architecture->Design Principles->Inversion of Control) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Principles->Inversion of Control->Service Locator)
+(iOS Developer->Practical knowledge->Software Architecture->Design Principles) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Principles->Protocol-Oriented Programming)
 (iOS Developer->Practical knowledge->Software Architecture) -down-> (iOS Developer->Practical knowledge->Software Architecture->Object-Oriented Programming)
 (iOS Developer->Practical knowledge->Software Architecture) -down-> (iOS Developer->Practical knowledge->Software Architecture->Functional programming)
 (iOS Developer->Practical knowledge->Software Architecture->Functional programming) -down-> (iOS Developer->Practical knowledge->Software Architecture->Functional programming->Functional Reactive Programming Frameworks)

@@ -67,7 +67,6 @@ Tapping on a link will take you to relevant materials.
                 - [ ] [`Navigation`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Navigation/RESOURCES.md)
                 - [ ] `UIViewController`
                     - [ ] `Lifecycle`
-                - [ ] UserNotifications
             - [ ] `Foundation`
                 - [ ] [`Notifications vs Delegation vs observing`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Foundation/Notifications_vs_Delegation_vs_observing/RESOURCES.md)
                 - [ ] Collections
@@ -78,7 +77,9 @@ Tapping on a link will take you to relevant materials.
                     - [ ] `JSON`
                     - [ ] XML
                     - [ ] Protobuf
+            - [ ] UserNotifications
             - [ ] [Core Location](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Core_Location/RESOURCES.md)
+            - [ ] [Core Motion](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Core_Motion/RESOURCES.md)
             - [ ] [`Work in background mode`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Work_in_background_mode/RESOURCES.md)
         - [ ] `Software Architecture`
             - [ ] `Design Patterns`
@@ -89,6 +90,7 @@ Tapping on a link will take you to relevant materials.
                     - [ ] `Clean architecture`
                         - [ ] [VIPER](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/Clean_architecture/VIPER/RESOURCES.md)
                         - [ ] [RIBs](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/Clean_architecture/RIBs/RESOURCES.md)
+                    - [ ] [Coordinators](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/Coordinators/RESOURCES.md)
                 - [ ] `Creational`
                     - [ ] [`Singleton`](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Creational/Singleton/RESOURCES.md)
                     - [ ] Factory
@@ -102,6 +104,7 @@ Tapping on a link will take you to relevant materials.
                 - [ ] `Inversion of Control`
                     - [ ] [`Dependency Injection`](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Principles/Inversion_of_Control/Dependency_Injection/RESOURCES.md)
                     - [ ] Service Locator
+                - [ ] [Protocol-Oriented Programming](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Principles/Protocol-Oriented_Programming/RESOURCES.md)
             - [ ] Object-Oriented Programming
             - [ ] Functional programming
                 - [ ] Functional Reactive Programming Frameworks

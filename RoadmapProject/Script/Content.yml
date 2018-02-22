@@ -135,7 +135,6 @@
                             - "Screen navigation in iOS": "https://badootech.badoo.com/screen-navigation-in-ios-dd99b09228b2"
                 - UIViewController^:
                     - Lifecycle^:
-                - UserNotifications:
             - Foundation^:
                 - Notifications vs Delegation vs observing^:
                     - RESOURCES:
@@ -152,10 +151,18 @@
                     - JSON^:
                     - XML:
                     - Protobuf:
+            - UserNotifications:
             - Core Location:
                 - RESOURCES:
                     - Articles: 
                         - "iOS Location Tracking": "https://badootech.badoo.com/ios-location-tracking-aac4e2323629"
+            - Core Motion:
+                - RESOURCES:
+                    - Documentation: 
+                        - "Core Motion": "https://developer.apple.com/documentation/coremotion"
+                    - WWDC:
+                        - "Health and Fitness with Core Motion": "https://developer.apple.com/videos/play/wwdc2016/713/"
+                        - "Creating Immersive Apps with Core Motion": "https://developer.apple.com/videos/play/wwdc2017/704/"
             - Work in background mode^:
                 - RESOURCES:
                     - Articles:
@@ -188,6 +195,11 @@
                             - RESOURCES:
                                 - Articles:
                                     - "RIBs": "https://eng.uber.com/new-rider-app/"
+                    - Coordinators:
+                        - RESOURCES:
+                            - Articles:
+                                - "Coordinators Redux": "http://khanlou.com/2015/10/coordinators-redux/"
+                                - "Advanced Coordinators": "http://khanlou.com/tag/advanced-coordinators/"
                 - Creational^:
                     - Singleton^:
                         - RESOURCES:
@@ -207,6 +219,10 @@
                             - Articles:
                                 - "Dependency Injection": "https://www.objc.io/issues/15-testing/dependency-injection/"
                     - Service Locator:
+                - Protocol-Oriented Programming:
+                    - RESOURCES:
+                        - WWDC:
+                            - "Protocol-Oriented Programming in Swift": "https://developer.apple.com/videos/play/wwdc2015/408/"
             - Object-Oriented Programming:
             - Functional programming:
                 - Functional Reactive Programming Frameworks:
