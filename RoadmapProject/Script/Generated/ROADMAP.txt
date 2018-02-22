@@ -352,13 +352,10 @@ You -|> (iOS Developer)
 (iOS Developer->Computer Science knowledge) -up-> (iOS Developer->Computer Science knowledge->System design)
 (iOS Developer->Computer Science knowledge->System design) -up-> (iOS Developer->Computer Science knowledge->System design->Problems)
 
-
-legend right
-<<^>> - for essential topics
-endlegend
 skinparam Shadowing false
 skinparam Padding 0
 skinparam BackgroundColor White
+
 skinparam Actor {
     BackgroundColor #F5F0F2
     BorderColor #17468A
@@ -367,10 +364,12 @@ skinparam Actor {
     FontSize 30
     FontStyle Bold
 }
+
 skinparam Arrow {
     Thickness 3
     Color #17468A
 }
+
 skinparam usecase {
     BorderThickness 3
     BackgroundColor #F5F0F2
@@ -380,4 +379,7 @@ skinparam usecase {
     FontStyle Bold
     FontSize 20
 }
+legend right
+<<^>> - for essential topics
+endlegend
 @enduml
