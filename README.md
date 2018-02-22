@@ -48,7 +48,7 @@ Roadmap of essential topics. Roadmap for all topics is [here.](RoadmapProject/Sc
 - [x] content file with topics and materials
 - [x] ability to generate README.md from the content file
 - [x] ability to generate Roadmap tree image from the content file
-- [ ] make generation scipt less miserable:
+- [ ] make generation script less miserable:
 	- [x] make it readable 🤦
 	- [ ] output Yaml format violation errors
 	- [ ] handle errors of parsing Yaml into Topics and Resources
