@@ -15,15 +15,15 @@ left to right direction
 (Method messaging) as (iOS Developer->Practical knowledge->Languages->Objective-C->Runtime->Method messaging)
 (Swizling) as (iOS Developer->Practical knowledge->Languages->Objective-C->Runtime->Swizling)
 (NSZombies and KVO implementation) as (iOS Developer->Practical knowledge->Languages->Objective-C->Runtime->NSZombies and KVO implementation)
-(Swift) as (iOS Developer->Practical knowledge->Swift) <<^>> 
-(Closures) as (iOS Developer->Practical knowledge->Swift->Closures)
-(Initializers) as (iOS Developer->Practical knowledge->Swift->Initializers) <<^>> 
-(Generics) as (iOS Developer->Practical knowledge->Swift->Generics)
-(Protocols) as (iOS Developer->Practical knowledge->Swift->Protocols) <<^>> 
-(Structs) as (iOS Developer->Practical knowledge->Swift->Structs) <<^>> 
-(Enums) as (iOS Developer->Practical knowledge->Swift->Enums) <<^>> 
-(Runtime) as (iOS Developer->Practical knowledge->Swift->Runtime)
-(Method dispatch) as (iOS Developer->Practical knowledge->Swift->Runtime->Method dispatch)
+(Swift) as (iOS Developer->Practical knowledge->Languages->Swift) <<^>> 
+(Closures) as (iOS Developer->Practical knowledge->Languages->Swift->Closures)
+(Initializers) as (iOS Developer->Practical knowledge->Languages->Swift->Initializers) <<^>> 
+(Generics) as (iOS Developer->Practical knowledge->Languages->Swift->Generics)
+(Protocols) as (iOS Developer->Practical knowledge->Languages->Swift->Protocols) <<^>> 
+(Structs) as (iOS Developer->Practical knowledge->Languages->Swift->Structs) <<^>> 
+(Enums) as (iOS Developer->Practical knowledge->Languages->Swift->Enums) <<^>> 
+(Runtime) as (iOS Developer->Practical knowledge->Languages->Swift->Runtime)
+(Method dispatch) as (iOS Developer->Practical knowledge->Languages->Swift->Runtime->Method dispatch)
 (Memory management) as (iOS Developer->Practical knowledge->Memory management) <<^>> 
 (Stack and Heap) as (iOS Developer->Practical knowledge->Memory management->Stack and Heap) <<^>> 
 (Value vs Reference type) as (iOS Developer->Practical knowledge->Memory management->Value vs Reference type) <<^>> 
@@ -188,15 +188,15 @@ You -|> (iOS Developer)
 (iOS Developer->Practical knowledge->Languages->Objective-C->Runtime) -down-> (iOS Developer->Practical knowledge->Languages->Objective-C->Runtime->Method messaging)
 (iOS Developer->Practical knowledge->Languages->Objective-C->Runtime) -down-> (iOS Developer->Practical knowledge->Languages->Objective-C->Runtime->Swizling)
 (iOS Developer->Practical knowledge->Languages->Objective-C->Runtime) -down-> (iOS Developer->Practical knowledge->Languages->Objective-C->Runtime->NSZombies and KVO implementation)
-(iOS Developer->Practical knowledge) -down-> (iOS Developer->Practical knowledge->Swift)
-(iOS Developer->Practical knowledge->Swift) -down-> (iOS Developer->Practical knowledge->Swift->Closures)
-(iOS Developer->Practical knowledge->Swift) -down-> (iOS Developer->Practical knowledge->Swift->Initializers)
-(iOS Developer->Practical knowledge->Swift) -down-> (iOS Developer->Practical knowledge->Swift->Generics)
-(iOS Developer->Practical knowledge->Swift) -down-> (iOS Developer->Practical knowledge->Swift->Protocols)
-(iOS Developer->Practical knowledge->Swift) -down-> (iOS Developer->Practical knowledge->Swift->Structs)
-(iOS Developer->Practical knowledge->Swift) -down-> (iOS Developer->Practical knowledge->Swift->Enums)
-(iOS Developer->Practical knowledge->Swift) -down-> (iOS Developer->Practical knowledge->Swift->Runtime)
-(iOS Developer->Practical knowledge->Swift->Runtime) -down-> (iOS Developer->Practical knowledge->Swift->Runtime->Method dispatch)
+(iOS Developer->Practical knowledge->Languages) -down-> (iOS Developer->Practical knowledge->Languages->Swift)
+(iOS Developer->Practical knowledge->Languages->Swift) -down-> (iOS Developer->Practical knowledge->Languages->Swift->Closures)
+(iOS Developer->Practical knowledge->Languages->Swift) -down-> (iOS Developer->Practical knowledge->Languages->Swift->Initializers)
+(iOS Developer->Practical knowledge->Languages->Swift) -down-> (iOS Developer->Practical knowledge->Languages->Swift->Generics)
+(iOS Developer->Practical knowledge->Languages->Swift) -down-> (iOS Developer->Practical knowledge->Languages->Swift->Protocols)
+(iOS Developer->Practical knowledge->Languages->Swift) -down-> (iOS Developer->Practical knowledge->Languages->Swift->Structs)
+(iOS Developer->Practical knowledge->Languages->Swift) -down-> (iOS Developer->Practical knowledge->Languages->Swift->Enums)
+(iOS Developer->Practical knowledge->Languages->Swift) -down-> (iOS Developer->Practical knowledge->Languages->Swift->Runtime)
+(iOS Developer->Practical knowledge->Languages->Swift->Runtime) -down-> (iOS Developer->Practical knowledge->Languages->Swift->Runtime->Method dispatch)
 (iOS Developer->Practical knowledge) -down-> (iOS Developer->Practical knowledge->Memory management)
 (iOS Developer->Practical knowledge->Memory management) -down-> (iOS Developer->Practical knowledge->Memory management->Stack and Heap)
 (iOS Developer->Practical knowledge->Memory management) -down-> (iOS Developer->Practical knowledge->Memory management->Value vs Reference type)

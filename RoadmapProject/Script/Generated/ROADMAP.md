@@ -17,15 +17,15 @@ Tapping on a link will take you to relevant materials.
                     - [ ] Method messaging
                     - [ ] Swizling
                     - [ ] NSZombies and KVO implementation
-        - [ ] [`Swift`](Resources/iOS_Developer/Practical_knowledge/Swift/RESOURCES.md)
-            - [ ] Closures
-            - [ ] `Initializers`
-            - [ ] Generics
-            - [ ] `Protocols`
-            - [ ] `Structs`
-            - [ ] `Enums`
-            - [ ] Runtime
-                - [ ] [Method dispatch](Resources/iOS_Developer/Practical_knowledge/Swift/Runtime/Method_dispatch/RESOURCES.md)
+            - [ ] [`Swift`](Resources/iOS_Developer/Practical_knowledge/Languages/Swift/RESOURCES.md)
+                - [ ] Closures
+                - [ ] `Initializers`
+                - [ ] Generics
+                - [ ] `Protocols`
+                - [ ] `Structs`
+                - [ ] `Enums`
+                - [ ] Runtime
+                    - [ ] [Method dispatch](Resources/iOS_Developer/Practical_knowledge/Languages/Swift/Runtime/Method_dispatch/RESOURCES.md)
         - [ ] `Memory management`
             - [ ] [`Stack and Heap`](Resources/iOS_Developer/Practical_knowledge/Memory_management/Stack_and_Heap/RESOURCES.md)
             - [ ] `Value vs Reference type`
