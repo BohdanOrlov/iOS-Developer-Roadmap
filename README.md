@@ -54,7 +54,7 @@ Roadmap of essential topics. Roadmap for all topics is [here.](RoadmapProject/Sc
 	- [ ] handle errors of parsing Yaml into Topics and Resources
 	- [ ] handle file read/write errors
 	- [ ] handle image generation errors
-
+- [ ] run the script automaticaly on PRs if the content file is changed
 ## License
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)

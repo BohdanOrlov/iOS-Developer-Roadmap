@@ -92,13 +92,34 @@ Tapping on a link will take you to relevant materials.
                         - [ ] [RIBs](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/Clean_architecture/RIBs/RESOURCES.md)
                     - [ ] [Coordinators](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/Coordinators/RESOURCES.md)
                 - [ ] `Creational`
-                    - [ ] [`Singleton`](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Creational/Singleton/RESOURCES.md)
                     - [ ] Factory
                     - [ ] Abstract Factory
-                - [ ] Structural
-                - [ ] Behavioural
+                    - [ ] Builder
+                    - [ ] Factory Method
+                    - [ ] Object Pool
+                    - [ ] Prototype
+                    - [ ] [Singleton](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Creational/Singleton/RESOURCES.md)
+                - [ ] `Structural`
+                    - [ ] Adapter
+                    - [ ] Bridge
+                    - [ ] Composite
+                    - [ ] Decorator
+                    - [ ] Facade
+                    - [ ] Flyweight
+                    - [ ] Proxy
+                - [ ] `Behavioural`
+                    - [ ] Chain of responsibility
+                    - [ ] Command
+                    - [ ] Interpreter
+                    - [ ] Iterator
+                    - [ ] Mediator
+                    - [ ] Memento
                     - [ ] Observer
+                    - [ ] State
+                    - [ ] Strategy
+                    - [ ] Visitor
                 - [ ] Concurrency
+                    - [ ] Anti-pattern
             - [ ] `Design Principles`
                 - [ ] `SOLID`
                 - [ ] `Inversion of Control`
@@ -148,6 +169,7 @@ Tapping on a link will take you to relevant materials.
             - [ ] Keychain
             - [ ] Security Transforms API
         - [ ] tvOS
+            - [ ] [Focus interactions](Resources/iOS_Developer/Practical_knowledge/tvOS/Focus_interactions/RESOURCES.md)
         - [ ] WatchKit
     - [ ] `Computer Science knowledge`
         - [ ] [`Algorithms`](Resources/iOS_Developer/Computer_Science_knowledge/Algorithms/RESOURCES.md)

@@ -204,17 +204,16 @@
                                 - "Coordinators Redux": "http://khanlou.com/2015/10/coordinators-redux/"
                                 - "Advanced Coordinators": "http://khanlou.com/tag/advanced-coordinators/"
                 - Creational^:
+                    - Factory:
                     - Abstract Factory:
                     - Builder:
                     - Factory Method:
                     - Object Pool:
                     - Prototype:
-                    - Singleton^:
+                    - Singleton:
                         - RESOURCES:
                             - Articles:
                                 - "Singletons": "https://thatthinginswift.com/singletons/"
-                    - Factory:
-                    - Abstract Factory:
                 - Structural^:
                     - Adapter:
                     - Bridge:
@@ -234,8 +233,8 @@
                     - State:
                     - Strategy:
                     - Visitor:
-                - AntiPatterns:
                 - Concurrency:
+                    - Anti-pattern:
             - Design Principles^:
                 - SOLID^:
                 - Inversion of Control^:
@@ -305,7 +304,7 @@
             - Focus interactions:
                 - RESOURCES:
                     - Articles:
-                        - "Focus-Driven Interfaces with UIKit" : "https://developer.apple.com/videos/play/techtalks-apple-tv/3/"
+                        - "Focus-Driven Interfaces with UIKit": "https://developer.apple.com/videos/play/techtalks-apple-tv/3/"
         - WatchKit:
     - Computer Science knowledge^:
         - Algorithms^:
