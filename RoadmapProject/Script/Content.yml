@@ -201,15 +201,37 @@
                                 - "Coordinators Redux": "http://khanlou.com/2015/10/coordinators-redux/"
                                 - "Advanced Coordinators": "http://khanlou.com/tag/advanced-coordinators/"
                 - Creational^:
+                    - Abstract Factory:
+                    - Builder:
+                    - Factory Method:
+                    - Object Pool:
+                    - Prototype:
                     - Singleton^:
                         - RESOURCES:
                             - Articles:
                                 - "Singletons": "https://thatthinginswift.com/singletons/"
                     - Factory:
                     - Abstract Factory:
-                - Structural:
-                - Behavioural:
+                - Structural^:
+                    - Adapter:
+                    - Bridge:
+                    - Composite:
+                    - Decorator:
+                    - Facade:
+                    - Flyweight:
+                    - Proxy:
+                - Behavioural^:
+                    - Chain of responsibility:
+                    - Command:
+                    - Interpreter:
+                    - Iterator:
+                    - Mediator:
+                    - Memento:
                     - Observer:
+                    - State:
+                    - Strategy:
+                    - Visitor:
+                - AntiPatterns:
                 - Concurrency:
             - Design Principles^:
                 - SOLID^:
