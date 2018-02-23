@@ -13,8 +13,8 @@ left to right direction
 (Toll-free bridging) as (iOS Developer->Practical knowledge->Languages->Objective-C->Toll-free bridging)
 (Runtime) as (iOS Developer->Practical knowledge->Languages->Objective-C->Runtime) <<^>> 
 (Method messaging) as (iOS Developer->Practical knowledge->Languages->Objective-C->Runtime->Method messaging)
-(Swizling) as (iOS Developer->Practical knowledge->Languages->Objective-C->Runtime->Swizling)
 (NSZombies and KVO implementation) as (iOS Developer->Practical knowledge->Languages->Objective-C->Runtime->NSZombies and KVO implementation)
+(Swizzling) as (iOS Developer->Practical knowledge->Languages->Objective-C->Runtime->Swizzling)
 (Swift) as (iOS Developer->Practical knowledge->Languages->Swift) <<^>> 
 (Closures) as (iOS Developer->Practical knowledge->Languages->Swift->Closures)
 (Initializers) as (iOS Developer->Practical knowledge->Languages->Swift->Initializers) <<^>> 
@@ -189,8 +189,8 @@ You -|> (iOS Developer)
 (iOS Developer->Practical knowledge->Languages->Objective-C) -down-> (iOS Developer->Practical knowledge->Languages->Objective-C->Toll-free bridging)
 (iOS Developer->Practical knowledge->Languages->Objective-C) -down-> (iOS Developer->Practical knowledge->Languages->Objective-C->Runtime)
 (iOS Developer->Practical knowledge->Languages->Objective-C->Runtime) -down-> (iOS Developer->Practical knowledge->Languages->Objective-C->Runtime->Method messaging)
-(iOS Developer->Practical knowledge->Languages->Objective-C->Runtime) -down-> (iOS Developer->Practical knowledge->Languages->Objective-C->Runtime->Swizling)
 (iOS Developer->Practical knowledge->Languages->Objective-C->Runtime) -down-> (iOS Developer->Practical knowledge->Languages->Objective-C->Runtime->NSZombies and KVO implementation)
+(iOS Developer->Practical knowledge->Languages->Objective-C->Runtime) -down-> (iOS Developer->Practical knowledge->Languages->Objective-C->Runtime->Swizzling)
 (iOS Developer->Practical knowledge->Languages) -down-> (iOS Developer->Practical knowledge->Languages->Swift)
 (iOS Developer->Practical knowledge->Languages->Swift) -down-> (iOS Developer->Practical knowledge->Languages->Swift->Closures)
 (iOS Developer->Practical knowledge->Languages->Swift) -down-> (iOS Developer->Practical knowledge->Languages->Swift->Initializers)
