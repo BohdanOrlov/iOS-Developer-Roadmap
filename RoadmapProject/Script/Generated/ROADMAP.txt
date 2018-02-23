@@ -42,7 +42,7 @@ left to right direction
 (GCD) as (iOS Developer->Practical knowledge->Multithreading and concurency->GCD) <<^>> 
 (NSOperation[Queue]) as (iOS Developer->Practical knowledge->Multithreading and concurency->NSOperation[Queue]) <<^>> 
 (Runloop) as (iOS Developer->Practical knowledge->Multithreading and concurency->Runloop) <<^>> 
-(Synchronisation) as (iOS Developer->Practical knowledge->Multithreading and concurency->Synchronisation) <<^>> 
+(Synchronization) as (iOS Developer->Practical knowledge->Multithreading and concurency->Synchronization) <<^>> 
 (Problems) as (iOS Developer->Practical knowledge->Multithreading and concurency->Problems)
 (Race condition) as (iOS Developer->Practical knowledge->Multithreading and concurency->Problems->Race condition)
 (Deadlock) as (iOS Developer->Practical knowledge->Multithreading and concurency->Problems->Deadlock)
@@ -240,7 +240,7 @@ You -|> (iOS Developer)
 (iOS Developer->Practical knowledge->Multithreading and concurency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->GCD)
 (iOS Developer->Practical knowledge->Multithreading and concurency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->NSOperation[Queue])
 (iOS Developer->Practical knowledge->Multithreading and concurency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->Runloop)
-(iOS Developer->Practical knowledge->Multithreading and concurency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->Synchronisation)
+(iOS Developer->Practical knowledge->Multithreading and concurency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->Synchronization)
 (iOS Developer->Practical knowledge->Multithreading and concurency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->Problems)
 (iOS Developer->Practical knowledge->Multithreading and concurency->Problems) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->Problems->Race condition)
 (iOS Developer->Practical knowledge->Multithreading and concurency->Problems) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->Problems->Deadlock)

@@ -44,7 +44,7 @@ Tapping on a link will take you to relevant materials.
             - [ ] [`GCD`](Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurency/GCD/RESOURCES.md)
             - [ ] [`NSOperation(Queue)`](Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurency/NSOperation(Queue)/RESOURCES.md)
             - [ ] [`Runloop`](Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurency/Runloop/RESOURCES.md)
-            - [ ] [`Synchronisation`](Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurency/Synchronisation/RESOURCES.md)
+            - [ ] [`Synchronization`](Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurency/Synchronization/RESOURCES.md)
             - [ ] Problems
                 - [ ] Race condition
                 - [ ] Deadlock

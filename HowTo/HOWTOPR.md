@@ -4,7 +4,7 @@
 
 ![Content screenshot](CONTENTSCREENSHOT.png)
 
-1. Go to `Roadmap Project/Script`
+1. Go to `RoadmapProject/Script`
 1. Open `Content.yml`, add topics or links to materials
 1. Run `main.swift`
 1. Commit and push all generated files and changes
