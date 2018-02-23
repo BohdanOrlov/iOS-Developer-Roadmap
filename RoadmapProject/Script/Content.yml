@@ -87,7 +87,7 @@
                 - RESOURCES:
                     - Articles:
                         - "Run Loops": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html"
-            - Synchronisation^:
+            - Synchronization^:
                 - RESOURCES:
                     - Articles:
                         - "Synchronization": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Multithreading/ThreadSafety/ThreadSafety.html"
