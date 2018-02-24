@@ -77,7 +77,7 @@ Tapping on a link will take you to relevant materials.
                     - [ ] `JSON`
                     - [ ] XML
                     - [ ] Protobuf
-            - [ ] UserNotifications
+            - [X] UserNotifications
             - [ ] [Core Location](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Core_Location/RESOURCES.md)
             - [ ] [Core Motion](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Core_Motion/RESOURCES.md)
             - [ ] [`Work in background mode`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Work_in_background_mode/RESOURCES.md)
