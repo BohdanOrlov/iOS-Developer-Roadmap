@@ -185,6 +185,29 @@
                         - "Background Modes Tutorial: Getting Started": "https://www.raywenderlich.com/143128/background-modes-tutorial-getting-started"
         - Software Architecture^:
             - Design Patterns^:
+                - Cocoa^:
+                    - RESOURCES:
+                        - Articles:
+                            - "Cocoa Design Patterns": "https://developer.apple.com/legacy/library/documentation/Cocoa/Conceptual/CocoaFundamentals/CocoaDesignPatterns/CocoaDesignPatterns.html"
+                    - Abstract Factory:
+                        - Class cluster:
+                                - RESOURCES:
+                                    - Articles:
+                                        - "Class Clusters": "https://developer.apple.com/legacy/library/documentation/Cocoa/Conceptual/CocoaFundamentals/CocoaObjects/CocoaObjects.html#//apple_ref/doc/uid/TP40002974-CH4-SW34"
+                    - Adapter:
+                    - Command Pattern:
+                    - Chain of Responsibility:
+                    - Decorator:
+                        - Delegation:
+                        - Categories:
+                    - Facade:
+                    - Memento:
+                    - Observer:
+                    - Proxy:
+                    - Receptionist:
+                    - Singleton:
+                    - Template Method:
+                    - MVC:
                 - Architectural^:
                     - RESOURCES:
                         - Articles:
@@ -350,6 +373,7 @@
             - Set^:
             - Multiset (Bag):
             - Graph^:
+                - Tree:
             - Queue^:
             - Priority Queue:
             - Double-ended priority queue:

@@ -81,6 +81,23 @@ left to right direction
 (Work in background mode) as (iOS Developer->Practical knowledge->Cocoa Touch->Work in background mode) <<^>> 
 (Software Architecture) as (iOS Developer->Practical knowledge->Software Architecture) <<^>> 
 (Design Patterns) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns) <<^>> 
+(Cocoa) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa) <<^>> 
+(Abstract Factory) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Abstract Factory)
+(Class cluster) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Abstract Factory->Class cluster)
+(Adapter) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Adapter)
+(Command Pattern) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Command Pattern)
+(Chain of Responsibility) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Chain of Responsibility)
+(Decorator) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Decorator)
+(Delegation) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Decorator->Delegation)
+(Categories) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Decorator->Categories)
+(Facade) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Facade)
+(Memento) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Memento)
+(Observer) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Observer)
+(Proxy) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Proxy)
+(Receptionist) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Receptionist)
+(Singleton) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Singleton)
+(Template Method) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Template Method)
+(MVC) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->MVC)
 (Architectural) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Architectural) <<^>> 
 (MVC) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Architectural->MVC) <<^>> 
 (MVVM) as (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Architectural->MVVM) <<^>> 
@@ -191,6 +208,7 @@ left to right direction
 (Set) as (iOS Developer->Computer Science knowledge->Abstract Data Types->Set) <<^>> 
 (Multiset [Bag]) as (iOS Developer->Computer Science knowledge->Abstract Data Types->Multiset [Bag])
 (Graph) as (iOS Developer->Computer Science knowledge->Abstract Data Types->Graph) <<^>> 
+(Tree) as (iOS Developer->Computer Science knowledge->Abstract Data Types->Graph->Tree)
 (Queue) as (iOS Developer->Computer Science knowledge->Abstract Data Types->Queue) <<^>> 
 (Priority Queue) as (iOS Developer->Computer Science knowledge->Abstract Data Types->Priority Queue)
 (Double-ended priority queue) as (iOS Developer->Computer Science knowledge->Abstract Data Types->Double-ended priority queue)
@@ -279,6 +297,23 @@ You -|> (iOS Developer)
 (iOS Developer->Practical knowledge->Cocoa Touch) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->Work in background mode)
 (iOS Developer->Practical knowledge) -down-> (iOS Developer->Practical knowledge->Software Architecture)
 (iOS Developer->Practical knowledge->Software Architecture) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns)
+(iOS Developer->Practical knowledge->Software Architecture->Design Patterns) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa)
+(iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Abstract Factory)
+(iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Abstract Factory) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Abstract Factory->Class cluster)
+(iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Adapter)
+(iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Command Pattern)
+(iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Chain of Responsibility)
+(iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Decorator)
+(iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Decorator) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Decorator->Delegation)
+(iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Decorator) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Decorator->Categories)
+(iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Facade)
+(iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Memento)
+(iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Observer)
+(iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Proxy)
+(iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Receptionist)
+(iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Singleton)
+(iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->Template Method)
+(iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Cocoa->MVC)
 (iOS Developer->Practical knowledge->Software Architecture->Design Patterns) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Architectural)
 (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Architectural) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Architectural->MVC)
 (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Architectural) -down-> (iOS Developer->Practical knowledge->Software Architecture->Design Patterns->Architectural->MVVM)
@@ -389,6 +424,7 @@ You -|> (iOS Developer)
 (iOS Developer->Computer Science knowledge->Abstract Data Types) -up-> (iOS Developer->Computer Science knowledge->Abstract Data Types->Set)
 (iOS Developer->Computer Science knowledge->Abstract Data Types) -up-> (iOS Developer->Computer Science knowledge->Abstract Data Types->Multiset [Bag])
 (iOS Developer->Computer Science knowledge->Abstract Data Types) -up-> (iOS Developer->Computer Science knowledge->Abstract Data Types->Graph)
+(iOS Developer->Computer Science knowledge->Abstract Data Types->Graph) -up-> (iOS Developer->Computer Science knowledge->Abstract Data Types->Graph->Tree)
 (iOS Developer->Computer Science knowledge->Abstract Data Types) -up-> (iOS Developer->Computer Science knowledge->Abstract Data Types->Queue)
 (iOS Developer->Computer Science knowledge->Abstract Data Types) -up-> (iOS Developer->Computer Science knowledge->Abstract Data Types->Priority Queue)
 (iOS Developer->Computer Science knowledge->Abstract Data Types) -up-> (iOS Developer->Computer Science knowledge->Abstract Data Types->Double-ended priority queue)

@@ -83,6 +83,23 @@ Tapping on a link will take you to relevant materials.
             - [ ] [`Work in background mode`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Work_in_background_mode/RESOURCES.md)
         - [ ] `Software Architecture`
             - [ ] `Design Patterns`
+                - [ ] [`Cocoa`](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Cocoa/RESOURCES.md)
+                    - [ ] Abstract Factory
+                        - [ ] [Class cluster](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Cocoa/Abstract_Factory/Class_cluster/RESOURCES.md)
+                    - [ ] Adapter
+                    - [ ] Command Pattern
+                    - [ ] Chain of Responsibility
+                    - [ ] Decorator
+                        - [ ] Delegation
+                        - [ ] Categories
+                    - [ ] Facade
+                    - [ ] Memento
+                    - [ ] Observer
+                    - [ ] Proxy
+                    - [ ] Receptionist
+                    - [ ] Singleton
+                    - [ ] Template Method
+                    - [ ] MVC
                 - [ ] [`Architectural`](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/RESOURCES.md)
                     - [ ] [`MVC`](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/MVC/RESOURCES.md)
                     - [ ] [`MVVM`](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/MVVM/RESOURCES.md)
@@ -193,6 +210,7 @@ Tapping on a link will take you to relevant materials.
             - [ ] `Set`
             - [ ] Multiset (Bag)
             - [ ] `Graph`
+                - [ ] Tree
             - [ ] `Queue`
             - [ ] Priority Queue
             - [ ] Double-ended priority queue
