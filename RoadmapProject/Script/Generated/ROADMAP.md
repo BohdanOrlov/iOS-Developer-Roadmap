@@ -19,8 +19,8 @@ Tapping on a link will take you to relevant materials.
                     - [ ] [Swizzling](Resources/iOS_Developer/Practical_knowledge/Languages/Objective-C/Runtime/Swizzling/RESOURCES.md)
             - [ ] [`Swift`](Resources/iOS_Developer/Practical_knowledge/Languages/Swift/RESOURCES.md)
                 - [ ] Closures
-                - [ ] `Initializers`
-                - [ ] Generics
+                - [ ] [`Initializers`](Resources/iOS_Developer/Practical_knowledge/Languages/Swift/Initializers/RESOURCES.md)
+                - [ ] [Generics](Resources/iOS_Developer/Practical_knowledge/Languages/Swift/Generics/RESOURCES.md)
                 - [ ] `Protocols`
                 - [ ] `Structs`
                 - [ ] `Enums`

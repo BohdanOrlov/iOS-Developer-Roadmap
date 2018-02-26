@@ -35,11 +35,20 @@
                     - Books:
                         - "The Swift Programming Language": "https://itunes.apple.com/gb/book/the-swift-programming-language-swift-4-0-3/id881256329"
                         - "Advanced Swift": "https://www.objc.io/books/advanced-swift/"
+                        - "Swift Apprentice": "https://store.raywenderlich.com/products/swift-apprentice?_ga=2.74566868.712179774.1519384552-896491817.1510924963"
                     - Blogs:
                         - "SWIFT BY SUNDELL": "https://www.swiftbysundell.com/"
                 - Closures:
                 - Initializers^:
+                    - RESOURCES:
+                        - Articles:
+                            - "Initialization In Depth, Part 1/2": "https://www.raywenderlich.com/119922/swift-tutorial-initialization-part-1"
+                            - "Initialization In Depth, Part 2/2": "https://www.raywenderlich.com/121603/swift-tutorial-initialization-part-2"
                 - Generics:
+                    - RESOURCES:
+                        - Articles:
+                            - "Swift Generics Tutorial: Getting Started": "https://www.raywenderlich.com/154371/swift-generics-tutorial-getting-started"
+                            - "The Swift Programming Language: Generics": "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Generics.html"
                 - Protocols^:
                 - Structs^:
                 - Enums^:
@@ -79,6 +88,8 @@
                 - RESOURCES:
                     - Articles:
                         - "Grand Central Dispatch In-Depth: Part 1/2": "https://www.raywenderlich.com/60749/grand-central-dispatch-in-depth-part-1"
+                    - Courses:
+                        - "Grand Central Dispatch GCD": "https://eg.udacity.com/course/grand-central-dispatch-gcd--ud576"
             - NSOperation(Queue)^:
                 - RESOURCES:
                     - Articles:
@@ -100,6 +111,8 @@
                 - RESOURCES:
                     - Articles:
                         - "How to make friends with UIKit": "https://badootech.badoo.com/how-to-make-friends-with-uikit-934ea431ffef"
+                    - Courses:
+                        - "UIKit fundamentals": "https://eg.udacity.com/course/uikit-fundamentals--ud788"
                 - UIApplication^:
                     - States^:
                         - RESOURCES:
