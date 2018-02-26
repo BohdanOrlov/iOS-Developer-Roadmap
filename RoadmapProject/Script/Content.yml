@@ -125,7 +125,10 @@
                         - RESOURCES:
                             - Articles:
                                 - "The Ultimate Guide To IOS AutoLayout": "https://digitalleaves.com/ultimate-guide-autolayout/"
+                                - "Understanding Autolayout Constraints In Depth": "https://medium.com/@ravi.aggarwal61/understanding-auto-layout-constraints-part-1-844474e81d1e"
                         - UIStackView:
+                            - Articles:
+                                - "Introduction To UIStackView": "https://www.raywenderlich.com/160646/uistackview-tutorial-introducing-stack-views-2"
                 - Animations:
                     - RESOURCES:
                         - Articles:
@@ -151,6 +154,9 @@
                 - Serialization^:
                     - NSCoding:
                     - Codable^:
+                        - RESOURCES:
+                            - Articles:
+                                - "Swift Codability": "https://medium.com/@ravi.aggarwal61/swift-codability-d0d232065cad"
                     - JSON^:
                     - XML:
                     - Protobuf:
