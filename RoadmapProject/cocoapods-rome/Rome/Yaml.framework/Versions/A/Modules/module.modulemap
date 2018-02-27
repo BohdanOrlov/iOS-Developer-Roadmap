@@ -1,0 +1,11 @@
+framework module Yaml {
+  umbrella header "Yaml-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Yaml.Swift {
+    header "Yaml-Swift.h"
+    requires objc
+}
