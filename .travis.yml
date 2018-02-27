@@ -1,7 +1,7 @@
 language: swift
 osx_image: xcode9.2
 
-script: generateAll.sh
+script: ./generateAll.sh
 
 deploy:
   provider: pages
