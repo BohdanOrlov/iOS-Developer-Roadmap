@@ -1,9 +1,0 @@
-# Podfile used by cocoapods-rome
-
-platform :osx, '10.12'
-
-plugin 'cocoapods-rome'
-
-target 'caesar' do
-pod 'Yaml'
-end

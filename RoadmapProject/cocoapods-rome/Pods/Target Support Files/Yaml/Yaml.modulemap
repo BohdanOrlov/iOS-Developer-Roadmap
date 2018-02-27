@@ -1,6 +1,0 @@
-framework module Yaml {
-  umbrella header "Yaml-umbrella.h"
-
-  export *
-  module * { export * }
-}
