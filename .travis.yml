@@ -1,6 +1,12 @@
 language: swift
 osx_image: xcode9.2
 
+install:
+  - brew install libtool
+  - brew link libtool
+  - brew install graphviz
+  - brew link --overwrite graphviz
+
 script: ./generateAll.sh
 
 deploy:
