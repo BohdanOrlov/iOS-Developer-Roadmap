@@ -1,6 +1,6 @@
 ![Header image](headerImage.png)
-# 🚀 iOS Developer Roadmap
-Roadmap to becoming an iOS developer in 2018
+# 🚀 iOS Developer Roadmap 
+Roadmap to becoming an iOS developer in 2018.
 
 ## ☝️ What is it?
 This is a tree-like compilation of topics highly relevant to iOS development. Both image and text version are generated from human readable content file.
@@ -28,7 +28,7 @@ See [this article](https://medium.com/@borlov/c9a24f413457) explainig selection 
 
 Start from `Getting started` section if you haven't done any iOS development yet.
 
-## 🗺 Image version
+## 🗺 Image version 
 Roadmap of essential topics. Roadmap for all topics is [here.](RoadmapProject/Script/Generated/ROADMAP.png)
 ![Header image](RoadmapProject/Script/Generated/ESSENTIALROADMAP.png)
 
@@ -59,6 +59,9 @@ Roadmap of essential topics. Roadmap for all topics is [here.](RoadmapProject/Sc
 - [ ] automatic validation of content format on PR
 - [ ] make sure Travis doesn't deploy if generation script fails
 
-## License
+## ⚙️ Generation status
+[![Travis](https://travis-ci.org/BohdanOrlov/iOS-Developer-Roadmap.svg?branch=master)](https://travis-ci.org/BohdanOrlov/iOS-Developer-Roadmap)
+
+## 📃 License
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
