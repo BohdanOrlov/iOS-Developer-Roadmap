@@ -60,6 +60,8 @@ left to right direction
 (Frame-based) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Frame-based) <<^>> 
 (Autolayout) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Autolayout) <<^>> 
 (UIStackView) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Autolayout->UIStackView)
+(Articles) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Autolayout->UIStackView->Articles)
+(Introduction To UIStackView) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Autolayout->UIStackView->Articles->Introduction To UIStackView)
 (Animations) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Animations)
 (Transform) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Transform)
 (Navigation) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Navigation) <<^>> 
@@ -276,6 +278,8 @@ You -|> (iOS Developer)
 (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Frame-based)
 (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Autolayout)
 (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Autolayout) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Autolayout->UIStackView)
+(iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Autolayout->UIStackView) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Autolayout->UIStackView->Articles)
+(iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Autolayout->UIStackView->Articles) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Autolayout->UIStackView->Articles->Introduction To UIStackView)
 (iOS Developer->Practical knowledge->Cocoa Touch->UIKit) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Animations)
 (iOS Developer->Practical knowledge->Cocoa Touch->UIKit) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Transform)
 (iOS Developer->Practical knowledge->Cocoa Touch->UIKit) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Navigation)

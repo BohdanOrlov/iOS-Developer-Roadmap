@@ -62,6 +62,8 @@ Tapping on a link will take you to relevant materials.
                     - [ ] [`Frame-based`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Layout/Frame-based/RESOURCES.md)
                     - [ ] [`Autolayout`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Layout/Autolayout/RESOURCES.md)
                         - [ ] UIStackView
+                            - [ ] Articles
+                                - [ ] Introduction To UIStackView
                 - [ ] [Animations](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Animations/RESOURCES.md)
                 - [ ] Transform
                 - [ ] [`Navigation`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Navigation/RESOURCES.md)
@@ -73,7 +75,7 @@ Tapping on a link will take you to relevant materials.
                 - [ ] [`Networking`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Foundation/Networking/RESOURCES.md)
                 - [ ] `Serialization`
                     - [ ] NSCoding
-                    - [ ] `Codable`
+                    - [ ] [`Codable`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/Foundation/Serialization/Codable/RESOURCES.md)
                     - [ ] `JSON`
                     - [ ] XML
                     - [ ] Protobuf
