@@ -265,8 +265,8 @@
                     - Flyweight:
                     - Proxy:
                 - Behavioural^:
-                    - Chain of responsibility:
                     - Command:
+                    - Chain of responsibility:
                     - Interpreter:
                     - Iterator:
                     - Mediator:
