@@ -230,6 +230,9 @@
                                 - "Introduction to MVVM": "https://www.objc.io/issues/13-architecture/mvvm/"
                     - MVP^:
                     - Clean architecture^:
+                        - RESOURCES:
+                            - Examples:
+                                - "Clean architecture with RxSwift": "https://github.com/sergdort/CleanArchitectureRxSwift"
                         - VIPER:
                             - RESOURCES:
                                 - Articles:
