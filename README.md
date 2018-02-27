@@ -37,11 +37,12 @@ Roadmap of essential topics. Roadmap for all topics is [here.](RoadmapProject/Sc
 
 ## 🤝 How to contribute
 
-- add additional topics 
-- add missing study materials 
-- throw ideas at me on Twitter [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/kamranahmedse.svg?style=social&label=@bohdan_orlov)](https://twitter.com/bohdan_orlov)
+- add new topics to `Content.yml`
+- add missing study materials to `Content.yml`
+- throw ideas at me on [![Twitter: @PatrickKladek](https://img.shields.io/badge/twitter-@Bohdan_Orlov-4d66b3.svg?style=flat)](https://twitter.com/bohdan_orlov)
 
-[Adding new topics or materials can't be easier.](HowTo/HOWTOPR.md)
+
+[The complete contribution guide.](HowTo/HOWTOPR.md)
 
 
 ## ☑️ TODO
@@ -54,7 +55,10 @@ Roadmap of essential topics. Roadmap for all topics is [here.](RoadmapProject/Sc
 	- [ ] handle errors of parsing Yaml into Topics and Resources
 	- [ ] handle file read/write errors
 	- [ ] handle image generation errors
-- [ ] run the script automaticaly on PRs if the content file is changed
+- [x] automatic regeneration of roadmap after every commit
+- [ ] automatic validation of content format on PR
+- [ ] make sure Travis doesn't deploy if generation script fails
+
 ## License
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
