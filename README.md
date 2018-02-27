@@ -39,7 +39,7 @@ Roadmap of essential topics. Roadmap for all topics is [here.](RoadmapProject/Sc
 
 - add new topics to `Content.yml`
 - add missing study materials to `Content.yml`
-- throw ideas at me on [![Twitter: @PatrickKladek](https://img.shields.io/badge/twitter-@Bohdan_Orlov-4d66b3.svg?style=flat)](https://twitter.com/bohdan_orlov)
+- throw ideas at me on [![Twitter: @Bohdan_Orlov](https://img.shields.io/badge/twitter-@Bohdan_Orlov-4d66b3.svg?style=flat)](https://twitter.com/bohdan_orlov)
 
 
 [The complete contribution guide.](HowTo/HOWTOPR.md)
