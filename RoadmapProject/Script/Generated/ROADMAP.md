@@ -24,6 +24,7 @@ Tapping on a link will take you to relevant materials.
                 - [ ] `Protocols`
                 - [ ] `Structs`
                 - [ ] `Enums`
+                     - [ ] `Pattern matching`
                 - [ ] Runtime
                     - [ ] [Method dispatch](Resources/iOS_Developer/Practical_knowledge/Languages/Swift/Runtime/Method_dispatch/RESOURCES.md)
         - [ ] `Memory management`
@@ -87,9 +88,8 @@ Tapping on a link will take you to relevant materials.
                     - [ ] [`MVC`](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/MVC/RESOURCES.md)
                     - [ ] [`MVVM`](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/MVVM/RESOURCES.md)
                     - [ ] `MVP`
-                    - [ ] `Clean architecture`
-                        - [ ] [VIPER](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/Clean_architecture/VIPER/RESOURCES.md)
-                        - [ ] [RIBs](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/Clean_architecture/RIBs/RESOURCES.md)
+                    - [ ] [VIPER](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/Clean_architecture/VIPER/RESOURCES.md)
+                    - [ ] [RIBs](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/Clean_architecture/RIBs/RESOURCES.md)
                     - [ ] [Coordinators](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/Coordinators/RESOURCES.md)
                 - [ ] `Creational`
                     - [ ] Factory
@@ -171,6 +171,7 @@ Tapping on a link will take you to relevant materials.
         - [ ] tvOS
             - [ ] [Focus interactions](Resources/iOS_Developer/Practical_knowledge/tvOS/Focus_interactions/RESOURCES.md)
         - [ ] WatchKit
+        - [ ] Extensions
     - [ ] `Computer Science knowledge`
         - [ ] [`Algorithms`](Resources/iOS_Developer/Computer_Science_knowledge/Algorithms/RESOURCES.md)
             - [ ] `Sorting`
