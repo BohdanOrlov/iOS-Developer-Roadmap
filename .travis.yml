@@ -11,4 +11,3 @@ deploy:
   on:
     branch: master
   target-branch: master
-  local-dir: RoadmapProject/Script/Generated
