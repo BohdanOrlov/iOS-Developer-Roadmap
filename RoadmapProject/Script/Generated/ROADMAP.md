@@ -127,8 +127,8 @@ Tapping on a link will take you to relevant materials.
                     - [ ] Flyweight
                     - [ ] Proxy
                 - [ ] `Behavioural`
-                    - [ ] Chain of responsibility
                     - [ ] Command
+                    - [ ] Chain of responsibility
                     - [ ] Interpreter
                     - [ ] Iterator
                     - [ ] Mediator
