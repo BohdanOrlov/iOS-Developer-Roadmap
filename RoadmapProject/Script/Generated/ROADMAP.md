@@ -60,7 +60,6 @@ Tapping on a link will take you to relevant materials.
                 - [ ] Layers
                 - [ ] `Layout`
                     - [ ] [`Frame-based`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Layout/Frame-based/RESOURCES.md)
-                    - [ ] [`Storyboards & XIB`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Layout/Storyboards_&_XIB/RESOURCES.md)
                     - [ ] [`Autolayout`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Layout/Autolayout/RESOURCES.md)
                         - [ ] UIStackView
                             - [ ] Articles
@@ -179,6 +178,9 @@ Tapping on a link will take you to relevant materials.
             - [ ] Decrease memory footprint
         - [ ] Code signing
         - [ ] Tools
+            - [ ] IDE
+                - [ ] Xcode
+                    - [ ] [Interface Builder](Resources/iOS_Developer/Practical_knowledge/Tools/IDE/Xcode/Interface_Builder/RESOURCES.md)
             - [ ] Swiftlint
             - [ ] Sourcery
             - [ ] Fastlane
