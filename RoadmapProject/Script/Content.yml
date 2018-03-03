@@ -134,6 +134,10 @@
                         - RESOURCES:
                             - Articles:
                                 - "CGGeometry": "http://nshipster.com/cggeometry/"
+                    - Storyboards & XIB^:
+                        - RESOURCES:
+                            - Articles:
+                                - "iOS User Interfaces: Storyboards vs. NIBs vs. Custom Code": "https://www.toptal.com/ios/ios-user-interfaces-storyboards-vs-nibs-vs-custom-code"
                     - Autolayout^:
                         - RESOURCES:
                             - Articles:
@@ -336,12 +340,6 @@
             - Decrease memory footprint:
         - Code signing:
         - Tools:
-            - IDE:
-                - Xcode:
-                    - Interface Builder:
-                        - RESOURCES:
-                            - Articles:
-                                - "iOS User Interfaces: Storyboards vs. NIBs vs. Custom Code": "https://www.toptal.com/ios/ios-user-interfaces-storyboards-vs-nibs-vs-custom-code"
             - Swiftlint:
             - Sourcery:
             - Fastlane:

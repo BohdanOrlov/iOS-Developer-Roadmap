@@ -58,6 +58,7 @@ left to right direction
 (Layers) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layers)
 (Layout) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout) <<^>> 
 (Frame-based) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Frame-based) <<^>> 
+(Storyboards & XIB) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Storyboards & XIB) <<^>> 
 (Autolayout) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Autolayout) <<^>> 
 (UIStackView) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Autolayout->UIStackView)
 (Articles) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Autolayout->UIStackView->Articles)
@@ -276,6 +277,7 @@ You -|> (iOS Developer)
 (iOS Developer->Practical knowledge->Cocoa Touch->UIKit) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layers)
 (iOS Developer->Practical knowledge->Cocoa Touch->UIKit) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout)
 (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Frame-based)
+(iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Storyboards & XIB)
 (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Autolayout)
 (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Autolayout) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Autolayout->UIStackView)
 (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Autolayout->UIStackView) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->Layout->Autolayout->UIStackView->Articles)

@@ -60,6 +60,7 @@ Tapping on a link will take you to relevant materials.
                 - [ ] Layers
                 - [ ] `Layout`
                     - [ ] [`Frame-based`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Layout/Frame-based/RESOURCES.md)
+                    - [ ] [`Storyboards & XIB`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Layout/Storyboards_&_XIB/RESOURCES.md)
                     - [ ] [`Autolayout`](Resources/iOS_Developer/Practical_knowledge/Cocoa_Touch/UIKit/Layout/Autolayout/RESOURCES.md)
                         - [ ] UIStackView
                             - [ ] Articles
