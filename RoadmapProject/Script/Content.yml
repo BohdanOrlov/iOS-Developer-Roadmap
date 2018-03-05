@@ -26,6 +26,9 @@
                 - Runtime^:
                     - Method messaging:
                     - NSZombies and KVO implementation:
+                        - RESOURCES:
+                            - Articles:
+                                - "KVO Implementation Official Documentation": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/KeyValueObserving/Articles/KVOImplementation.html"
                     - Swizzling:
                         - RESOURCES:
                             - Articles:
