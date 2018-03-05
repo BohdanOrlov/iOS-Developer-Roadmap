@@ -15,7 +15,7 @@ Tapping on a link will take you to relevant materials.
                 - [ ] Toll-free bridging
                 - [ ] `Runtime`
                     - [ ] Method messaging
-                    - [ ] NSZombies and KVO implementation
+                    - [ ] [NSZombies and KVO implementation](Resources/iOS_Developer/Practical_knowledge/Languages/Objective-C/Runtime/NSZombies_and_KVO_implementation/RESOURCES.md)
                     - [ ] [Swizzling](Resources/iOS_Developer/Practical_knowledge/Languages/Objective-C/Runtime/Swizzling/RESOURCES.md)
             - [ ] [`Swift`](Resources/iOS_Developer/Practical_knowledge/Languages/Swift/RESOURCES.md)
                 - [ ] Closures
