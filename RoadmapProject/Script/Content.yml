@@ -88,6 +88,9 @@
                     - Articles:
                         - "@AUTORELEASEPOOL": "http://en.swifter.tips/autoreleasepool/"
         - Multithreading and concurency^:
+            - RESOURCES:
+                - Articles:
+                        - "Parallel programming with Swift: Basics": "https://medium.com/flawless-app-stories/basics-of-parallel-programming-with-swift-93fee8425287"
             - POSIX threads:
             - NSThreads:
             - Perform selector family:
@@ -202,7 +205,8 @@
                     - RESOURCES:
                         - Articles:
                             - "Cocoa Design Patterns": "https://developer.apple.com/legacy/library/documentation/Cocoa/Conceptual/CocoaFundamentals/CocoaDesignPatterns/CocoaDesignPatterns.html"
-                    - Abstract Factory:
+                            - "Collection for Design Patterns in Swift": "https://medium.com/swiftworld/collection-for-design-patterns-in-swift-67265359aa47"
+                   - Abstract Factory:
                         - Class cluster:
                                 - RESOURCES:
                                     - Articles:
