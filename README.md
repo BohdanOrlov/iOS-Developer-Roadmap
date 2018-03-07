@@ -15,12 +15,12 @@ The roadmap will be helpul for:
 
 
 ## 👌 Why these topics?
-See [this article](https://medium.com/@borlov/c9a24f413457) explainig selection of topics.
+See [this article](https://medium.com/@borlov/c9a24f413457) explaining selection of topics.
 
 ## 👨‍🎓 How to use this roadmap
 1. Find a topic you want to study.
 2. Go to corresponding resources section.
-3. Study untill you can confidently explain the topic to your cat.
+3. Study until you can confidently explain the topic to your cat.
 4. (Optional) tick the checkbox next to the topic. [How to tick a checkbox](HowTo/HOWTOCHECKBOX.md).
 4. Go to step 1.
 
