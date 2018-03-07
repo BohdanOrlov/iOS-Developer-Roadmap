@@ -37,7 +37,7 @@ Tapping on a link will take you to relevant materials.
             - [ ] `Memory leaks`
             - [ ] Shallow and deep copying
             - [ ] [Autorelease pool](Resources/iOS_Developer/Practical_knowledge/Memory_management/Autorelease_pool/RESOURCES.md)
-        - [ ] `Multithreading and concurency`
+        - [ ] [`Multithreading and concurency`](Resources/iOS_Developer/Practical_knowledge/Multithreading_and_concurency/RESOURCES.md)
             - [ ] POSIX threads
             - [ ] NSThreads
             - [ ] Perform selector family
