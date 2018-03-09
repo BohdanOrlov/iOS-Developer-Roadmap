@@ -91,6 +91,7 @@
             - RESOURCES:
                 - Articles:
                         - "Parallel programming with Swift: Basics": "https://medium.com/flawless-app-stories/basics-of-parallel-programming-with-swift-93fee8425287"
+                        - "Concurrent Programming": "https://www.objc.io/issues/2-concurrency/"
             - POSIX threads:
             - NSThreads:
             - Perform selector family:
@@ -340,6 +341,7 @@
                     - Articles:
                         - "iOS Unit Testing and UI Testing Tutorial": "https://www.raywenderlich.com/150073/ios-unit-testing-and-ui-testing-tutorial"
                         - "Singleton, Service Locator and tests in iOS": "https://badootech.badoo.com/singleton-service-locator-and-tests-in-ios-d69484e88944"
+                        - "Unit testing asynchronous Swift code": "https://www.swiftbysundell.com/posts/unit-testing-asynchronous-swift-code"
             - Snapshot Tests:
             - Functional test:
             - TDD:
@@ -363,6 +365,9 @@
             - Xcode server:
         - Security:
             - Keychain:
+                - RESOURCES:
+                    - Articles:
+                        - "Basic iOS Security: Keychain and Hashing": https://www.raywenderlich.com/185370/basic-ios-security-keychain-hashing
             - Security Transforms API:
         - tvOS:
             - Focus interactions:
