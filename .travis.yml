@@ -11,6 +11,8 @@ script: ./generateAll.sh
 
 deploy:
   provider: pages
+  edge:
+    branch: v1.8.47
   skip-cleanup: true
   github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
   keep-history: true
