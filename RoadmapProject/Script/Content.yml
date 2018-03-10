@@ -322,6 +322,9 @@
                 - RESOURCES:
                     - Websites:
                         - "git - the simple guide": "http://rogerdudler.github.io/git-guide/"
+                        - "git": "https://git-scm.com"
+                    - Books:
+                        - "Pro Git": "https://git-scm.com/book/en/v2"
         - Debugging:
             - Instruments:
             - Best practices:
@@ -346,6 +349,9 @@
             - Functional test:
             - TDD:
             - BDD:
+                - RESOURCES:
+                    - Articles:
+                        - "Behavior-Driven Testing Tutorial for iOS with Quick & Nimble": "https://www.raywenderlich.com/182118/behavior-driven-testing-tutorial-ios-quick-nimble"
         - Performance optimization:
             - Increase FPS:
             - Decrease memory footprint:
