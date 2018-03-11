@@ -57,6 +57,11 @@
                             - "Swift Generics Tutorial: Getting Started": "https://www.raywenderlich.com/154371/swift-generics-tutorial-getting-started"
                             - "The Swift Programming Language: Generics": "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Generics.html"
                 - Protocols^:
+                    - RESOURCES:
+                        - Articles:
+                            - "Separation of concerns using protocols in Swift": "https://www.swiftbysundell.com/posts/separation-of-concerns-using-protocols-in-swift"
+                            - "Replacing legacy code using Swift protocols": https://www.swiftbysundell.com/posts/replacing-legacy-code-using-swift-protocols
+                            - "Swift Optional Protocol Methods": "https://useyourloaf.com/blog/swift-optional-protocol-methods/"
                 - Structs^:
                 - Enums^:
                 - Runtime:
