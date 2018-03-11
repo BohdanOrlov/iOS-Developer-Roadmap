@@ -29,15 +29,14 @@ left to right direction
 (Value vs Reference type) as (iOS Developer->Practical knowledge->Memory management->Value vs Reference type) <<^>> 
 (MRC) as (iOS Developer->Practical knowledge->Memory management->MRC)
 (ARC) as (iOS Developer->Practical knowledge->Memory management->ARC) <<^>> 
-(weak references) as (iOS Developer->Practical knowledge->Memory management->ARC->weak references)
+(Weak references) as (iOS Developer->Practical knowledge->Memory management->ARC->Weak references)
 (Retain cycles) as (iOS Developer->Practical knowledge->Memory management->Retain cycles) <<^>> 
-(Garbage collector) as (iOS Developer->Practical knowledge->Memory management->Garbage collector)
+(Garbage collection) as (iOS Developer->Practical knowledge->Memory management->Garbage collection)
 (Memory leaks) as (iOS Developer->Practical knowledge->Memory management->Memory leaks) <<^>> 
 (Shallow and deep copying) as (iOS Developer->Practical knowledge->Memory management->Shallow and deep copying)
 (Autorelease pool) as (iOS Developer->Practical knowledge->Memory management->Autorelease pool)
 (Multithreading and concurency) as (iOS Developer->Practical knowledge->Multithreading and concurency) <<^>> 
-(POSIX threads) as (iOS Developer->Practical knowledge->Multithreading and concurency->POSIX threads)
-(NSThreads) as (iOS Developer->Practical knowledge->Multithreading and concurency->NSThreads)
+(POSIX and NSThreads) as (iOS Developer->Practical knowledge->Multithreading and concurency->POSIX and NSThreads)
 (Perform selector family) as (iOS Developer->Practical knowledge->Multithreading and concurency->Perform selector family)
 (GCD) as (iOS Developer->Practical knowledge->Multithreading and concurency->GCD) <<^>> 
 (NSOperation[Queue]) as (iOS Developer->Practical knowledge->Multithreading and concurency->NSOperation[Queue]) <<^>> 
@@ -46,7 +45,7 @@ left to right direction
 (Problems) as (iOS Developer->Practical knowledge->Multithreading and concurency->Problems)
 (Race condition) as (iOS Developer->Practical knowledge->Multithreading and concurency->Problems->Race condition)
 (Deadlock) as (iOS Developer->Practical knowledge->Multithreading and concurency->Problems->Deadlock)
-(Reader-writer problems) as (iOS Developer->Practical knowledge->Multithreading and concurency->Problems->Reader-writer problems)
+(Readers–writers problem) as (iOS Developer->Practical knowledge->Multithreading and concurency->Problems->Readers–writers problem)
 (Cocoa Touch) as (iOS Developer->Practical knowledge->Cocoa Touch) <<^>> 
 (UIKit) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit) <<^>> 
 (UIApplication) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->UIApplication) <<^>> 
@@ -68,7 +67,7 @@ left to right direction
 (UIViewController) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->UIViewController) <<^>> 
 (Lifecycle) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->UIViewController->Lifecycle) <<^>> 
 (Foundation) as (iOS Developer->Practical knowledge->Cocoa Touch->Foundation) <<^>> 
-(Notifications vs Delegation vs observing) as (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Notifications vs Delegation vs observing) <<^>> 
+(Notifications vs Delegation vs Observing) as (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Notifications vs Delegation vs Observing) <<^>> 
 (Collections) as (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Collections)
 (Networking) as (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Networking) <<^>> 
 (Serialization) as (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Serialization) <<^>> 
@@ -250,15 +249,14 @@ You -|> (iOS Developer)
 (iOS Developer->Practical knowledge->Memory management) -down-> (iOS Developer->Practical knowledge->Memory management->Value vs Reference type)
 (iOS Developer->Practical knowledge->Memory management) -down-> (iOS Developer->Practical knowledge->Memory management->MRC)
 (iOS Developer->Practical knowledge->Memory management) -down-> (iOS Developer->Practical knowledge->Memory management->ARC)
-(iOS Developer->Practical knowledge->Memory management->ARC) -down-> (iOS Developer->Practical knowledge->Memory management->ARC->weak references)
+(iOS Developer->Practical knowledge->Memory management->ARC) -down-> (iOS Developer->Practical knowledge->Memory management->ARC->Weak references)
 (iOS Developer->Practical knowledge->Memory management) -down-> (iOS Developer->Practical knowledge->Memory management->Retain cycles)
-(iOS Developer->Practical knowledge->Memory management) -down-> (iOS Developer->Practical knowledge->Memory management->Garbage collector)
+(iOS Developer->Practical knowledge->Memory management) -down-> (iOS Developer->Practical knowledge->Memory management->Garbage collection)
 (iOS Developer->Practical knowledge->Memory management) -down-> (iOS Developer->Practical knowledge->Memory management->Memory leaks)
 (iOS Developer->Practical knowledge->Memory management) -down-> (iOS Developer->Practical knowledge->Memory management->Shallow and deep copying)
 (iOS Developer->Practical knowledge->Memory management) -down-> (iOS Developer->Practical knowledge->Memory management->Autorelease pool)
 (iOS Developer->Practical knowledge) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency)
-(iOS Developer->Practical knowledge->Multithreading and concurency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->POSIX threads)
-(iOS Developer->Practical knowledge->Multithreading and concurency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->NSThreads)
+(iOS Developer->Practical knowledge->Multithreading and concurency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->POSIX and NSThreads)
 (iOS Developer->Practical knowledge->Multithreading and concurency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->Perform selector family)
 (iOS Developer->Practical knowledge->Multithreading and concurency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->GCD)
 (iOS Developer->Practical knowledge->Multithreading and concurency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->NSOperation[Queue])
@@ -267,7 +265,7 @@ You -|> (iOS Developer)
 (iOS Developer->Practical knowledge->Multithreading and concurency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->Problems)
 (iOS Developer->Practical knowledge->Multithreading and concurency->Problems) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->Problems->Race condition)
 (iOS Developer->Practical knowledge->Multithreading and concurency->Problems) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->Problems->Deadlock)
-(iOS Developer->Practical knowledge->Multithreading and concurency->Problems) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->Problems->Reader-writer problems)
+(iOS Developer->Practical knowledge->Multithreading and concurency->Problems) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->Problems->Readers–writers problem)
 (iOS Developer->Practical knowledge) -down-> (iOS Developer->Practical knowledge->Cocoa Touch)
 (iOS Developer->Practical knowledge->Cocoa Touch) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit)
 (iOS Developer->Practical knowledge->Cocoa Touch->UIKit) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->UIApplication)
@@ -289,7 +287,7 @@ You -|> (iOS Developer)
 (iOS Developer->Practical knowledge->Cocoa Touch->UIKit) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->UIViewController)
 (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->UIViewController) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->UIViewController->Lifecycle)
 (iOS Developer->Practical knowledge->Cocoa Touch) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->Foundation)
-(iOS Developer->Practical knowledge->Cocoa Touch->Foundation) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Notifications vs Delegation vs observing)
+(iOS Developer->Practical knowledge->Cocoa Touch->Foundation) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Notifications vs Delegation vs Observing)
 (iOS Developer->Practical knowledge->Cocoa Touch->Foundation) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Collections)
 (iOS Developer->Practical knowledge->Cocoa Touch->Foundation) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Networking)
 (iOS Developer->Practical knowledge->Cocoa Touch->Foundation) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->Foundation->Serialization)
