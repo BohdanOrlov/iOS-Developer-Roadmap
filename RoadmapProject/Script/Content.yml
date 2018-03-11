@@ -3,14 +3,28 @@
 # RESOURCES - keyword for marking resources section, nested subcategories are not supported, e.g. DON'T write "- Books: \n    - 2014:"
 
 - iOS Developer^:
+    - RESOURCES:
+        - Articles:
+            - "How to become an iOS developer": https://badootech.badoo.com/how-to-become-an-ios-developer-91aaa4719a91"
     - Practical knowledge^:
+        - RESOURCES:
+            - Articles:
+                - "How to become a professional iOS developer": "http://roadfiresoftware.com/2014/04/how-to-become-a-professional-ios-developer/"
         - Getting started:
             - RESOURCES:
                 - Tutorials:
                     - "Jump Right In": "https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/"
                     - "Raywenderlich.com": "https://www.raywenderlich.com/"
             - First pet project ideas:
+                - RESOURCES:
+                    - Articles:
+                        - "So You Want To Make iPhone Apps? 10 Projects For Beginners": "https://www.makeuseof.com/tag/want-make-iphone-apps-6-projects-beginners/"
+                    - Github:
+                        - "awesome-app-ideas": "https://github.com/tastejs/awesome-app-ideas"
         - Languages^:
+            - RESOURCES:
+                - Articles:
+                    - "Should You Learn Swift or Objective-C?": "http://blog.teamtreehouse.com/learn-swift-or-objective-c"
             - Objective-C^:
                 - RESOURCES:
                   - Books:
@@ -19,12 +33,36 @@
                       - "NSBlog": "https://www.mikeash.com/pyblog/"
                       - "objc.io": "https://www.objc.io/"
                 - Blocks^:
-                    - Memory Management:
+                    - RESOURCES:
+                        - Articles:
+                            - "Friday Q&A 2009-08-14: Practical Blocks": "https://www.mikeash.com/pyblog/friday-qa-2009-08-14-practical-blocks.html"
+                    - Memory Management:   
+                        - RESOURCES:
+                            - Articles:
+                                - "How blocks are implemented (and the consequences)": "https://www.cocoawithlove.com/2009/10/how-blocks-are-implemented-and.html"
                 - KVC:
+                    - RESOURCES:
+                        - Articles:
+                            - "About Key-Value Coding": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/KeyValueCoding/index.html"
+                            - "Friday Q&A 2013-02-08: Let's Build Key-Value Coding": "https://www.mikeash.com/pyblog/friday-qa-2013-02-08-lets-build-key-value-coding.html"
                 - KVO:
+                    - RESOURCES:
+                        - Articles:
+                            - "Introduction to Key-Value Observing Programming Guide": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/KeyValueObserving/KeyValueObserving.html"
+                            - "Key-Value Observing": http://nshipster.com/key-value-observing/"
                 - Toll-free bridging:
+                    - RESOURCES:
+                        - Articles:
+                            - "Friday Q&A 2010-01-22: Toll Free Bridging Internals": "https://www.mikeash.com/pyblog/friday-qa-2010-01-22-toll-free-bridging-internals.html"
                 - Runtime^:
+                    - RESOURCES:
+                        - Articles:
+                            - "Objective-C Runtime Programming Guide": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Introduction/Introduction.html"
                     - Method messaging:
+                        - RESOURCES:
+                            - Articles:
+                                - "How Objective-C messaging works": "http://dantoml.com/how-objective-c-messaging-works/"
+                                - "Friday Q&A 2009-03-20: Objective-C Messaging": "https://www.mikeash.com/pyblog/friday-qa-2009-03-20-objective-c-messaging.html"
                     - NSZombies and KVO implementation:
                         - RESOURCES:
                             - Articles:
@@ -45,6 +83,9 @@
                     - Blogs:
                         - "SWIFT BY SUNDELL": "https://www.swiftbysundell.com/"
                 - Closures:
+                    - RESOURCES:
+                        - Articles:
+                            - "The Swift Programming Language: Closures": "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Closures.html"
                 - Initializers^:
                     - RESOURCES:
                         - Articles:
@@ -57,9 +98,21 @@
                             - "Swift Generics Tutorial: Getting Started": "https://www.raywenderlich.com/154371/swift-generics-tutorial-getting-started"
                             - "The Swift Programming Language: Generics": "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Generics.html"
                 - Protocols^:
+                    - RESOURCES:
+                        - Articles:
+                            - "The Swift Programming Language: Protocols": "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Protocols.html"
                 - Structs^:
+                    - RESOURCES:
+                        - Articles:
+                            - "The Swift Programming Language: Classes and Structures": "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/ClassesAndStructures.html"
                 - Enums^:
+                    - RESOURCES:
+                        - Articles:
+                            - "The Swift Programming Language: Enumerations": "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html"
                 - Runtime:
+                    - RESOURCES:
+                        - Articles:
+                            - "How does iOS Swift Runtime work": "https://stackoverflow.com/questions/37315295/how-does-ios-swift-runtime-work"
                     - Method dispatch:
                         - RESOURCES:
                             - Articles:
