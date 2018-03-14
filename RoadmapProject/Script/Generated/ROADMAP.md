@@ -137,7 +137,7 @@ Tapping on a link will take you to relevant materials.
                 - [ ] Concurrency
                     - [ ] Anti-pattern
             - [ ] `Design Principles`
-                - [ ] `SOLID`
+                - [ ] [`SOLID`](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Principles/SOLID/RESOURCES.md)
                 - [ ] `Inversion of Control`
                     - [ ] [`Dependency Injection`](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Principles/Inversion_of_Control/Dependency_Injection/RESOURCES.md)
                     - [ ] Service Locator
@@ -146,7 +146,7 @@ Tapping on a link will take you to relevant materials.
             - [ ] Functional programming
                 - [ ] Functional Reactive Programming Frameworks
                     - [ ] React Native
-                    - [ ] RxSwift
+                    - [ ] [RxSwift](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Functional_programming/Functional_Reactive_Programming_Frameworks/RxSwift/RESOURCES.md)
                     - [ ] RxRealm, RxDataSources
         - [ ] `Dependencies management`
             - [ ] Cocoapods
@@ -156,19 +156,19 @@ Tapping on a link will take you to relevant materials.
         - [ ] `Version Control Systems`
             - [ ] [`Git`](Resources/iOS_Developer/Practical_knowledge/Version_Control_Systems/Git/RESOURCES.md)
         - [ ] Debugging
-            - [ ] Instruments
+            - [ ] [Instruments](Resources/iOS_Developer/Practical_knowledge/Debugging/Instruments/RESOURCES.md)
             - [ ] Best practices
                 - [ ] Checklists
         - [ ] UX
         - [ ] `Caching and Persistency`
             - [ ] [Core Data](Resources/iOS_Developer/Practical_knowledge/Caching_and_Persistency/Core_Data/RESOURCES.md)
-            - [ ] Realm
+            - [ ] [Realm](Resources/iOS_Developer/Practical_knowledge/Caching_and_Persistency/Realm/RESOURCES.md)
             - [ ] YAPDatabase
         - [ ] `Testing`
             - [ ] [`Unit Tests`](Resources/iOS_Developer/Practical_knowledge/Testing/Unit_Tests/RESOURCES.md)
             - [ ] Snapshot Tests
             - [ ] Functional test
-            - [ ] TDD
+            - [ ] [TDD](Resources/iOS_Developer/Practical_knowledge/Testing/TDD/RESOURCES.md)
             - [ ] [BDD](Resources/iOS_Developer/Practical_knowledge/Testing/BDD/RESOURCES.md)
         - [ ] Performance optimization
             - [ ] Increase FPS
@@ -195,14 +195,14 @@ Tapping on a link will take you to relevant materials.
             - [ ] `Sorting`
             - [ ] `Graph Theory`
                 - [ ] Trees
-            - [ ] `Strings`
+            - [ ] [`Strings`](Resources/iOS_Developer/Computer_Science_knowledge/Algorithms/Strings/RESOURCES.md)
             - [ ] Greedy
             - [ ] Dynamic Programming
             - [ ] Bit Manipulation
             - [ ] `Recursion`
             - [ ] Game Theory
             - [ ] NP Complete
-            - [ ] `Big-O notation`
+            - [ ] [`Big-O notation`](Resources/iOS_Developer/Computer_Science_knowledge/Algorithms/Big-O_notation/RESOURCES.md)
         - [ ] `Abstract Data Types`
             - [ ] `Stack`
             - [ ] `Array`
