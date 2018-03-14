@@ -56,6 +56,7 @@
                     - RESOURCES:
                         - Articles:
                             - "Friday Q&A 2010-01-22: Toll Free Bridging Internals": "https://www.mikeash.com/pyblog/friday-qa-2010-01-22-toll-free-bridging-internals.html"
+                            - "TOLL-FREE BRIDGING AND UNMANAGED": "http://en.swifter.tips/toll-free/"
                 - Runtime^:
                     - RESOURCES:
                         - Articles:
@@ -84,6 +85,7 @@
                         - "Swift Apprentice": "https://store.raywenderlich.com/products/swift-apprentice?_ga=2.74566868.712179774.1519384552-896491817.1510924963"
                     - Blogs:
                         - "SWIFT BY SUNDELL": "https://www.swiftbysundell.com/"
+                        - "SWIFTER": "http://en.swifter.tips"
                 - Closures:
                     - RESOURCES:
                         - Articles:
@@ -454,6 +456,9 @@
                     - Anti-pattern:
             - Design Principles^:
                 - SOLID^:
+                    - RESOURCES:
+                        - Articles:
+                            - "SOLID (object-oriented design)": https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
                 - Inversion of Control^:
                     - Dependency Injection^:
                         - RESOURCES:
@@ -469,6 +474,11 @@
                 - Functional Reactive Programming Frameworks:
                   - React Native:
                   - RxSwift:
+                      - RESOURCES:
+                          - Articles:
+                              - "Interactive diagrams of Rx Observables": "http://rxmarbles.com"
+                          - Videos:
+                              - "Learning Path: RxSwift from Start to Finish": "https://academy.realm.io/posts/learning-path-rxswift-from-start-to-finish/"
                   - RxRealm, RxDataSources:
         - Dependencies management^:
             - Cocoapods:
@@ -485,6 +495,9 @@
                         - "Pro Git": "https://git-scm.com/book/en/v2"
         - Debugging:
             - Instruments:
+                - RESOURCES:
+                    - Articles:
+                        - "Instruments Tutorial with Swift: Getting Started": "https://www.raywenderlich.com/166125/instruments-tutorial-swift-getting-started"
             - Best practices:
                 - Checklists:
         - UX:
@@ -495,6 +508,9 @@
                         - "Core Data Programming Guide": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreData/index.html#//apple_ref/doc/uid/TP40001075-CH2-SW1"
                         - "Core Data from Scratch: Concurrency": "https://code.tutsplus.com/tutorials/core-data-from-scratch-concurrency--cms-22131"
             - Realm:
+                - RESOURCES:
+                    - Websites:
+                        - "Realm": "https://realm.io/docs/swift/latest"
             - YAPDatabase:
         - Testing^:
             - Unit Tests^:
@@ -506,6 +522,9 @@
             - Snapshot Tests:
             - Functional test:
             - TDD:
+                - RESOURCES:
+                    - Articles:
+                        - "The Three Laws of TDD": "http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd"
             - BDD:
                 - RESOURCES:
                     - Articles:
@@ -554,6 +573,9 @@
             - Graph Theory^:
                 - Trees:
             - Strings^:
+                - RESOURCES:
+                    - Articles:
+                        - "Swift Algorithm Club: Boyer Moore String Search Algorithm": "https://www.raywenderlich.com/163964/swift-algorithm-club-booyer-moore-string-search-algorithm"
             - Greedy:
             - Dynamic Programming:
             - Bit Manipulation:
@@ -561,6 +583,9 @@
             - Game Theory:
             - NP Complete:
             - Big-O notation^:
+                - RESOURCES:
+                    - Articles:
+                        - "Big O notation": "https://en.wikipedia.org/wiki/Big_O_notation"
         - Abstract Data Types^:
             - Stack^:
             - Array^:
