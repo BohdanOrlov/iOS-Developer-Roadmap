@@ -467,6 +467,8 @@
                     - Service Locator:
                 - Protocol-Oriented Programming:
                     - RESOURCES:
+                        - Articles:
+                            - "Protocol Oriented Programming in Swift: An Introduction": "https://www.appcoda.com/protocol-oriented-programming/"
                         - WWDC:
                             - "Protocol-Oriented Programming in Swift": "https://developer.apple.com/videos/play/wwdc2015/408/"
             - Object-Oriented Programming:
@@ -482,8 +484,17 @@
                   - RxRealm, RxDataSources:
         - Dependencies management^:
             - Cocoapods:
+              - RESOURCES:
+                    - Articles:
+                        - "CocoaPods Tutorial for Swift: Getting Started": "https://www.raywenderlich.com/156971/cocoapods-tutorial-swift-getting-started"
             - Carthage:
+                - RESOURCES:
+                    - Articles:
+                        - "Carthage Tutorial: Getting Started": "https://www.raywenderlich.com/165660/carthage-tutorial-getting-started-2"
             - Swift Package Manager:
+                - RESOURCES:
+                    - Websites:
+                        - "Swift Package Manager": "https://swift.org/package-manager/"
         - Project structure and File/Group organisation:
         - Version Control Systems^:
             - Git^:
@@ -543,6 +554,11 @@
             - Swiftlint:
             - Sourcery:
             - Fastlane:
+                - RESOURCES:
+                    - Articles:
+                        - "fastlane Tutorial: Getting Started": "https://www.raywenderlich.com/136168/fastlane-tutorial-getting-started-2"
+                    - Websites:
+                        - "Fastlane": "https://fastlane.tools"
         - Continuous Integration:
             - Jenkins:
             - Xcode server:
