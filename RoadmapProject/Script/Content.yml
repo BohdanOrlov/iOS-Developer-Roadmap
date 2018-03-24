@@ -484,7 +484,7 @@
                   - RxRealm, RxDataSources:
         - Dependencies management^:
             - Cocoapods:
-              - RESOURCES:
+                - RESOURCES:
                     - Articles:
                         - "CocoaPods Tutorial for Swift: Getting Started": "https://www.raywenderlich.com/156971/cocoapods-tutorial-swift-getting-started"
             - Carthage:
