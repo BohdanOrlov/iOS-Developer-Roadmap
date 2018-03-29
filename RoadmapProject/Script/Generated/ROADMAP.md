@@ -149,9 +149,9 @@ Tapping on a link will take you to relevant materials.
                     - [ ] [RxSwift](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Functional_programming/Functional_Reactive_Programming_Frameworks/RxSwift/RESOURCES.md)
                     - [ ] RxRealm, RxDataSources
         - [ ] `Dependencies management`
-            - [ ] Cocoapods
-            - [ ] Carthage
-            - [ ] Swift Package Manager
+            - [ ] [Cocoapods](Resources/iOS_Developer/Practical_knowledge/Dependencies_management/Cocoapods/RESOURCES.md)
+            - [ ] [Carthage](Resources/iOS_Developer/Practical_knowledge/Dependencies_management/Carthage/RESOURCES.md)
+            - [ ] [Swift Package Manager](Resources/iOS_Developer/Practical_knowledge/Dependencies_management/Swift_Package_Manager/RESOURCES.md)
         - [ ] Project structure and File/Group organisation
         - [ ] `Version Control Systems`
             - [ ] [`Git`](Resources/iOS_Developer/Practical_knowledge/Version_Control_Systems/Git/RESOURCES.md)
@@ -180,7 +180,7 @@ Tapping on a link will take you to relevant materials.
                     - [ ] [Interface Builder](Resources/iOS_Developer/Practical_knowledge/Tools/IDE/Xcode/Interface_Builder/RESOURCES.md)
             - [ ] Swiftlint
             - [ ] Sourcery
-            - [ ] Fastlane
+            - [ ] [Fastlane](Resources/iOS_Developer/Practical_knowledge/Tools/Fastlane/RESOURCES.md)
         - [ ] Continuous Integration
             - [ ] Jenkins
             - [ ] Xcode server
