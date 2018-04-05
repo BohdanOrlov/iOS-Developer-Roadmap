@@ -1,4 +1,4 @@
-internal enum Result<T> {
+internal enum YAMLResult<T> {
   case error(String)
   case value(T)
   
@@ -16,14 +16,14 @@ internal enum Result<T> {
     }
   }
   
-  public func map <U> (f: (T) -> U) -> Result<U> {
+  public func map <U> (f: (T) -> U) -> YAMLResult<U> {
     switch self {
     case .error(let e): return .error(e)
     case .value(let v): return .value(f(v))
     }
   }
   
-  public func flatMap <U> (f: (T) -> Result<U>) -> Result<U> {
+  public func flatMap <U> (f: (T) -> YAMLResult<U>) -> YAMLResult<U> {
     switch self {
     case .error(let e): return .error(e)
     case .value(let v): return f(v)
@@ -38,7 +38,7 @@ precedencegroup Functional {
 }
 
 infix operator <*>: Functional
-func <*> <T, U> (f: Result<(T) -> U>, x: Result<T>) -> Result<U> {
+func <*> <T, U> (f: YAMLResult<(T) -> U>, x: YAMLResult<T>) -> YAMLResult<U> {
   switch (x, f) {
   case (.error(let e), _): return .error(e)
   case (.value, .error(let e)): return .error(e)
@@ -47,39 +47,39 @@ func <*> <T, U> (f: Result<(T) -> U>, x: Result<T>) -> Result<U> {
 }
 
 infix operator <^>: Functional
-func <^> <T, U> (f: (T) -> U, x: Result<T>) -> Result<U> {
+func <^> <T, U> (f: (T) -> U, x: YAMLResult<T>) -> YAMLResult<U> {
   return x.map(f: f)
 }
 
 infix operator >>-: Functional
-func >>- <T, U> (x: Result<T>, f: (T) -> U) -> Result<U> {
+func >>- <T, U> (x: YAMLResult<T>, f: (T) -> U) -> YAMLResult<U> {
   return x.map(f: f)
 }
 
 infix operator >>=-: Functional
-func >>=- <T, U> (x: Result<T>, f: (T) -> Result<U>) -> Result<U> {
+func >>=- <T, U> (x: YAMLResult<T>, f: (T) -> YAMLResult<U>) -> YAMLResult<U> {
   return x.flatMap(f: f)
 }
 
 infix operator >>|: Functional
-func >>| <T, U> (x: Result<T>, y: Result<U>) -> Result<U> {
+func >>| <T, U> (x: YAMLResult<T>, y: YAMLResult<U>) -> YAMLResult<U> {
   return x.flatMap { _ in y }
 }
 
 extension Yaml  {
-  static func lift <V> (_ v: V) -> Result<V> {
+  static func lift <V> (_ v: V) -> YAMLResult<V> {
     return .value(v)
   }
   
-  static func fail <T> (_ e: String) -> Result<T> {
+  static func fail <T> (_ e: String) -> YAMLResult<T> {
     return .error(e)
   }
   
-  static func join <T> (_ x: Result<Result<T>>) -> Result<T> {
+  static func join <T> (_ x: YAMLResult<YAMLResult<T>>) -> YAMLResult<T> {
     return x >>=- { i in i }
   }
   
-  static func `guard` (_ error: @autoclosure() -> String, check: Bool) -> Result<()> {
+  static func `guard` (_ error: @autoclosure() -> String, check: Bool) -> YAMLResult<()> {
     return check ? lift(()) : .error(error())
   }
   

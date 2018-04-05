@@ -15,6 +15,22 @@ Use [Carthage](https://github.com/Carthage/Carthage) to build and install.
 Or use [CocoaPods](https://cocoapods.org/) :
 Add `pod 'Yaml'` to your `Podfile` and run `pod install`.
 
+It supports Swift Package Manager. 
+
+```
+        .package(
+            url: "https://github.com/behrang/YamlSwift.git",
+            from: "
+
+```
+
+And:
+
+```
+        .target(
+            name: "YourProject",
+            dependencies: ["Yaml"]),
+```
 
 ## API
 

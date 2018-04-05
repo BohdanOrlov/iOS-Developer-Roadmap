@@ -2,10 +2,10 @@ import Foundation
 
 public enum Yaml {
   case null
-  case bool(Swift.Bool)
-  case int(Swift.Int)
-  case double(Swift.Double)
-  case string(Swift.String)
+  case bool(Bool)
+  case int(Int)
+  case double(Double)
+  case string(String)
   case array([Yaml])
   case dictionary([Yaml: Yaml])
     
@@ -108,7 +108,7 @@ extension Yaml: ExpressibleByDictionaryLiteral {
 }
 
 extension Yaml: CustomStringConvertible {
-  public var description: Swift.String {
+  public var description: String {
     switch self {
     case .null:
       return "Null"
@@ -129,7 +129,7 @@ extension Yaml: CustomStringConvertible {
 }
 
 extension Yaml: Hashable {
-  public var hashValue: Swift.Int {
+  public var hashValue: Int {
     return description.hashValue
   }
 }
@@ -138,18 +138,18 @@ extension Yaml: Hashable {
 
 extension Yaml {
   
-  public static func load (_ text: Swift.String) throws -> Yaml {
+  public static func load (_ text: String) throws -> Yaml {
     let result = tokenize(text) >>=- Context.parseDoc
     if let value = result.value { return value } else { throw ResultError.message(result.error) }
   }
 
-  public static func loadMultiple (_ text: Swift.String) throws -> [Yaml] {
+  public static func loadMultiple (_ text: String) throws -> [Yaml] {
     let result = tokenize(text) >>=- Context.parseDocs
     if let value = result.value { return value } else { throw ResultError.message(result.error) }
 
   }
 
-  public static func debug (_ text: Swift.String) -> Yaml? {
+  public static func debug (_ text: String) -> Yaml? {
     let result = tokenize(text)
         >>- { tokens in print("\n====== Tokens:\n\(tokens)"); return tokens }
         >>=- Context.parseDoc
@@ -160,7 +160,7 @@ extension Yaml {
     return result.value
   }
 
-  public static func debugMultiple (_ text: Swift.String) -> [Yaml]? {
+  public static func debugMultiple (_ text: String) -> [Yaml]? {
     let result = tokenize(text)
         >>- { tokens in print("\n====== Tokens:\n\(tokens)"); return tokens }
         >>=- Context.parseDocs
@@ -175,7 +175,7 @@ extension Yaml {
 }
 
 extension Yaml {
-  public subscript(index: Swift.Int) -> Yaml {
+  public subscript(index: Int) -> Yaml {
     get {
       assert(index >= 0)
       switch self {
@@ -232,7 +232,7 @@ extension Yaml {
 }
 
 extension Yaml {
-  public var bool: Swift.Bool? {
+  public var bool: Bool? {
     switch self {
     case .bool(let b):
       return b
@@ -241,13 +241,13 @@ extension Yaml {
     }
   }
 
-  public var int: Swift.Int? {
+  public var int: Int? {
     switch self {
     case .int(let i):
       return i
     case .double(let f):
-      if Swift.Double(Swift.Int(f)) == f {
-        return Swift.Int(f)
+      if Double(Int(f)) == f {
+        return Int(f)
       } else {
         return nil
       }
@@ -256,18 +256,18 @@ extension Yaml {
     }
   }
 
-  public var double: Swift.Double? {
+  public var double: Double? {
     switch self {
     case .double(let f):
       return f
     case .int(let i):
-      return Swift.Double(i)
+      return Double(i)
     default:
       return nil
     }
   }
 
-  public var string: Swift.String? {
+  public var string: String? {
     switch self {
     case .string(let s):
       return s
@@ -294,7 +294,7 @@ extension Yaml {
     }
   }
 
-  public var count: Swift.Int? {
+  public var count: Int? {
     switch self {
     case .array(let array):
       return array.count
