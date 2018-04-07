@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11A773F6C6A8E1D678931E56D3D79909 /* Yaml-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33434A521C7AA49D768604CE229E6E5A /* Yaml-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3295E526B8DFAF0E5498159E140E4506 /* Pods-caesar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B801CAB9A77F43BED1FB468C6EC8A1FD /* Pods-caesar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		434F66C43C9FC727D29378663111B81C /* YAMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EC0616D271A6984210812CDB0E3925 /* YAMLParser.swift */; };
-		53178C277CE7769EFE8077F6675ACB00 /* YAMLResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436C82CF8DB48A4FAE954E24163546E /* YAMLResult.swift */; };
-		645C0ECC5F60A64EC74F1DC5E033A75D /* Pods-caesar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B41F92BC0C89929E0BADDD8028E9C1 /* Pods-caesar-dummy.m */; };
-		958B15359F90F4D04D30CEAE3EB67E95 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
-		9A0C706157A053AEE65EF2C35A74B4FC /* YAMLRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CE09CB76B3BFF89ED3251143BF3B7 /* YAMLRegex.swift */; };
-		A0E4D61288C9ABBC55BE899E2171F18A /* YAMLOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F737369EC1A0E96208DC95F67385A6 /* YAMLOperators.swift */; };
-		A3910135CCFB4439D9C3D180943CC0C2 /* Yaml-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BFA3F669EA40F5F15BA2197630819 /* Yaml-dummy.m */; };
-		D8169DED1CBA7DB355B5BA26BE10C16C /* YAMLTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A033B8BD61DE67C4D035046E0633DDC1 /* YAMLTokenizer.swift */; };
-		F54D51CFD292F8217858CB4C72335889 /* Yaml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872AA089ED0629B5EFCB98960A1D8575 /* Yaml.swift */; };
-		F9D891D3E01E0175CADC109B668EF70B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
+		0D799F73B8D731504EEA3DB481D31B09 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		11A773F6C6A8E1D678931E56D3D79909 /* Yaml-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83370EF19C3F62720062A8670A3721B8 /* Yaml-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267971DEFAF5F3841AB85260C990D845 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		3295E526B8DFAF0E5498159E140E4506 /* Pods-caesar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4F9FD22C9C9AFBC967F8CEC611C69C /* Pods-caesar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40C8723FFDC17A30AC5F64FEBE4DB72A /* YAMLRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E933BDFCB58FBEF6F61F724C582D2F09 /* YAMLRegex.swift */; };
+		63CADC87C878986AE9CA3BAF35FF7A04 /* YAMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8230D970EA1C6E11D2A6259A0FF0436E /* YAMLParser.swift */; };
+		645C0ECC5F60A64EC74F1DC5E033A75D /* Pods-caesar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 782A0506BC95FDE15837BCFE767206D2 /* Pods-caesar-dummy.m */; };
+		6F89BBF65526DC0FC77ED6634D15158F /* YAMLTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D9C9920DDCD916B8892086AB6D3DFF /* YAMLTokenizer.swift */; };
+		70348238E39007454C9A07435B7AF339 /* YAMLResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C470C24364041332181735D4F39F8D6 /* YAMLResult.swift */; };
+		A3910135CCFB4439D9C3D180943CC0C2 /* Yaml-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B0DF18F1710095F4064A7C0AB8BA88 /* Yaml-dummy.m */; };
+		BE3842791BF66222F680F430F1FCF41C /* Yaml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B582D8A715D6F13940769645FCBAFC /* Yaml.swift */; };
+		D9280A88492A0BB19D7CD8368C6FEB34 /* YAMLOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F419BC767B21847F0D12E4551F76BBAD /* YAMLOperators.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,32 +32,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02B41F92BC0C89929E0BADDD8028E9C1 /* Pods-caesar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-caesar-dummy.m"; sourceTree = "<group>"; };
-		0A0BFA3F669EA40F5F15BA2197630819 /* Yaml-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Yaml-dummy.m"; sourceTree = "<group>"; };
-		184F00A71D7C551AE07E05DC5724BCDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33434A521C7AA49D768604CE229E6E5A /* Yaml-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Yaml-umbrella.h"; sourceTree = "<group>"; };
-		375582CA89FF7B50C637C65A6CF69BFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CCA930741E96E6D7CACECF015DE747C /* Pods-caesar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-caesar-acknowledgements.plist"; sourceTree = "<group>"; };
-		4E3CA7D5BF9F106D4A4FE6369E38CE79 /* Pods-caesar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-caesar.debug.xcconfig"; sourceTree = "<group>"; };
-		5436C82CF8DB48A4FAE954E24163546E /* YAMLResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAMLResult.swift; path = Yaml/YAMLResult.swift; sourceTree = "<group>"; };
-		64AB2D5C3DC3A23A52084CF0F9D62BB4 /* Pods-caesar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-caesar-resources.sh"; sourceTree = "<group>"; };
-		82D32347624D2074CB03C8225EAF804E /* Yaml-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Yaml-prefix.pch"; sourceTree = "<group>"; };
-		84BC69C709E0C3A5B629A68C2D88FE3C /* Yaml.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Yaml.modulemap; sourceTree = "<group>"; };
-		872AA089ED0629B5EFCB98960A1D8575 /* Yaml.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Yaml.swift; path = Yaml/Yaml.swift; sourceTree = "<group>"; };
+		0361B7D90F27D4F3DFB5E5B9A59FA47E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07E4C6AAEC19B48A792812E98B4F89CA /* Pods-caesar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-caesar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		09B582D8A715D6F13940769645FCBAFC /* Yaml.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Yaml.swift; path = Sources/Yaml/Yaml.swift; sourceTree = "<group>"; };
+		17B0DF18F1710095F4064A7C0AB8BA88 /* Yaml-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Yaml-dummy.m"; sourceTree = "<group>"; };
+		1C470C24364041332181735D4F39F8D6 /* YAMLResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAMLResult.swift; path = Sources/Yaml/YAMLResult.swift; sourceTree = "<group>"; };
+		270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		2F9B793860196002B97FCDA2C840922C /* Pods-caesar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-caesar.release.xcconfig"; sourceTree = "<group>"; };
+		3FA366BD6E5473C9C997C3765985D144 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41BFA39993E3E839810CCF0F08891DD6 /* Yaml.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Yaml.modulemap; sourceTree = "<group>"; };
+		4E4F9FD22C9C9AFBC967F8CEC611C69C /* Pods-caesar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-caesar-umbrella.h"; sourceTree = "<group>"; };
+		5488FA4408440BAFF25A77145386175D /* Pods-caesar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-caesar-resources.sh"; sourceTree = "<group>"; };
+		75D9C9920DDCD916B8892086AB6D3DFF /* YAMLTokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAMLTokenizer.swift; path = Sources/Yaml/YAMLTokenizer.swift; sourceTree = "<group>"; };
+		782A0506BC95FDE15837BCFE767206D2 /* Pods-caesar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-caesar-dummy.m"; sourceTree = "<group>"; };
+		8230D970EA1C6E11D2A6259A0FF0436E /* YAMLParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAMLParser.swift; path = Sources/Yaml/YAMLParser.swift; sourceTree = "<group>"; };
+		83370EF19C3F62720062A8670A3721B8 /* Yaml-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Yaml-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97EC0616D271A6984210812CDB0E3925 /* YAMLParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAMLParser.swift; path = Yaml/YAMLParser.swift; sourceTree = "<group>"; };
-		A033B8BD61DE67C4D035046E0633DDC1 /* YAMLTokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAMLTokenizer.swift; path = Yaml/YAMLTokenizer.swift; sourceTree = "<group>"; };
-		A8F737369EC1A0E96208DC95F67385A6 /* YAMLOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAMLOperators.swift; path = Yaml/YAMLOperators.swift; sourceTree = "<group>"; };
-		B801CAB9A77F43BED1FB468C6EC8A1FD /* Pods-caesar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-caesar-umbrella.h"; sourceTree = "<group>"; };
-		C62C6E26D5AE236F41BFA79A19D5B0B9 /* Pods-caesar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-caesar-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CB623F0B5A918714D0EF73D2FE689254 /* Pods-caesar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-caesar.release.xcconfig"; sourceTree = "<group>"; };
+		A81B5FD8660A771057907C5B7969140B /* Pods-caesar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-caesar.debug.xcconfig"; sourceTree = "<group>"; };
+		C0B3BB2EF661D7321620B2C300BD6CA4 /* Pods-caesar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-caesar-acknowledgements.plist"; sourceTree = "<group>"; };
 		D13F21B96DF54CFD2FDDFA1BE1D5D005 /* Yaml.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Yaml.framework; path = Yaml.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D88CE09CB76B3BFF89ED3251143BF3B7 /* YAMLRegex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAMLRegex.swift; path = Yaml/YAMLRegex.swift; sourceTree = "<group>"; };
-		DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		E12DEC0FA7331E55C306A9C1EE414022 /* Yaml.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Yaml.xcconfig; sourceTree = "<group>"; };
+		D1559575AD46163CC881441D3607C906 /* Pods-caesar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-caesar-frameworks.sh"; sourceTree = "<group>"; };
+		D307CDF61E4426E4B0B13E981471A563 /* Yaml.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Yaml.xcconfig; sourceTree = "<group>"; };
+		E7BB1687347A3B5E3F98A050F3FE67A5 /* Yaml-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Yaml-prefix.pch"; sourceTree = "<group>"; };
+		E933BDFCB58FBEF6F61F724C582D2F09 /* YAMLRegex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAMLRegex.swift; path = Sources/Yaml/YAMLRegex.swift; sourceTree = "<group>"; };
 		E99CF6A80F9C08691904339A915461E0 /* Pods_caesar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_caesar.framework; path = "Pods-caesar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F14D5CD5DC6B58CB56C7D1B4592989FB /* Pods-caesar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-caesar.modulemap"; sourceTree = "<group>"; };
-		FF451EB4CB1F62CE3D0CD48A79946D5C /* Pods-caesar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-caesar-frameworks.sh"; sourceTree = "<group>"; };
+		F37F7655AADC1F8D0EBAD78E728B8D49 /* Pods-caesar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-caesar.modulemap"; sourceTree = "<group>"; };
+		F419BC767B21847F0D12E4551F76BBAD /* YAMLOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAMLOperators.swift; path = Sources/Yaml/YAMLOperators.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9D891D3E01E0175CADC109B668EF70B /* Cocoa.framework in Frameworks */,
+				0D799F73B8D731504EEA3DB481D31B09 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,31 +73,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				958B15359F90F4D04D30CEAE3EB67E95 /* Cocoa.framework in Frameworks */,
+				267971DEFAF5F3841AB85260C990D845 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E63A4D52C60F258C4B9F6628154717E /* Support Files */ = {
+		04C068A18C5413F804A2959126093416 /* OS X */ = {
 			isa = PBXGroup;
 			children = (
-				375582CA89FF7B50C637C65A6CF69BFC /* Info.plist */,
-				84BC69C709E0C3A5B629A68C2D88FE3C /* Yaml.modulemap */,
-				E12DEC0FA7331E55C306A9C1EE414022 /* Yaml.xcconfig */,
-				0A0BFA3F669EA40F5F15BA2197630819 /* Yaml-dummy.m */,
-				82D32347624D2074CB03C8225EAF804E /* Yaml-prefix.pch */,
-				33434A521C7AA49D768604CE229E6E5A /* Yaml-umbrella.h */,
+				270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Yaml";
+			name = "OS X";
 			sourceTree = "<group>";
 		};
 		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FA7AC8429882A95AA0810A9DCDED54FF /* OS X */,
+				04C068A18C5413F804A2959126093416 /* OS X */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,19 +107,19 @@
 			);
 			sourceTree = "<group>";
 		};
-		A83406CAB07C6141431DB1E62224E016 /* Pods-caesar */ = {
+		ACAD262EFCE291FEF62491105340DF99 /* Pods-caesar */ = {
 			isa = PBXGroup;
 			children = (
-				184F00A71D7C551AE07E05DC5724BCDA /* Info.plist */,
-				F14D5CD5DC6B58CB56C7D1B4592989FB /* Pods-caesar.modulemap */,
-				C62C6E26D5AE236F41BFA79A19D5B0B9 /* Pods-caesar-acknowledgements.markdown */,
-				3CCA930741E96E6D7CACECF015DE747C /* Pods-caesar-acknowledgements.plist */,
-				02B41F92BC0C89929E0BADDD8028E9C1 /* Pods-caesar-dummy.m */,
-				FF451EB4CB1F62CE3D0CD48A79946D5C /* Pods-caesar-frameworks.sh */,
-				64AB2D5C3DC3A23A52084CF0F9D62BB4 /* Pods-caesar-resources.sh */,
-				B801CAB9A77F43BED1FB468C6EC8A1FD /* Pods-caesar-umbrella.h */,
-				4E3CA7D5BF9F106D4A4FE6369E38CE79 /* Pods-caesar.debug.xcconfig */,
-				CB623F0B5A918714D0EF73D2FE689254 /* Pods-caesar.release.xcconfig */,
+				3FA366BD6E5473C9C997C3765985D144 /* Info.plist */,
+				F37F7655AADC1F8D0EBAD78E728B8D49 /* Pods-caesar.modulemap */,
+				07E4C6AAEC19B48A792812E98B4F89CA /* Pods-caesar-acknowledgements.markdown */,
+				C0B3BB2EF661D7321620B2C300BD6CA4 /* Pods-caesar-acknowledgements.plist */,
+				782A0506BC95FDE15837BCFE767206D2 /* Pods-caesar-dummy.m */,
+				D1559575AD46163CC881441D3607C906 /* Pods-caesar-frameworks.sh */,
+				5488FA4408440BAFF25A77145386175D /* Pods-caesar-resources.sh */,
+				4E4F9FD22C9C9AFBC967F8CEC611C69C /* Pods-caesar-umbrella.h */,
+				A81B5FD8660A771057907C5B7969140B /* Pods-caesar.debug.xcconfig */,
+				2F9B793860196002B97FCDA2C840922C /* Pods-caesar.release.xcconfig */,
 			);
 			name = "Pods-caesar";
 			path = "Target Support Files/Pods-caesar";
@@ -134,21 +128,21 @@
 		B587B78315277685A5773FB6C0556629 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A83406CAB07C6141431DB1E62224E016 /* Pods-caesar */,
+				ACAD262EFCE291FEF62491105340DF99 /* Pods-caesar */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BA3E8E7D12338B4A5CFB4DD20BFF8651 /* Yaml */ = {
+		BB68960E7F9DC466E94BAF7224B6C9A1 /* Yaml */ = {
 			isa = PBXGroup;
 			children = (
-				872AA089ED0629B5EFCB98960A1D8575 /* Yaml.swift */,
-				A8F737369EC1A0E96208DC95F67385A6 /* YAMLOperators.swift */,
-				97EC0616D271A6984210812CDB0E3925 /* YAMLParser.swift */,
-				D88CE09CB76B3BFF89ED3251143BF3B7 /* YAMLRegex.swift */,
-				5436C82CF8DB48A4FAE954E24163546E /* YAMLResult.swift */,
-				A033B8BD61DE67C4D035046E0633DDC1 /* YAMLTokenizer.swift */,
-				2E63A4D52C60F258C4B9F6628154717E /* Support Files */,
+				09B582D8A715D6F13940769645FCBAFC /* Yaml.swift */,
+				F419BC767B21847F0D12E4551F76BBAD /* YAMLOperators.swift */,
+				8230D970EA1C6E11D2A6259A0FF0436E /* YAMLParser.swift */,
+				E933BDFCB58FBEF6F61F724C582D2F09 /* YAMLRegex.swift */,
+				1C470C24364041332181735D4F39F8D6 /* YAMLResult.swift */,
+				75D9C9920DDCD916B8892086AB6D3DFF /* YAMLTokenizer.swift */,
+				EC45AD623CFF6D1EB3E8903C8FEA3571 /* Support Files */,
 			);
 			name = Yaml;
 			path = Yaml;
@@ -166,17 +160,23 @@
 		E47E24784DA64C9971FE827BE00EA286 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BA3E8E7D12338B4A5CFB4DD20BFF8651 /* Yaml */,
+				BB68960E7F9DC466E94BAF7224B6C9A1 /* Yaml */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		FA7AC8429882A95AA0810A9DCDED54FF /* OS X */ = {
+		EC45AD623CFF6D1EB3E8903C8FEA3571 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */,
+				0361B7D90F27D4F3DFB5E5B9A59FA47E /* Info.plist */,
+				41BFA39993E3E839810CCF0F08891DD6 /* Yaml.modulemap */,
+				D307CDF61E4426E4B0B13E981471A563 /* Yaml.xcconfig */,
+				17B0DF18F1710095F4064A7C0AB8BA88 /* Yaml-dummy.m */,
+				E7BB1687347A3B5E3F98A050F3FE67A5 /* Yaml-prefix.pch */,
+				83370EF19C3F62720062A8670A3721B8 /* Yaml-umbrella.h */,
 			);
-			name = "OS X";
+			name = "Support Files";
+			path = "../Target Support Files/Yaml";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,8 +242,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -269,12 +269,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3910135CCFB4439D9C3D180943CC0C2 /* Yaml-dummy.m in Sources */,
-				F54D51CFD292F8217858CB4C72335889 /* Yaml.swift in Sources */,
-				A0E4D61288C9ABBC55BE899E2171F18A /* YAMLOperators.swift in Sources */,
-				434F66C43C9FC727D29378663111B81C /* YAMLParser.swift in Sources */,
-				9A0C706157A053AEE65EF2C35A74B4FC /* YAMLRegex.swift in Sources */,
-				53178C277CE7769EFE8077F6675ACB00 /* YAMLResult.swift in Sources */,
-				D8169DED1CBA7DB355B5BA26BE10C16C /* YAMLTokenizer.swift in Sources */,
+				BE3842791BF66222F680F430F1FCF41C /* Yaml.swift in Sources */,
+				D9280A88492A0BB19D7CD8368C6FEB34 /* YAMLOperators.swift in Sources */,
+				63CADC87C878986AE9CA3BAF35FF7A04 /* YAMLParser.swift in Sources */,
+				40C8723FFDC17A30AC5F64FEBE4DB72A /* YAMLRegex.swift in Sources */,
+				70348238E39007454C9A07435B7AF339 /* YAMLResult.swift in Sources */,
+				6F89BBF65526DC0FC77ED6634D15158F /* YAMLTokenizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,66 +298,69 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		547BD5045C97C226D4DE007355D9892B /* Debug */ = {
+		233A726D7C9B2088B2C4D76244FFCC57 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E3CA7D5BF9F106D4A4FE6369E38CE79 /* Pods-caesar.debug.xcconfig */;
+			baseConfigurationReference = D307CDF61E4426E4B0B13E981471A563 /* Yaml.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-caesar/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Yaml/Yaml-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Yaml/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-caesar/Pods-caesar.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_caesar;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Yaml/Yaml.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Yaml;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		7302EA1567366145DBFE8E7E63CD2768 /* Release */ = {
+		8B71A5E908ECC6E41A40F5032B4A49AE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB623F0B5A918714D0EF73D2FE689254 /* Pods-caesar.release.xcconfig */;
+			baseConfigurationReference = 2F9B793860196002B97FCDA2C840922C /* Pods-caesar.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-caesar/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MODULEMAP_FILE = "Target Support Files/Pods-caesar/Pods-caesar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -366,125 +369,91 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		756A8915349BF57F06C07F32230CEF1A /* Release */ = {
+		BF42290B217373A069120199F8FDF6D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D307CDF61E4426E4B0B13E981471A563 /* Yaml.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		8A31A76A03ABB32303F19ACF1C49948D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
+				FRAMEWORK_VERSION = A;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Yaml/Yaml-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Yaml/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Yaml/Yaml.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Yaml;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C734A39EF0A2FD4BDDD7FE07639BA9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -492,65 +461,86 @@
 			};
 			name = Debug;
 		};
-		A59CED17083E481E2C458A2752902C69 /* Release */ = {
+		FC4738C3605827B2CD972C349A860865 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E12DEC0FA7331E55C306A9C1EE414022 /* Yaml.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Yaml/Yaml-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Yaml/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/Yaml/Yaml.modulemap";
-				PRODUCT_NAME = Yaml;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		ED7E72E9B2F802F43FF2C66D6E2E08E6 /* Debug */ = {
+		FE75AEFC371B1121AC095BC89D8EDC4E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E12DEC0FA7331E55C306A9C1EE414022 /* Yaml.xcconfig */;
+			baseConfigurationReference = A81B5FD8660A771057907C5B7969140B /* Pods-caesar.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Yaml/Yaml-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Yaml/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-caesar/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/Yaml/Yaml.modulemap";
-				PRODUCT_NAME = Yaml;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-caesar/Pods-caesar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_caesar;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -562,8 +552,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A31A76A03ABB32303F19ACF1C49948D /* Debug */,
-				756A8915349BF57F06C07F32230CEF1A /* Release */,
+				C734A39EF0A2FD4BDDD7FE07639BA9C0 /* Debug */,
+				FC4738C3605827B2CD972C349A860865 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -571,8 +561,8 @@
 		A126EE865793359E79FF415995685FF4 /* Build configuration list for PBXNativeTarget "Pods-caesar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				547BD5045C97C226D4DE007355D9892B /* Debug */,
-				7302EA1567366145DBFE8E7E63CD2768 /* Release */,
+				FE75AEFC371B1121AC095BC89D8EDC4E /* Debug */,
+				8B71A5E908ECC6E41A40F5032B4A49AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -580,8 +570,8 @@
 		E35ED0812EFAB5C15DA982E7A8890739 /* Build configuration list for PBXNativeTarget "Yaml" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED7E72E9B2F802F43FF2C66D6E2E08E6 /* Debug */,
-				A59CED17083E481E2C458A2752902C69 /* Release */,
+				BF42290B217373A069120199F8FDF6D5 /* Debug */,
+				233A726D7C9B2088B2C4D76244FFCC57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
