@@ -142,12 +142,6 @@ Tapping on a link will take you to relevant materials.
                     - [ ] [`Dependency Injection`](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Principles/Inversion_of_Control/Dependency_Injection/RESOURCES.md)
                     - [ ] Service Locator
                 - [ ] [Protocol-Oriented Programming](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Design_Principles/Protocol-Oriented_Programming/RESOURCES.md)
-            - [ ] Object-Oriented Programming
-            - [ ] Functional programming
-                - [ ] Functional Reactive Programming Frameworks
-                    - [ ] React Native
-                    - [ ] [RxSwift](Resources/iOS_Developer/Practical_knowledge/Software_Architecture/Functional_programming/Functional_Reactive_Programming_Frameworks/RxSwift/RESOURCES.md)
-                    - [ ] RxRealm, RxDataSources
         - [ ] `Dependencies management`
             - [ ] [Cocoapods](Resources/iOS_Developer/Practical_knowledge/Dependencies_management/Cocoapods/RESOURCES.md)
             - [ ] [Carthage](Resources/iOS_Developer/Practical_knowledge/Dependencies_management/Carthage/RESOURCES.md)
@@ -219,3 +213,10 @@ Tapping on a link will take you to relevant materials.
             - [ ] Double-ended queue
         - [ ] `System design`
             - [ ] [Problems](Resources/iOS_Developer/Computer_Science_knowledge/System_design/Problems/RESOURCES.md)
+        - [ ] Programming Paradigms
+            - [ ] Object-Oriented
+            - [ ] Functional
+                - [ ] Functional Reactive Programming Frameworks
+                    - [ ] React Native
+                    - [ ] [RxSwift](Resources/iOS_Developer/Computer_Science_knowledge/Programming_Paradigms/Functional/Functional_Reactive_Programming_Frameworks/RxSwift/RESOURCES.md)
+                    - [ ] RxRealm, RxDataSources

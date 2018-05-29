@@ -1,4 +1,4 @@
-## iOS Developer > Practical knowledge > Software Architecture > Functional programming > Functional Reactive Programming Frameworks > RxSwift
+## iOS Developer > Computer Science knowledge > Programming Paradigms > Functional > Functional Reactive Programming Frameworks > RxSwift
 
 ### Articles
 - [ ] [Interactive diagrams of Rx Observables](http://rxmarbles.com)
