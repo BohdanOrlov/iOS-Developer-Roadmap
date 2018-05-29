@@ -471,17 +471,6 @@
                             - "Protocol Oriented Programming in Swift: An Introduction": "https://www.appcoda.com/protocol-oriented-programming/"
                         - WWDC:
                             - "Protocol-Oriented Programming in Swift": "https://developer.apple.com/videos/play/wwdc2015/408/"
-            - Object-Oriented Programming:
-            - Functional programming:
-                - Functional Reactive Programming Frameworks:
-                  - React Native:
-                  - RxSwift:
-                      - RESOURCES:
-                          - Articles:
-                              - "Interactive diagrams of Rx Observables": "http://rxmarbles.com"
-                          - Videos:
-                              - "Learning Path: RxSwift from Start to Finish": "https://academy.realm.io/posts/learning-path-rxswift-from-start-to-finish/"
-                  - RxRealm, RxDataSources:
         - Dependencies management^:
             - Cocoapods:
                 - RESOURCES:
@@ -621,3 +610,15 @@
                 - RESOURCES:
                     - Articles:
                         - "Top 10 System Design Interview Questions for Software Engineers": "https://hackernoon.com/top-10-system-design-interview-questions-for-software-engineers-8561290f0444"
+        - Programming Paradigms:
+            - Object-Oriented:
+            - Functional:
+                - Functional Reactive Programming Frameworks:
+                    - React Native:
+                    - RxSwift:
+                        - RESOURCES:
+                            - Articles:
+                                - "Interactive diagrams of Rx Observables": "http://rxmarbles.com"
+                            - Videos:
+                                - "Learning Path: RxSwift from Start to Finish": "https://academy.realm.io/posts/learning-path-rxswift-from-start-to-finish/"
+                    - RxRealm, RxDataSources:
