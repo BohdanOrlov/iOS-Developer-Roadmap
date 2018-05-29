@@ -1,5 +1,5 @@
 language: swift
-osx_image: xcode9.4
+osx_image: xcode9.3
 
 install:
   - brew install libtool
