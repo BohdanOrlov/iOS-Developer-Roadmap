@@ -1,8 +1,5 @@
 import Foundation
 
-#if os(Linux)
-typealias NSRegularExpression = RegularExpression
-#endif
 
 private let invalidOptionsPattern =
   try! NSRegularExpression(pattern: "[^ixsm]", options: [])
@@ -16,6 +13,7 @@ private let regexOptions: [Character: NSRegularExpression.Options] = [
 
 extension Yaml {
   struct Regex {
+
 static func matchRange (_ string: String, regex: NSRegularExpression) -> NSRange {
   let sr = NSMakeRange(0, string.utf16.count)
   return regex.rangeOfFirstMatch(in: string, options: [], range: sr)
@@ -30,7 +28,7 @@ static func regex (_ pattern: String, options: String = "") -> NSRegularExpressi
     return nil
   }
 
-  let opts = options.characters.reduce(NSRegularExpression.Options()) { (acc, opt) -> NSRegularExpression.Options in
+  let opts = options.reduce(NSRegularExpression.Options()) { (acc, opt) -> NSRegularExpression.Options in
     return NSRegularExpression.Options(rawValue:acc.rawValue | (regexOptions[opt] ?? NSRegularExpression.Options()).rawValue)
   }
   return try? NSRegularExpression(pattern: pattern, options: opts)
@@ -66,18 +64,14 @@ static func replace (_ regex: NSRegularExpression, block: @escaping ([String]) -
           if let result = result {
               var captures = [String](repeating: "", count: result.numberOfRanges)
               for i in 0..<result.numberOfRanges {
-                #if os(Linux)
                 let rangeAt = result.range(at: i)
-                #else
-                let rangeAt = result.rangeAt(i)
-                #endif
-                if let r = rangeAt.toRange() {
+                if let r = Range(rangeAt) {
                   captures[i] = NSString(string: string).substring(with: NSRange(r))
                 }
               }
               let replacement = block(captures)
               let offR = NSMakeRange(result.range.location + offset, result.range.length)
-              offset += replacement.characters.count - result.range.length
+              offset += replacement.count - result.range.length
               s.replaceCharacters(in: offR, with: replacement)
           }
         }
@@ -117,16 +111,12 @@ static func splitTrail (_ regex: NSRegularExpression) -> (String)
       }
 }
 
-static func substringWithRange (_ range: NSRange) -> (String) -> String {
-  return { string in
+static func substring (_ range: NSRange, _ string : String ) -> String {
     return NSString(string: string).substring(with: range)
-  }
 }
 
-static func substringFromIndex (_ index: Int) -> (String) -> String {
-  return { string in
+static func substring (_ index: Int, _ string: String ) -> String {
     return NSString(string: string).substring(from: index)
-  }
 }
   }
 

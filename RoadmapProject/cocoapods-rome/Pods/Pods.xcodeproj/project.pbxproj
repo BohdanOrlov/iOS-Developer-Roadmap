@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11A773F6C6A8E1D678931E56D3D79909 /* Yaml-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33434A521C7AA49D768604CE229E6E5A /* Yaml-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11A773F6C6A8E1D678931E56D3D79909 /* Yaml-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 036E972904040E8692E1C5C562E55630 /* Yaml-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3295E526B8DFAF0E5498159E140E4506 /* Pods-caesar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B801CAB9A77F43BED1FB468C6EC8A1FD /* Pods-caesar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		434F66C43C9FC727D29378663111B81C /* YAMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EC0616D271A6984210812CDB0E3925 /* YAMLParser.swift */; };
-		53178C277CE7769EFE8077F6675ACB00 /* YAMLResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436C82CF8DB48A4FAE954E24163546E /* YAMLResult.swift */; };
+		40C8723FFDC17A30AC5F64FEBE4DB72A /* YAMLRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E933BDFCB58FBEF6F61F724C582D2F09 /* YAMLRegex.swift */; };
+		63CADC87C878986AE9CA3BAF35FF7A04 /* YAMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8230D970EA1C6E11D2A6259A0FF0436E /* YAMLParser.swift */; };
 		645C0ECC5F60A64EC74F1DC5E033A75D /* Pods-caesar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B41F92BC0C89929E0BADDD8028E9C1 /* Pods-caesar-dummy.m */; };
+		6F89BBF65526DC0FC77ED6634D15158F /* YAMLTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D9C9920DDCD916B8892086AB6D3DFF /* YAMLTokenizer.swift */; };
+		70348238E39007454C9A07435B7AF339 /* YAMLResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C470C24364041332181735D4F39F8D6 /* YAMLResult.swift */; };
 		958B15359F90F4D04D30CEAE3EB67E95 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
-		9A0C706157A053AEE65EF2C35A74B4FC /* YAMLRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CE09CB76B3BFF89ED3251143BF3B7 /* YAMLRegex.swift */; };
-		A0E4D61288C9ABBC55BE899E2171F18A /* YAMLOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F737369EC1A0E96208DC95F67385A6 /* YAMLOperators.swift */; };
-		A3910135CCFB4439D9C3D180943CC0C2 /* Yaml-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BFA3F669EA40F5F15BA2197630819 /* Yaml-dummy.m */; };
-		D8169DED1CBA7DB355B5BA26BE10C16C /* YAMLTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A033B8BD61DE67C4D035046E0633DDC1 /* YAMLTokenizer.swift */; };
-		F54D51CFD292F8217858CB4C72335889 /* Yaml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872AA089ED0629B5EFCB98960A1D8575 /* Yaml.swift */; };
+		A3910135CCFB4439D9C3D180943CC0C2 /* Yaml-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A18FE62EA44CFE8363120D952D4F92 /* Yaml-dummy.m */; };
+		BE3842791BF66222F680F430F1FCF41C /* Yaml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B582D8A715D6F13940769645FCBAFC /* Yaml.swift */; };
+		D9280A88492A0BB19D7CD8368C6FEB34 /* YAMLOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F419BC767B21847F0D12E4551F76BBAD /* YAMLOperators.swift */; };
 		F9D891D3E01E0175CADC109B668EF70B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,30 +33,30 @@
 
 /* Begin PBXFileReference section */
 		02B41F92BC0C89929E0BADDD8028E9C1 /* Pods-caesar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-caesar-dummy.m"; sourceTree = "<group>"; };
-		0A0BFA3F669EA40F5F15BA2197630819 /* Yaml-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Yaml-dummy.m"; sourceTree = "<group>"; };
+		036E972904040E8692E1C5C562E55630 /* Yaml-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Yaml-umbrella.h"; sourceTree = "<group>"; };
+		09B582D8A715D6F13940769645FCBAFC /* Yaml.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Yaml.swift; path = Sources/Yaml/Yaml.swift; sourceTree = "<group>"; };
 		184F00A71D7C551AE07E05DC5724BCDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33434A521C7AA49D768604CE229E6E5A /* Yaml-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Yaml-umbrella.h"; sourceTree = "<group>"; };
-		375582CA89FF7B50C637C65A6CF69BFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C470C24364041332181735D4F39F8D6 /* YAMLResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAMLResult.swift; path = Sources/Yaml/YAMLResult.swift; sourceTree = "<group>"; };
 		3CCA930741E96E6D7CACECF015DE747C /* Pods-caesar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-caesar-acknowledgements.plist"; sourceTree = "<group>"; };
+		4357BC39A7A1AA5D3E12B2DDCC092192 /* Yaml.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Yaml.xcconfig; sourceTree = "<group>"; };
+		492EBBF7B646F8614446687D03A4EFC8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E3CA7D5BF9F106D4A4FE6369E38CE79 /* Pods-caesar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-caesar.debug.xcconfig"; sourceTree = "<group>"; };
-		5436C82CF8DB48A4FAE954E24163546E /* YAMLResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAMLResult.swift; path = Yaml/YAMLResult.swift; sourceTree = "<group>"; };
 		64AB2D5C3DC3A23A52084CF0F9D62BB4 /* Pods-caesar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-caesar-resources.sh"; sourceTree = "<group>"; };
-		82D32347624D2074CB03C8225EAF804E /* Yaml-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Yaml-prefix.pch"; sourceTree = "<group>"; };
-		84BC69C709E0C3A5B629A68C2D88FE3C /* Yaml.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Yaml.modulemap; sourceTree = "<group>"; };
-		872AA089ED0629B5EFCB98960A1D8575 /* Yaml.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Yaml.swift; path = Yaml/Yaml.swift; sourceTree = "<group>"; };
+		72A18FE62EA44CFE8363120D952D4F92 /* Yaml-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Yaml-dummy.m"; sourceTree = "<group>"; };
+		75D9C9920DDCD916B8892086AB6D3DFF /* YAMLTokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAMLTokenizer.swift; path = Sources/Yaml/YAMLTokenizer.swift; sourceTree = "<group>"; };
+		8230D970EA1C6E11D2A6259A0FF0436E /* YAMLParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAMLParser.swift; path = Sources/Yaml/YAMLParser.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97EC0616D271A6984210812CDB0E3925 /* YAMLParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAMLParser.swift; path = Yaml/YAMLParser.swift; sourceTree = "<group>"; };
-		A033B8BD61DE67C4D035046E0633DDC1 /* YAMLTokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAMLTokenizer.swift; path = Yaml/YAMLTokenizer.swift; sourceTree = "<group>"; };
-		A8F737369EC1A0E96208DC95F67385A6 /* YAMLOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAMLOperators.swift; path = Yaml/YAMLOperators.swift; sourceTree = "<group>"; };
+		AB7C888BF05BA0BB34B7233A4DB5AAE3 /* Yaml.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Yaml.modulemap; sourceTree = "<group>"; };
 		B801CAB9A77F43BED1FB468C6EC8A1FD /* Pods-caesar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-caesar-umbrella.h"; sourceTree = "<group>"; };
 		C62C6E26D5AE236F41BFA79A19D5B0B9 /* Pods-caesar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-caesar-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CB623F0B5A918714D0EF73D2FE689254 /* Pods-caesar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-caesar.release.xcconfig"; sourceTree = "<group>"; };
 		D13F21B96DF54CFD2FDDFA1BE1D5D005 /* Yaml.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Yaml.framework; path = Yaml.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D88CE09CB76B3BFF89ED3251143BF3B7 /* YAMLRegex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAMLRegex.swift; path = Yaml/YAMLRegex.swift; sourceTree = "<group>"; };
 		DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		E12DEC0FA7331E55C306A9C1EE414022 /* Yaml.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Yaml.xcconfig; sourceTree = "<group>"; };
+		E3553E562CA9F05FD72A884AC15EDD66 /* Yaml-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Yaml-prefix.pch"; sourceTree = "<group>"; };
+		E933BDFCB58FBEF6F61F724C582D2F09 /* YAMLRegex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAMLRegex.swift; path = Sources/Yaml/YAMLRegex.swift; sourceTree = "<group>"; };
 		E99CF6A80F9C08691904339A915461E0 /* Pods_caesar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_caesar.framework; path = "Pods-caesar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F14D5CD5DC6B58CB56C7D1B4592989FB /* Pods-caesar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-caesar.modulemap"; sourceTree = "<group>"; };
+		F419BC767B21847F0D12E4551F76BBAD /* YAMLOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAMLOperators.swift; path = Sources/Yaml/YAMLOperators.swift; sourceTree = "<group>"; };
 		FF451EB4CB1F62CE3D0CD48A79946D5C /* Pods-caesar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-caesar-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,20 +80,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E63A4D52C60F258C4B9F6628154717E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				375582CA89FF7B50C637C65A6CF69BFC /* Info.plist */,
-				84BC69C709E0C3A5B629A68C2D88FE3C /* Yaml.modulemap */,
-				E12DEC0FA7331E55C306A9C1EE414022 /* Yaml.xcconfig */,
-				0A0BFA3F669EA40F5F15BA2197630819 /* Yaml-dummy.m */,
-				82D32347624D2074CB03C8225EAF804E /* Yaml-prefix.pch */,
-				33434A521C7AA49D768604CE229E6E5A /* Yaml-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Yaml";
-			sourceTree = "<group>";
-		};
 		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,16 +125,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BA3E8E7D12338B4A5CFB4DD20BFF8651 /* Yaml */ = {
+		BB68960E7F9DC466E94BAF7224B6C9A1 /* Yaml */ = {
 			isa = PBXGroup;
 			children = (
-				872AA089ED0629B5EFCB98960A1D8575 /* Yaml.swift */,
-				A8F737369EC1A0E96208DC95F67385A6 /* YAMLOperators.swift */,
-				97EC0616D271A6984210812CDB0E3925 /* YAMLParser.swift */,
-				D88CE09CB76B3BFF89ED3251143BF3B7 /* YAMLRegex.swift */,
-				5436C82CF8DB48A4FAE954E24163546E /* YAMLResult.swift */,
-				A033B8BD61DE67C4D035046E0633DDC1 /* YAMLTokenizer.swift */,
-				2E63A4D52C60F258C4B9F6628154717E /* Support Files */,
+				09B582D8A715D6F13940769645FCBAFC /* Yaml.swift */,
+				F419BC767B21847F0D12E4551F76BBAD /* YAMLOperators.swift */,
+				8230D970EA1C6E11D2A6259A0FF0436E /* YAMLParser.swift */,
+				E933BDFCB58FBEF6F61F724C582D2F09 /* YAMLRegex.swift */,
+				1C470C24364041332181735D4F39F8D6 /* YAMLResult.swift */,
+				75D9C9920DDCD916B8892086AB6D3DFF /* YAMLTokenizer.swift */,
+				F58C456E2478A44BC2BB0140D038B254 /* Support Files */,
 			);
 			name = Yaml;
 			path = Yaml;
@@ -166,9 +152,23 @@
 		E47E24784DA64C9971FE827BE00EA286 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BA3E8E7D12338B4A5CFB4DD20BFF8651 /* Yaml */,
+				BB68960E7F9DC466E94BAF7224B6C9A1 /* Yaml */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F58C456E2478A44BC2BB0140D038B254 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				492EBBF7B646F8614446687D03A4EFC8 /* Info.plist */,
+				AB7C888BF05BA0BB34B7233A4DB5AAE3 /* Yaml.modulemap */,
+				4357BC39A7A1AA5D3E12B2DDCC092192 /* Yaml.xcconfig */,
+				72A18FE62EA44CFE8363120D952D4F92 /* Yaml-dummy.m */,
+				E3553E562CA9F05FD72A884AC15EDD66 /* Yaml-prefix.pch */,
+				036E972904040E8692E1C5C562E55630 /* Yaml-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Yaml";
 			sourceTree = "<group>";
 		};
 		FA7AC8429882A95AA0810A9DCDED54FF /* OS X */ = {
@@ -269,12 +269,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3910135CCFB4439D9C3D180943CC0C2 /* Yaml-dummy.m in Sources */,
-				F54D51CFD292F8217858CB4C72335889 /* Yaml.swift in Sources */,
-				A0E4D61288C9ABBC55BE899E2171F18A /* YAMLOperators.swift in Sources */,
-				434F66C43C9FC727D29378663111B81C /* YAMLParser.swift in Sources */,
-				9A0C706157A053AEE65EF2C35A74B4FC /* YAMLRegex.swift in Sources */,
-				53178C277CE7769EFE8077F6675ACB00 /* YAMLResult.swift in Sources */,
-				D8169DED1CBA7DB355B5BA26BE10C16C /* YAMLTokenizer.swift in Sources */,
+				BE3842791BF66222F680F430F1FCF41C /* Yaml.swift in Sources */,
+				D9280A88492A0BB19D7CD8368C6FEB34 /* YAMLOperators.swift in Sources */,
+				63CADC87C878986AE9CA3BAF35FF7A04 /* YAMLParser.swift in Sources */,
+				40C8723FFDC17A30AC5F64FEBE4DB72A /* YAMLRegex.swift in Sources */,
+				70348238E39007454C9A07435B7AF339 /* YAMLResult.swift in Sources */,
+				6F89BBF65526DC0FC77ED6634D15158F /* YAMLTokenizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +329,39 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		098FADB600067FEE9DD5A9161B6914EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4357BC39A7A1AA5D3E12B2DDCC092192 /* Yaml.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Yaml/Yaml-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Yaml/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Yaml/Yaml.modulemap";
+				PRODUCT_NAME = Yaml;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -397,9 +430,9 @@
 			};
 			name = Debug;
 		};
-		A59CED17083E481E2C458A2752902C69 /* Release */ = {
+		76C0AAE1B82624435EAE3F5BA63E8265 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E12DEC0FA7331E55C306A9C1EE414022 /* Yaml.xcconfig */;
+			baseConfigurationReference = 4357BC39A7A1AA5D3E12B2DDCC092192 /* Yaml.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
@@ -423,11 +456,12 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		BFC9B05991EE41A604021F5FC4D2AE96 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -524,38 +558,6 @@
 			};
 			name = Debug;
 		};
-		ED7E72E9B2F802F43FF2C66D6E2E08E6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E12DEC0FA7331E55C306A9C1EE414022 /* Yaml.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Yaml/Yaml-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Yaml/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/Yaml/Yaml.modulemap";
-				PRODUCT_NAME = Yaml;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -580,8 +582,8 @@
 		E35ED0812EFAB5C15DA982E7A8890739 /* Build configuration list for PBXNativeTarget "Yaml" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED7E72E9B2F802F43FF2C66D6E2E08E6 /* Debug */,
-				A59CED17083E481E2C458A2752902C69 /* Release */,
+				76C0AAE1B82624435EAE3F5BA63E8265 /* Debug */,
+				098FADB600067FEE9DD5A9161B6914EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
