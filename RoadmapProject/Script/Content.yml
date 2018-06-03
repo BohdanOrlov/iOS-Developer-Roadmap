@@ -51,7 +51,7 @@
                     - RESOURCES:
                         - Articles:
                             - "Introduction to Key-Value Observing Programming Guide": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/KeyValueObserving/KeyValueObserving.html"
-                            - "Key-Value Observing": http://nshipster.com/key-value-observing/"
+                            - "Key-Value Observing": "http://nshipster.com/key-value-observing/"
                 - Toll-free bridging:
                     - RESOURCES:
                         - Articles:
@@ -80,7 +80,7 @@
             - Swift^:
                 - RESOURCES:
                     - Books:
-                        - "The Swift Programming Language": "https://itunes.apple.com/gb/book/the-swift-programming-language-swift-4-0-3/id881256329"
+                        - "The Swift Programming Language": "https://geo.itunes.apple.com/us/book/the-swift-programming-language-swift-4-1/id881256329?mt=11"
                         - "Advanced Swift": "https://www.objc.io/books/advanced-swift/"
                         - "Swift Apprentice": "https://store.raywenderlich.com/products/swift-apprentice?_ga=2.74566868.712179774.1519384552-896491817.1510924963"
                     - Blogs:
@@ -107,7 +107,7 @@
                     - RESOURCES:
                         - Articles:
                             - "Separation of concerns using protocols in Swift": "https://www.swiftbysundell.com/posts/separation-of-concerns-using-protocols-in-swift"
-                            - "Replacing legacy code using Swift protocols": https://www.swiftbysundell.com/posts/replacing-legacy-code-using-swift-protocols
+                            - "Replacing legacy code using Swift protocols": "https://www.swiftbysundell.com/posts/replacing-legacy-code-using-swift-protocols"
                             - "Swift Optional Protocol Methods": "https://useyourloaf.com/blog/swift-optional-protocol-methods/"
                             - "The Swift Programming Language: Protocols": "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Protocols.html"
                 - Structs^:
@@ -168,12 +168,12 @@
             - Shallow and deep copying:
                 - RESOURCES:
                     - Articles:
-                        - "Object copying": "https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/ObjectCopying.html"
+                        - "Object copying": "https://developer.apple.com/library/content/documentation/CoreFoundation/Conceptual/CFMemoryMgmt/Concepts/CopyFunctions.html"
             - Autorelease pool:
                 - RESOURCES:
                     - Articles:
                         - "@AUTORELEASEPOOL": "http://en.swifter.tips/autoreleasepool/"
-        - Multithreading and concurency^:
+        - Multithreading and concurrency^:
             - RESOURCES:
                 - Articles:
                         - "Parallel programming with Swift: Basics": "https://medium.com/flawless-app-stories/basics-of-parallel-programming-with-swift-93fee8425287"
@@ -223,9 +223,6 @@
                             - "Wiki: Readers–writers problem": "https://en.wikipedia.org/wiki/Readers%E2%80%93writers_problem"
                             - "Dispatch Barriers in Swift 3": "https://medium.com/@oyalhi/dispatch-barriers-in-swift-3-6c4a295215d6"    
         - Cocoa Touch^:
-            - RESOURCES:
-                - Articles:
-                    - "Cocoa (Touch)": "https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Cocoa.html"
             - UIKit^:
                 - RESOURCES:
                     - Articles:
@@ -458,7 +455,7 @@
                 - SOLID^:
                     - RESOURCES:
                         - Articles:
-                            - "SOLID (object-oriented design)": https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
+                            - "SOLID (object-oriented design)": "https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)"
                 - Inversion of Control^:
                     - Dependency Injection^:
                         - RESOURCES:
@@ -505,7 +502,7 @@
             - Core Data:
                 - RESOURCES:
                     - Articles:
-                        - "Core Data Programming Guide": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreData/index.html#//apple_ref/doc/uid/TP40001075-CH2-SW1"
+                        - "Core Data Programming Guide": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreData/index.html"
                         - "Core Data from Scratch: Concurrency": "https://code.tutsplus.com/tutorials/core-data-from-scratch-concurrency--cms-22131"
             - Realm:
                 - RESOURCES:
@@ -555,7 +552,7 @@
             - Keychain:
                 - RESOURCES:
                     - Articles:
-                        - "Basic iOS Security: Keychain and Hashing": https://www.raywenderlich.com/185370/basic-ios-security-keychain-hashing
+                        - "Basic iOS Security: Keychain and Hashing": "https://www.raywenderlich.com/185370/basic-ios-security-keychain-hashing"
             - Security Transforms API:
         - tvOS:
             - Focus interactions:
