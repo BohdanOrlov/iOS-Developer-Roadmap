@@ -1,4 +1,4 @@
-## iOS Developer > Practical knowledge > Multithreading and concurency > Problems > Readers–writers problem
+## iOS Developer > Practical knowledge > Multithreading and concurrency > Problems > Readers–writers problem
 
 ### Articles
 - [ ] [Wiki: Readers–writers problem](https://en.wikipedia.org/wiki/Readers%E2%80%93writers_problem)

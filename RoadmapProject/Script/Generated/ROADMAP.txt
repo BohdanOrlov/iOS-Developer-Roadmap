@@ -35,17 +35,17 @@ left to right direction
 (Memory leaks) as (iOS Developer->Practical knowledge->Memory management->Memory leaks) <<^>> 
 (Shallow and deep copying) as (iOS Developer->Practical knowledge->Memory management->Shallow and deep copying)
 (Autorelease pool) as (iOS Developer->Practical knowledge->Memory management->Autorelease pool)
-(Multithreading and concurency) as (iOS Developer->Practical knowledge->Multithreading and concurency) <<^>> 
-(POSIX and NSThreads) as (iOS Developer->Practical knowledge->Multithreading and concurency->POSIX and NSThreads)
-(Perform selector family) as (iOS Developer->Practical knowledge->Multithreading and concurency->Perform selector family)
-(GCD) as (iOS Developer->Practical knowledge->Multithreading and concurency->GCD) <<^>> 
-(NSOperation[Queue]) as (iOS Developer->Practical knowledge->Multithreading and concurency->NSOperation[Queue]) <<^>> 
-(Runloop) as (iOS Developer->Practical knowledge->Multithreading and concurency->Runloop) <<^>> 
-(Synchronization) as (iOS Developer->Practical knowledge->Multithreading and concurency->Synchronization) <<^>> 
-(Problems) as (iOS Developer->Practical knowledge->Multithreading and concurency->Problems)
-(Race condition) as (iOS Developer->Practical knowledge->Multithreading and concurency->Problems->Race condition)
-(Deadlock) as (iOS Developer->Practical knowledge->Multithreading and concurency->Problems->Deadlock)
-(Readers–writers problem) as (iOS Developer->Practical knowledge->Multithreading and concurency->Problems->Readers–writers problem)
+(Multithreading and concurrency) as (iOS Developer->Practical knowledge->Multithreading and concurrency) <<^>> 
+(POSIX and NSThreads) as (iOS Developer->Practical knowledge->Multithreading and concurrency->POSIX and NSThreads)
+(Perform selector family) as (iOS Developer->Practical knowledge->Multithreading and concurrency->Perform selector family)
+(GCD) as (iOS Developer->Practical knowledge->Multithreading and concurrency->GCD) <<^>> 
+(NSOperation[Queue]) as (iOS Developer->Practical knowledge->Multithreading and concurrency->NSOperation[Queue]) <<^>> 
+(Runloop) as (iOS Developer->Practical knowledge->Multithreading and concurrency->Runloop) <<^>> 
+(Synchronization) as (iOS Developer->Practical knowledge->Multithreading and concurrency->Synchronization) <<^>> 
+(Problems) as (iOS Developer->Practical knowledge->Multithreading and concurrency->Problems)
+(Race condition) as (iOS Developer->Practical knowledge->Multithreading and concurrency->Problems->Race condition)
+(Deadlock) as (iOS Developer->Practical knowledge->Multithreading and concurrency->Problems->Deadlock)
+(Readers–writers problem) as (iOS Developer->Practical knowledge->Multithreading and concurrency->Problems->Readers–writers problem)
 (Cocoa Touch) as (iOS Developer->Practical knowledge->Cocoa Touch) <<^>> 
 (UIKit) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit) <<^>> 
 (UIApplication) as (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->UIApplication) <<^>> 
@@ -254,17 +254,17 @@ You -|> (iOS Developer)
 (iOS Developer->Practical knowledge->Memory management) -down-> (iOS Developer->Practical knowledge->Memory management->Memory leaks)
 (iOS Developer->Practical knowledge->Memory management) -down-> (iOS Developer->Practical knowledge->Memory management->Shallow and deep copying)
 (iOS Developer->Practical knowledge->Memory management) -down-> (iOS Developer->Practical knowledge->Memory management->Autorelease pool)
-(iOS Developer->Practical knowledge) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency)
-(iOS Developer->Practical knowledge->Multithreading and concurency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->POSIX and NSThreads)
-(iOS Developer->Practical knowledge->Multithreading and concurency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->Perform selector family)
-(iOS Developer->Practical knowledge->Multithreading and concurency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->GCD)
-(iOS Developer->Practical knowledge->Multithreading and concurency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->NSOperation[Queue])
-(iOS Developer->Practical knowledge->Multithreading and concurency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->Runloop)
-(iOS Developer->Practical knowledge->Multithreading and concurency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->Synchronization)
-(iOS Developer->Practical knowledge->Multithreading and concurency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->Problems)
-(iOS Developer->Practical knowledge->Multithreading and concurency->Problems) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->Problems->Race condition)
-(iOS Developer->Practical knowledge->Multithreading and concurency->Problems) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->Problems->Deadlock)
-(iOS Developer->Practical knowledge->Multithreading and concurency->Problems) -down-> (iOS Developer->Practical knowledge->Multithreading and concurency->Problems->Readers–writers problem)
+(iOS Developer->Practical knowledge) -down-> (iOS Developer->Practical knowledge->Multithreading and concurrency)
+(iOS Developer->Practical knowledge->Multithreading and concurrency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurrency->POSIX and NSThreads)
+(iOS Developer->Practical knowledge->Multithreading and concurrency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurrency->Perform selector family)
+(iOS Developer->Practical knowledge->Multithreading and concurrency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurrency->GCD)
+(iOS Developer->Practical knowledge->Multithreading and concurrency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurrency->NSOperation[Queue])
+(iOS Developer->Practical knowledge->Multithreading and concurrency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurrency->Runloop)
+(iOS Developer->Practical knowledge->Multithreading and concurrency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurrency->Synchronization)
+(iOS Developer->Practical knowledge->Multithreading and concurrency) -down-> (iOS Developer->Practical knowledge->Multithreading and concurrency->Problems)
+(iOS Developer->Practical knowledge->Multithreading and concurrency->Problems) -down-> (iOS Developer->Practical knowledge->Multithreading and concurrency->Problems->Race condition)
+(iOS Developer->Practical knowledge->Multithreading and concurrency->Problems) -down-> (iOS Developer->Practical knowledge->Multithreading and concurrency->Problems->Deadlock)
+(iOS Developer->Practical knowledge->Multithreading and concurrency->Problems) -down-> (iOS Developer->Practical knowledge->Multithreading and concurrency->Problems->Readers–writers problem)
 (iOS Developer->Practical knowledge) -down-> (iOS Developer->Practical knowledge->Cocoa Touch)
 (iOS Developer->Practical knowledge->Cocoa Touch) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit)
 (iOS Developer->Practical knowledge->Cocoa Touch->UIKit) -down-> (iOS Developer->Practical knowledge->Cocoa Touch->UIKit->UIApplication)
