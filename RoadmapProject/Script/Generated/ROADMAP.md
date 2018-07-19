@@ -2,7 +2,7 @@
 ## Text version
 Tapping on a link will take you to relevant materials.
 
-- [ ] [`iOS Developer`](Resources/iOS_Developer/RESOURCES.md)
+- [x] [`iOS Developer`](Resources/iOS_Developer/RESOURCES.md)
     - [ ] [`Practical knowledge`](Resources/iOS_Developer/Practical_knowledge/RESOURCES.md)
         - [ ] [Getting started](Resources/iOS_Developer/Practical_knowledge/Getting_started/RESOURCES.md)
             - [ ] [First pet project ideas](Resources/iOS_Developer/Practical_knowledge/Getting_started/First_pet_project_ideas/RESOURCES.md)
