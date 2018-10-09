@@ -49,8 +49,8 @@ Roadmap of essential topics. Roadmap for all topics is [here.](RoadmapProject/Sc
 - [x] content file with topics and materials
 - [x] ability to generate README.md from the content file
 - [x] ability to generate Roadmap tree image from the content file
-- [ ] make generation script less miserable:
-	- [x] make it readable 🤦
+- [x] make generation script less miserable:
+	- [ ] make it readable 🤦
 	- [ ] output Yaml format violation errors
 	- [ ] handle errors of parsing Yaml into Topics and Resources
 	- [ ] handle file read/write errors
@@ -69,3 +69,5 @@ Roadmap of essential topics. Roadmap for all topics is [here.](RoadmapProject/Sc
 ## 📊 Skills Matrix 
 You might also like the [iOS Developer Skills Matrix](https://github.com/BohdanOrlov/ios-skills-matrix).
 ![Skills matrix](https://github.com/BohdanOrlov/ios-skills-matrix/raw/master/matrix.png)
+
+
