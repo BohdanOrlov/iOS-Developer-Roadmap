@@ -69,3 +69,8 @@ Roadmap of essential topics. Roadmap for all topics is [here.](RoadmapProject/Sc
 ## 📊 Skills Matrix 
 You might also like the [iOS Developer Skills Matrix](https://github.com/BohdanOrlov/ios-skills-matrix).
 ![Skills matrix](https://github.com/BohdanOrlov/ios-skills-matrix/raw/master/matrix.png)
+
+## 📚 iOS and Swift Tutorials and Courses
+
+Learn iOS development & Swift online from the best iOS Swift tutorials and courses recommended by the programming community. 
+https://hackr.io/tutorials/learn-ios-swift
