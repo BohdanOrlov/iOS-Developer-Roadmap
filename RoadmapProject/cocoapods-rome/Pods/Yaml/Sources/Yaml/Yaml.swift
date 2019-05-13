@@ -1,6 +1,6 @@
 import Foundation
 
-public enum Yaml {
+public enum Yaml: Hashable {
   case null
   case bool(Bool)
   case int(Int)
@@ -127,13 +127,6 @@ extension Yaml: CustomStringConvertible {
     }
   }
 }
-
-extension Yaml: Hashable {
-  public var hashValue: Int {
-    return description.hashValue
-  }
-}
-
 
 
 extension Yaml {

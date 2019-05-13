@@ -171,8 +171,8 @@ func generateResourcesMarkdown(from topics: [Topic]) {
 // Image generation (PlantUML)
 
 extension Topic: Hashable {
-    var hashValue: Int {
-        return name.hashValue
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(name.hashValue)
     }
     
     static func ==(lhs: Topic, rhs: Topic) -> Bool {

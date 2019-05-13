@@ -1,12 +1,16 @@
 PODS:
-  - Yaml (3.4.3)
+  - Yaml (3.4.4)
 
 DEPENDENCIES:
-  - Yaml (= 3.4.3)
+  - Yaml (= 3.4.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Yaml
 
 SPEC CHECKSUMS:
-  Yaml: 9f32854890c54304772f02380c3899c8db739800
+  Yaml: 52831fc1d9ac2db4ddf6d7562993457127256ca6
 
-PODFILE CHECKSUM: f8e060a293b5fe5f6cced4ba1c4b7b96ac9e42e3
+PODFILE CHECKSUM: de07574491a403eb801cf477d05e55578e8c895a
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.6.1

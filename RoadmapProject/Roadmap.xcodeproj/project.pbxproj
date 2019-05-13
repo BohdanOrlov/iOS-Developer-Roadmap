@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		CB4D061D203C5CC400520BD2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4D061C203C5CC400520BD2 /* main.swift */; };
 		CB4D0625203C638500520BD2 /* Yaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4D0624203C638500520BD2 /* Yaml.framework */; };
-		CB4D0626203C645300520BD2 /* Yaml.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = CB4D0624203C638500520BD2 /* Yaml.framework */; };
+		CB4D0626203C645300520BD2 /* Yaml.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = CB4D0624203C638500520BD2 /* Yaml.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CB4D0630203C6A6000520BD2 /* Content.yml in Copy Files */ = {isa = PBXBuildFile; fileRef = CB4D062F203C6A4B00520BD2 /* Content.yml */; };
 		CB4D0632203DBC9900520BD2 /* plantuml.jar in Copy Files */ = {isa = PBXBuildFile; fileRef = CB4D0631203DBC9900520BD2 /* plantuml.jar */; };
 /* End PBXBuildFile section */
@@ -114,11 +114,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Bohdan Orlov";
 				TargetAttributes = {
 					CB4D0618203C5CC400520BD2 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -166,6 +167,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -173,6 +175,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -223,6 +226,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -230,6 +234,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -268,7 +273,7 @@
 				);
 				LD_RUNPATH_SEARCH_PATHS = "${DT_TOOLCHAIN_DIR}/usr/lib/swift/macosx/";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -282,7 +287,7 @@
 				);
 				LD_RUNPATH_SEARCH_PATHS = "${DT_TOOLCHAIN_DIR}/usr/lib/swift/macosx/";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
