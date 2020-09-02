@@ -1,6 +1,7 @@
 ## iOS Developer > Practical knowledge > Languages > Objective-C > Runtime > Swizzling
 
 ### Articles
-- [ ] [Method Swizzling](http://nshipster.com/method-swizzling/)
+- [x] [Method Swizzling](http://nshipster.com/method-swizzling/)
+- [x] [Google](http:google.com)
 
 
