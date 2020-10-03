@@ -162,6 +162,7 @@ Tapping on a link will take you to relevant materials.
             - [ ] [`Unit Tests`](Resources/iOS_Developer/Practical_knowledge/Testing/Unit_Tests/RESOURCES.md)
             - [ ] Snapshot Tests
             - [ ] Functional test
+            - [ ] UI Tests
             - [ ] [TDD](Resources/iOS_Developer/Practical_knowledge/Testing/TDD/RESOURCES.md)
             - [ ] [BDD](Resources/iOS_Developer/Practical_knowledge/Testing/BDD/RESOURCES.md)
         - [ ] Performance optimization
@@ -175,12 +176,14 @@ Tapping on a link will take you to relevant materials.
             - [ ] Swiftlint
             - [ ] Sourcery
             - [ ] [Fastlane](Resources/iOS_Developer/Practical_knowledge/Tools/Fastlane/RESOURCES.md)
+            - [ ] Charles
         - [ ] Continuous Integration
-            - [ ] Jenkins
+            - [ ] Jenkins / CircleCI / Bitrise / Github Actions
             - [ ] Xcode server
         - [ ] Security
             - [ ] [Keychain](Resources/iOS_Developer/Practical_knowledge/Security/Keychain/RESOURCES.md)
             - [ ] Security Transforms API
+            - [ ] Secure Enclave
         - [ ] tvOS
             - [ ] [Focus interactions](Resources/iOS_Developer/Practical_knowledge/tvOS/Focus_interactions/RESOURCES.md)
         - [ ] WatchKit
@@ -220,3 +223,4 @@ Tapping on a link will take you to relevant materials.
                     - [ ] React Native
                     - [ ] [RxSwift](Resources/iOS_Developer/Computer_Science_knowledge/Programming_Paradigms/Functional/Functional_Reactive_Programming_Frameworks/RxSwift/RESOURCES.md)
                     - [ ] RxRealm, RxDataSources
+                    - [ ] Combine
