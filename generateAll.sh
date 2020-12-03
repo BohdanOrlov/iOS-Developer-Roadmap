@@ -1,2 +1,4 @@
 #!/bin/bash
-( cd RoadmapProject/Script && ./main.swift )
+cd RoadmapProject/Script
+rm -rf "Generated"
+./main.swift

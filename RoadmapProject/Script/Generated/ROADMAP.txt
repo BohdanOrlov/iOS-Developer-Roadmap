@@ -182,6 +182,8 @@ left to right direction
 (tvOS) as (iOS Developer->Practical knowledge->tvOS)
 (Focus interactions) as (iOS Developer->Practical knowledge->tvOS->Focus interactions)
 (WatchKit) as (iOS Developer->Practical knowledge->WatchKit)
+(Integrations) as (iOS Developer->Practical knowledge->Integrations)
+(Stripe Payments) as (iOS Developer->Practical knowledge->Integrations->Stripe Payments)
 (Computer Science knowledge) as (iOS Developer->Computer Science knowledge) <<^>> 
 (Algorithms) as (iOS Developer->Computer Science knowledge->Algorithms) <<^>> 
 (Sorting) as (iOS Developer->Computer Science knowledge->Algorithms->Sorting) <<^>> 
@@ -218,6 +220,7 @@ left to right direction
 (React Native) as (iOS Developer->Computer Science knowledge->Programming Paradigms->Functional->Functional Reactive Programming Frameworks->React Native)
 (RxSwift) as (iOS Developer->Computer Science knowledge->Programming Paradigms->Functional->Functional Reactive Programming Frameworks->RxSwift)
 (RxRealm, RxDataSources) as (iOS Developer->Computer Science knowledge->Programming Paradigms->Functional->Functional Reactive Programming Frameworks->RxRealm, RxDataSources)
+(Combine Framework) as (iOS Developer->Computer Science knowledge->Programming Paradigms->Functional->Functional Reactive Programming Frameworks->Combine Framework)
 
 You -|> (iOS Developer)
 (iOS Developer) -down-> (iOS Developer->Practical knowledge)
@@ -401,6 +404,8 @@ You -|> (iOS Developer)
 (iOS Developer->Practical knowledge) -down-> (iOS Developer->Practical knowledge->tvOS)
 (iOS Developer->Practical knowledge->tvOS) -down-> (iOS Developer->Practical knowledge->tvOS->Focus interactions)
 (iOS Developer->Practical knowledge) -down-> (iOS Developer->Practical knowledge->WatchKit)
+(iOS Developer->Practical knowledge) -down-> (iOS Developer->Practical knowledge->Integrations)
+(iOS Developer->Practical knowledge->Integrations) -down-> (iOS Developer->Practical knowledge->Integrations->Stripe Payments)
 (iOS Developer) -up-> (iOS Developer->Computer Science knowledge)
 (iOS Developer->Computer Science knowledge) -up-> (iOS Developer->Computer Science knowledge->Algorithms)
 (iOS Developer->Computer Science knowledge->Algorithms) -up-> (iOS Developer->Computer Science knowledge->Algorithms->Sorting)
@@ -437,6 +442,7 @@ You -|> (iOS Developer)
 (iOS Developer->Computer Science knowledge->Programming Paradigms->Functional->Functional Reactive Programming Frameworks) -up-> (iOS Developer->Computer Science knowledge->Programming Paradigms->Functional->Functional Reactive Programming Frameworks->React Native)
 (iOS Developer->Computer Science knowledge->Programming Paradigms->Functional->Functional Reactive Programming Frameworks) -up-> (iOS Developer->Computer Science knowledge->Programming Paradigms->Functional->Functional Reactive Programming Frameworks->RxSwift)
 (iOS Developer->Computer Science knowledge->Programming Paradigms->Functional->Functional Reactive Programming Frameworks) -up-> (iOS Developer->Computer Science knowledge->Programming Paradigms->Functional->Functional Reactive Programming Frameworks->RxRealm, RxDataSources)
+(iOS Developer->Computer Science knowledge->Programming Paradigms->Functional->Functional Reactive Programming Frameworks) -up-> (iOS Developer->Computer Science knowledge->Programming Paradigms->Functional->Functional Reactive Programming Frameworks->Combine Framework)
 
 skinparam Shadowing false
 skinparam Padding 0

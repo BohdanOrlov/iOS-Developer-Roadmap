@@ -184,6 +184,8 @@ Tapping on a link will take you to relevant materials.
         - [ ] tvOS
             - [ ] [Focus interactions](Resources/iOS_Developer/Practical_knowledge/tvOS/Focus_interactions/RESOURCES.md)
         - [ ] WatchKit
+        - [ ] Integrations
+            - [ ] Stripe Payments
     - [ ] `Computer Science knowledge`
         - [ ] [`Algorithms`](Resources/iOS_Developer/Computer_Science_knowledge/Algorithms/RESOURCES.md)
             - [ ] `Sorting`
@@ -220,3 +222,4 @@ Tapping on a link will take you to relevant materials.
                     - [ ] React Native
                     - [ ] [RxSwift](Resources/iOS_Developer/Computer_Science_knowledge/Programming_Paradigms/Functional/Functional_Reactive_Programming_Frameworks/RxSwift/RESOURCES.md)
                     - [ ] RxRealm, RxDataSources
+                    - [ ] [Combine Framework](Resources/iOS_Developer/Computer_Science_knowledge/Programming_Paradigms/Functional/Functional_Reactive_Programming_Frameworks/Combine_Framework/RESOURCES.md)

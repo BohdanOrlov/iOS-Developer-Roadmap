@@ -560,6 +560,8 @@
                     - Articles:
                         - "Focus-Driven Interfaces with UIKit": "https://developer.apple.com/videos/play/techtalks-apple-tv/3/"
         - WatchKit:
+        - Integrations:
+            - Stripe Payments:
     - Computer Science knowledge^:
         - Algorithms^:
             - RESOURCES:
