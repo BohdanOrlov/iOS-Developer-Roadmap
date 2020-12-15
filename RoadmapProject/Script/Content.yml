@@ -562,6 +562,11 @@
         - WatchKit:
         - Integrations:
             - Stripe Payments:
+                - RESOURCES:
+                    - Documentation:
+                        - "https://stripe.com/docs/payments/integration-builder"
+                            - Articles:
+                        - "https://medium.com/thecodr/payments-on-ios-with-stripe-759507f892af"
     - Computer Science knowledge^:
         - Algorithms^:
             - RESOURCES:
