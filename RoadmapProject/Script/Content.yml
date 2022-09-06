@@ -548,6 +548,12 @@
         - Continuous Integration:
             - Jenkins:
             - Xcode server:
+            - Appcircle:
+                - RESOURCES:
+                    - Articles:
+                        - "How to add an iOS App to Appcircle CI/CD": "https://docs.appcircle.io/tutorials/quick-start/how-to-add-an-ios-app"
+                    - Websites:
+                        - "Appcircle": "https://appcircle.io"
         - Security:
             - Keychain:
                 - RESOURCES:
