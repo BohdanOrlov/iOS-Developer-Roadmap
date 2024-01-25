@@ -303,7 +303,7 @@ func generateImage(from topics: [Topic], essentialOnly: Bool) {
     shell("java", "-DPLANTUML_LIMIT_SIZE=8192", "-jar", "plantuml.jar", path)
 }
 
-// Main
+// Main 
 
 print("Note. This script relies on hope instead of proper error handling. It will explode if you violate implicit expectations from Content.yml. Now pray...")
 
